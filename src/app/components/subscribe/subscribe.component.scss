@@ -1,0 +1,37 @@
+.subscribe__to__newsletter{
+        width: 100%;
+        min-height: 416px;
+        background: #F7F7F7 0% 0% no-repeat padding-box;
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 40px ;
+    h3{
+        font-size: 35px;;
+        margin-bottom: 35px;
+        color: #000000;
+        
+    }
+
+    .subscribe__form{
+            margin: 44px 0px 20px 0px;
+           input[type=email]{
+        width: 432px;
+        height: 56px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #C6C6C6;
+        border-radius: 4px;
+       
+    }
+    button{
+        width: 432px;
+        height: 56px;
+        background: #C92570 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 9px #00000026;
+        border-radius: 4px;
+        opacity: 1;
+        font-weight: bold;
+    }
+    }
+
+ 
+}

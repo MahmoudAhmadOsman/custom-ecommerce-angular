@@ -1,0 +1,53 @@
+.store__arrivals {
+  width: 100%;
+  min-height: 576px;
+  background: url(/assets/images/store_arrivals-bk.png);
+  background-size: 100% 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 180px 0px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-size: cover;
+  overflow-x: hidden;
+  background-attachment: fixed;
+
+  h3 {
+    font-weight: bold;
+    font:Suisse Intl;
+    font-size: 42px;
+   
+
+  }
+
+  p {
+    font-weight: bold;
+   font:Suisse Intl;
+  }
+
+  .shop-btn {
+    position: relative;
+
+    button {
+      width: 289px;
+      height: 64px;
+      background: #C92570 0% 0% no-repeat padding-box;
+      box-shadow: 0px 5px 9px #00000026;
+      opacity: 1;
+      font-weight: bold;
+      border: 0px;
+      a{
+        color:#fff;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background-color: #d23b80;
+      }
+    }
+
+  }
+
+}

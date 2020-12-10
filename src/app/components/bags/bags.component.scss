@@ -1,0 +1,121 @@
+.bags {
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    color: #000000;
+    text-align: left;
+    font:Suisse Intl;
+  }
+
+  .left__side__menu {
+    position: relative;
+    background-color: #F7F7F7;
+    text-align: left;
+    font-size: 21px;
+    margin-top: 23px;
+
+    ul {
+      .nav-link {
+        color: #000;
+        // font-weight: bold;
+    font: normal normal normal 21px/25px Suisse Intl;
+        cursor: pointer;
+      }
+    }
+  }
+
+  // bags__content__container style
+  .bags__content__container {
+    position: relative;
+
+    .breadcrumb {
+      background: none;
+      .breadcrumb-item.active {
+    color: #C92570;
+}
+    }
+
+    h3.bags__title {
+      font-size: 27px;
+      color: #000;
+      margin: 20px 0px;
+    }
+
+
+    .card {
+      position: relative;
+
+      .card-title {
+        color: #C92570;
+      }
+
+      .item-name {
+        color: #000;
+        font-weight: bold;
+      }
+
+      .card-body {
+        position: relative;
+
+        .price {
+          font-weight: bold;
+        }
+
+        .colors {
+          position: relative;
+          display: flex;
+
+          .black {
+            width: 25px;
+            height: 25px;
+            background-color: #000;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+
+          .pink {
+            width: 25px;
+            height: 25px;
+            background-color: #E0D3C7;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+
+          .white {
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+} 
+//For mobile
+  @media only screen and (max-width:600px) {
+    .bags{
+      display: block;
+        .left__side__menu {
+      font-size: 14px;
+      
+    }
+    
+    // .bags__content__container 
+       .bags__content__container {
+          h3.bags__title {
+               font-size: 32px;
+             
+          }
+       }
+    }
+
+   
+  
+  }
