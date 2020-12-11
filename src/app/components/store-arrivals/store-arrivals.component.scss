@@ -1,3 +1,5 @@
+$main_color:#C92570;
+$main_color_hover:d23b80;
 .store__arrivals {
   width: 100%;
   min-height: 576px;
@@ -32,7 +34,7 @@
     button {
       width: 289px;
       height: 64px;
-      background: #C92570 0% 0% no-repeat padding-box;
+      background: $main_color;
       box-shadow: 0px 5px 9px #00000026;
       opacity: 1;
       font-weight: bold;
@@ -43,7 +45,7 @@
       }
 
       &:hover {
-        background-color: #d23b80;
+        background-color: $main_color_hover;
       }
     }
 

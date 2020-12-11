@@ -1,3 +1,5 @@
+ 
+
 .bags {
   display: flex;
   justify-content: space-between;
@@ -5,10 +7,12 @@
   h3 {
     color: #000000;
     text-align: left;
-    font:Suisse Intl;
+    // font:Suisse Intl;
   }
 
   .left__side__menu {
+    display: flex;
+     flex-wrap: wrap;
     position: relative;
     background-color: #F7F7F7;
     text-align: left;
@@ -19,8 +23,9 @@
       .nav-link {
         color: #000;
         // font-weight: bold;
-    font: normal normal normal 21px/25px Suisse Intl;
+    // font-family:  "Suisse Intl";
         cursor: pointer;
+        
       }
     }
   }
@@ -34,6 +39,33 @@
       .breadcrumb-item.active {
     color: #C92570;
 }
+    }
+
+    .heart__over__image{
+      position: relative;
+      //  width: 48px;
+      //   height: 42px;
+      .fa-heart-o{
+          font-size: 30px;
+          color: #e271a4;
+          z-index: 666;
+          float: right;
+          margin: 15px 25px auto 215px;
+          position: absolute;
+          z-index: 9999;
+          transition: color .5s ease-in-out;
+           -webkit-transition: color .5s ease-in-out;
+          -moz-transition: color .5s ease-in-out;
+          -ms-transition: color .5s ease-in-out;
+          -o-transition: color .5s ease-in-out;
+           cursor: pointer;
+        &:hover{
+        //  background: #C92570;
+          color: #C92570;
+        
+        }
+      }
+        
     }
 
     h3.bags__title {
@@ -65,10 +97,12 @@
         .colors {
           position: relative;
           display: flex;
+          justify-content: space-between;
+           flex-wrap: wrap;
 
           .black {
-            width: 25px;
-            height: 25px;
+            width: 30px;
+            height: 30px;
             background-color: #000;
             margin-right: 4px;
             border: 1px solid #9D9D9D;
@@ -76,8 +110,8 @@
           }
 
           .pink {
-            width: 25px;
-            height: 25px;
+            width: 30px;
+            height: 30px;
             background-color: #E0D3C7;
             margin-right: 4px;
             border: 1px solid #9D9D9D;
@@ -85,17 +119,56 @@
           }
 
           .white {
-            width: 25px;
-            height: 25px;
+            width: 30px;
+            height: 30px;
             background-color: #fff;
             margin-right: 4px;
             border: 1px solid #9D9D9D;
             cursor: pointer;
           }
+            .quick__view{
+              position: relative;
+      
+              a.btn-outline-danger{
+                width: 110px;
+                height: auto;
+                font-weight: bold;
+                border: 1px solid #C92570;
+                color: #C92570;
+                &:hover{
+                  background-color:#C92570;
+                  color: #fff;
+                }
+                 
+              }
+            }
+
         }
       }
     }
+
+.readmore__links{
+  position: relative;
+  margin-top: 50px;
+  a.btn-outline-danger{
+      width: 289px;
+      height: 64px;
+     text-align: center;
+      border: 1px solid #C92570;
+      border-radius: 2px;
+      font-size: 28px;
+      color: #C92570;
+      
+      &:hover{
+        background-color:#C92570;
+        color: #fff;
+      }
   }
+}
+
+
+  }
+ // End of bags__content__container style bracket
 
 } 
 //For mobile
