@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -10,6 +10,7 @@ import { ShopCategoryComponent } from './components/shop-category/shop-category.
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { BagsComponent } from './components/bags/bags.component';
 import { HomeComponent } from './components/home/home.component';
+import { BagsDetailsComponent } from './components/bags-details/bags-details.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,13 @@ import { HomeComponent } from './components/home/home.component';
     ShopCategoryComponent,
     SubscribeComponent,
     BagsComponent,
-    HomeComponent
+    HomeComponent,
+    BagsDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

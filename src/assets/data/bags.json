@@ -1,23 +1,23 @@
-[
-      {
-        "id":1, 
-         "productTitle": "Sale",
-         "NameOfItem": "Name of Item",
-         "price":50.00,
-        "productImages": "/assets/images/shopping-bag.jpg"
-      },
-         {
-        "id":2, 
-         "productTitle": "Sale",
-         "NameOfItem": "Name of Item",
-         "price":50.00,
-        "productImages": "/assets/images/shopping-bag.jpg"
-      },
-       {
-        "id":3, 
-         "productTitle": "Sale",
-         "NameOfItem": "Name of Item",
-         "price":50.00,
-        "productImages": "/assets/images/shopping-bag.jpg"
-      },
-    ]
+  [
+    {
+    "id":1, 
+    "bagsTitle": "Sale",
+    "NameOfItem": "Name of Item",
+    "price":60.00,
+    "bagsImagURL": "/assets/images/shopping-bag.jpg"
+    },
+    {
+    "id":2, 
+    "bagsTitle": "Sale",
+    "NameOfItem": "Name of Item",
+    "price":80.00,
+    "bagsImagURL": "/assets/images/shopping-bag.jpg"
+    },
+    {
+    "id":3, 
+    "bagsTitle": "Sale",
+    "NameOfItem": "Name of Item",
+    "price":50.00,
+    "bagsImagURL": "/assets/images/shopping-bag.jpg"
+    },
+  ]

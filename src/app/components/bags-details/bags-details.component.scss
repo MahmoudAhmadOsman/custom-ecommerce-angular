@@ -1,0 +1,126 @@
+.bags_details {
+  position: relative;
+
+  .bags-breadcrumb {
+    position: relative;
+
+    .breadcrumb {
+      position: relative;
+      background: none;
+
+      .breadcrumb-item.active {
+        color: #C92570;
+      }
+
+      a {
+        color: #000;
+      }
+
+      >li+li:before {
+
+        content: "> ";
+        padding: 0 5px;
+      }
+
+    }
+
+  }
+
+  //bag__details
+  .bag__details {
+    position: relative;
+
+    h3 {
+      font-weight: bold;
+      font: normal normal 600 Suisse Intl;
+    }
+
+    .short__description {
+      color: #474545;
+    }
+
+    //Colors Style
+    .colors {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      .black-container {
+        width: 122px;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 9px #00000026;
+        border: 2px solid #f1f1f1;
+        border-radius: 4px;
+        opacity: 1;
+
+        &:hover {
+          background: #FFFFFF;
+          box-shadow: 0px 5px 9px #00000026;
+          cursor: pointer;
+        }
+
+        .black {
+          width: 32px;
+          background-color: #000;
+          border: 1px solid #9D9D9D;
+          margin: 12px 0px 12px 12px;
+          cursor: pointer;
+
+          span {
+            margin-left: 35px;
+          }
+
+        }
+
+        .pink {
+          width: 32px;
+          background-color: #E0D3C7;
+          border: 1px solid #9D9D9D;
+          margin: 12px 0px 12px 12px;
+          cursor: pointer;
+
+          span {
+            margin-left: 35px;
+          }
+        }
+
+        .white {
+          width: 32px;
+          background-color: #fff;
+          border: 1px solid #9D9D9D;
+          margin: 12px 0px 12px 12px;
+          cursor: pointer;
+
+          span {
+            margin-left: 35px;
+          }
+        }
+
+      }
+      @media only screen and (max-width: 600px) {
+           .black-container {
+                width: 100%;
+                height: auto;
+           }
+           span{
+               font-size: 12px;
+           }
+
+ 
+       .bags-breadcrumb a{
+         font-size: 10px;
+     }
+  
+     
+
+
+
+
+      } //End of the media query
+
+    }
+
+  }
+
+}

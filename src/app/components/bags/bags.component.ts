@@ -9,10 +9,32 @@ import { Component, OnInit } from '@angular/core';
 export class BagsComponent implements OnInit {
 
   title:string = "Bags";
-  bags = [];
+  public bags = [];
   constructor(private bagsService: BagsService) { }
 
   ngOnInit(): void {
+    //this.getBags(); 
+    this.bagsService.getAllBags().subscribe((data) => {
+      this.bags = data;
+      console.log(data);
+    },
+      (err) => {
+        console.log(err);
+      });
   }
+
+  // private getBags() {
+  //    this.bagsService.getAllBags().subscribe((data) => {
+  //     this.bags = data;
+  //     console.log(data);
+  //   },
+  //     (err) => {
+  //       console.log(err);
+  //     });
+  //  }
+
+
+
+
 
 }
