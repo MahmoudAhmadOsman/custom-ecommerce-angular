@@ -28,14 +28,24 @@
 
 // Coursel section
 .bags__carousel{
+  .carousel-inner{
+    position: relative;
+     img{
+       width: auto;
+      height: 325px;
+     }
+  }
+
+
   .fa-chevron-left,
   .fa-chevron-right{
   font-size: 55px;
     color: #C92570;
   }
 
-  position: relative;
+  
   .fa-chevron-left{
+    
     // margin-left: -100px;
     
   }
