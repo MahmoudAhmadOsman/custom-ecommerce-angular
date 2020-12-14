@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 50.00,
+    "imageUrl": "/assets/images/t-shirt.jpg"
+   
+  },
+  {
+    "id": 2,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 50.00,
+    "shirtImageUrl": "/assets/images/t-shirt.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 50.00,
+    "imageUrl": "/assets/images/t-shirt.jpg"
+  }
+  
+
+]

@@ -1,5 +1,9 @@
 import { BagsService } from './../../services/bags.service';
 import { Component, OnInit } from '@angular/core';
+import * as bags from './bags.json';
+import * as caps from './caps.json';
+import * as shirts from './shirts.json';
+
 
 @Component({
   selector: 'app-bags',
@@ -9,20 +13,20 @@ import { Component, OnInit } from '@angular/core';
 export class BagsComponent implements OnInit {
 
   title:string = "Bags";
-  public bags = [];
+  // public bags = [];
+  //Bags Data
+  bags: any = (bags as any).default;
+  
+  //Caps Data
+  capsTitle:string ="Caps";
+  caps: any = (caps as any).default;
+
+  //Shirts Data
+   shirtTitle:string ="Shirts";
+  shirts: any = (shirts as any).default;
   constructor(private bagsService: BagsService) { }
 
-  ngOnInit(): void {
-    //this.getBags(); 
-    this.bagsService.getAllBags().subscribe((data) => {
-      this.bags = data;
-      console.log(data);
-    },
-      (err) => {
-        console.log(err);
-      });
-  }
-
+ 
   // private getBags() {
   //    this.bagsService.getAllBags().subscribe((data) => {
   //     this.bags = data;
@@ -34,6 +38,13 @@ export class BagsComponent implements OnInit {
   //  }
 
 
+
+
+ ngOnInit(): void {
+    console.log(bags);
+    console.log(caps);
+     console.log(shirts);
+  }
 
 
 

@@ -46,27 +46,36 @@
       <h3 class="bags__title">{{title}}</h3>
       <div class="row">
         <!-- Start of the first card -->
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div
+          class="col-md-4 col-sm-12 col-xs-12"
+          *ngFor="let bag of bags; let i =index"
+        >
           <div class="card">
             <span class="heart__over__image">
               <i class="fa fa-heart-o" aria-hidden="true"></i>
             </span>
-            <a [routerLink]="['/bags-details']">
+            <a href="/bags-details/{{bag.id}}">
               <img
                 class="card-img-top"
-                src="/assets/images/shopping-bag.jpg"
-                alt="Card image cap"
+                src="{{bag.bagImageUrl}}"
+                alt="{{bag.name}}"
             /></a>
             <div class="card-body">
-              <h5 class="card-title sale text-uppercase">Sale</h5>
-              <p class="item-name">Name of Item</p>
-              <p class="price">$50.00</p>
+              <h5 class="card-title sale text-uppercase">
+                {{bag.name}}
+              </h5>
+              <p class="item-name">
+                {{bag.itemName}}
+              </p>
+              <p class="price">{{bag.price |currency}}</p>
               <div class="colors">
                 <div class="black"></div>
                 <div class="pink"></div>
                 <div class="white"></div>
                 <div class="quick__view">
-                  <a [routerLink]="['#']" class="btn btn-outline-danger btn-sm"
+                  <a
+                    href="/bags-details/{{bag.id}}"
+                    class="btn btn-outline-danger btn-sm"
                     >Quick View</a
                   >
                 </div>
@@ -76,18 +85,141 @@
         </div>
         <!-- End of the frist card -->
       </div>
-    </div>
-    <!-- Start of bags read more -->
-    <div class="readmore__links">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mx-auto">
-            <a href="#" class="btn btn-outline-danger">View more</a>
+      <div class="readmore__links">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <a href="#" class="btn btn-outline-danger">View more</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End of bags read more -->
+    <!-- End of the first container -->
+
+    <!-- =========== Start of the second Container ============= -->
+    <!-- Start of the second card -->
+    <div class="caps_container">
+      <div class="container">
+        <h1>{{capsTitle}}</h1>
+        <div class="row">
+          <div
+            class="col-md-4 col-sm-12 col-xs-12"
+            *ngFor="let cap of caps; let i =index"
+          >
+            <div class="card">
+              <span class="heart__over__image">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </span>
+              <!-- <a [routerLink]="['/bags-details']"> -->
+              <a href="/bags-details/{{cap.id}}">
+                <img
+                  class="card-img-top"
+                  src="{{cap.capImageUrl}}"
+                  alt="{{cap.name}}"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title sale text-uppercase">
+                  {{cap.name}}
+                </h5>
+                <p class="item-name">
+                  {{cap.itemName}}
+                </p>
+                <p class="price">{{cap.price |currency}}</p>
+                <div class="colors">
+                  <div class="black"></div>
+                  <div class="pink"></div>
+                  <div class="white"></div>
+                  <div class="quick__view">
+                    <a
+                      [routerLink]="['#']"
+                      class="btn btn-outline-danger btn-sm"
+                      >Quick View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start of bags read more -->
+        <div class="readmore__links">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <a href="#" class="btn btn-outline-danger">View more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of bags read more -->
+      </div>
+    </div>
+    <!-- End of the second card -->
+    <!-- =========== End of the second Container ============= -->
+
+    <!-- =========== Start of the third Container ============= -->
+    <!-- Start of the third card -->
+    <div class="caps_container">
+      <div class="container">
+        <h1>{{shirtTitle}}</h1>
+        <div class="row">
+          <div
+            class="col-md-4 col-sm-12 col-xs-12"
+            *ngFor="let shirt of shirts; let i =index"
+          >
+            <div class="card">
+              <span class="heart__over__image">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </span>
+              <!-- <a [routerLink]="['/bags-details']"> -->
+              <a href="/bags-details/{{shirt.id}}">
+                <img
+                  class="card-img-top"
+                  src="{{shirt.shirtImageUrl}}"
+                  alt="{{shirt.name}}"
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title sale text-uppercase">
+                  {{shirt.name}}
+                </h5>
+                <p class="item-name">
+                  {{shirt.itemName}}
+                </p>
+                <p class="price">{{shirt.price |currency}}</p>
+                <div class="colors">
+                  <div class="black"></div>
+                  <div class="pink"></div>
+                  <div class="white"></div>
+                  <div class="quick__view">
+                    <a
+                      [routerLink]="['#']"
+                      class="btn btn-outline-danger btn-sm"
+                      >Quick View</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start of bags read more -->
+        <div class="readmore__links">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 mx-auto">
+                <a href="#" class="btn btn-outline-danger">View more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of bags read more -->
+      </div>
+    </div>
+    <!-- End of the third card -->
+    <!-- =========== End of the third Container ============= -->
   </div>
   <!-- Start of bags content container div -->
 </section>

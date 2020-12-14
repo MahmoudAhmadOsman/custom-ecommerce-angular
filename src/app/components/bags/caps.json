@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 50.00,
+    "capImageUrl": "/assets/images/cap.jpg"
+   
+  },
+  {
+    "id": 2,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 80.00,
+    "capImageUrl": "/assets/images/cap.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sale",
+    "itemName": "Name of item",
+    "price": 30.00,
+    "capImageUrl": "/assets/images/cap.jpg"
+  }
+  
+
+]
