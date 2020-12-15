@@ -59,9 +59,11 @@ $main_color_hover: #d23b80;
 
 @media (max-width: 800px)  {
   .store__arrivals {
- width: 100%; 
- margin: auto;
-  padding: 180px 0px;
-  overflow-x: hidden;
+    width: 100%; 
+    margin: auto;
+    padding: 180px 0px;
+    overflow-x: hidden;
+    margin-bottom: 20px;
   }
+  
 }

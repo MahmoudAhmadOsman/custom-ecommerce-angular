@@ -1,24 +1,21 @@
-// @import url(../fonts/SuisseIntl-Regular.otf);
-// @import url(../fonts/SuisseIntl-SemiBold.otf);
 
 .bags {
+  position: relative;
   display: flex;
   // justify-content: space-between;
-  // justify-content: space-around;
-  // flex-flow: row wrap;
-   align-items: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  //  align-items: center;
     align-items: flex-start;
   
 
   h3 {
     color: #000000;
     text-align: left;
-    // font:Suisse Intl;
+    // fontofamily:Suisse Intl;
   }
 
   .left__side__menu {
-    // display: flex;
-    //  flex-wrap: wrap;
     position: relative;
    background: #F7F7F7;
     opacity: 1;
@@ -26,8 +23,10 @@
     font-size: 21px;
     margin-top: 23px;
     width: 400px;
+ 
     height: 474px;
-     flex-grow: 1;
+    // flex-grow: 3;
+    
      
 
     ul {
@@ -45,12 +44,11 @@
   .bags__content__container {
     position: relative;
     flex-grow: 5;
-    .card{
-      border: 0px
-    }
+    // margin-left: -252px;
 
     .breadcrumb {
       background: none;
+      order: 1;
       .breadcrumb-item.active {
     color: #C92570;
 }
@@ -92,6 +90,7 @@
 
     .card {
       position: relative;
+      border: 0px;
 
       .card-title {
         color: #C92570;
@@ -106,7 +105,8 @@
         position: relative;
 
         .price {
-          font-weight: bold;
+          // font-weight: bold;
+          font-size: 18px;
         }
 
         .colors {
@@ -202,19 +202,23 @@
 
 
 
-
-} 
 //For mobile
-  @media only screen and (max-width:600px) {
-    .bags{
+ .bags{
       display: block;
         .left__side__menu {
-      font-size: 14px;
+          margin: auto;
+          font-size: inherit;
       
+      
+    }
+    .left__side__menu{
+      order: 2;
     }
     
     // .bags__content__container 
        .bags__content__container {
+          margin: auto;
+          order: 3;
           h3.bags__title {
                font-size: 32px;
              
@@ -223,4 +227,4 @@
     }
 
 
-  }
+} 

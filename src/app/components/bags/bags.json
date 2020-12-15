@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "name": "Sale",
-    "itemName": "Name of item",
+    "itemName": "Bag",
     "price": 50.00,
     "bagImageUrl": "/assets/images/shopping-bag.jpg"
    
@@ -9,14 +9,14 @@
   {
     "id": 2,
     "name": "Sale",
-    "itemName": "Name of item",
+    "itemName": "Bag",
     "price": 60.00,
     "bagImageUrl": "/assets/images/shopping-bag.jpg"
   },
   {
     "id": 3,
     "name": "Sale",
-    "itemName": "Name of item",
+    "itemName": "Bag",
     "price": 90.00,
     "bagImageUrl": "/assets/images/shopping-bag.jpg"
   }
