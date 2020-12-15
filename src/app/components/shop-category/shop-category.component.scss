@@ -1,5 +1,5 @@
 .shop_category {
-  width: 100%;
+  width: 85%;
   min-height: 424px;
   //  width: 1640px;
   // height: 424px;
@@ -47,5 +47,19 @@
         color: #fff;
       }
     }
+  }
+
+
+
+}
+
+
+@media (max-width: 800px)  {
+  .shop_category {
+ width: 100%; 
+ margin: auto;
+  padding: 180px 0px;
+  overflow-x: hidden;
+  display: block;
   }
 }

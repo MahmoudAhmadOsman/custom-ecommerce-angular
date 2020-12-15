@@ -1,156 +1,269 @@
+$boxes_hover: rgb(126, 162, 228);
+$add_to_cart_btn: #C92570;
+$add-to-cart-hover: #d34586;
+$h3_color: #C92570;
+
 .bags_details {
-  position: relative;
-
-  .bags-breadcrumb {
     position: relative;
 
-    .breadcrumb {
-      position: relative;
-      background: none;
+    .bags-breadcrumb {
+        position: relative;
 
-      .breadcrumb-item.active {
-        color: #C92570;
-      }
+        .breadcrumb {
+            position: relative;
+            background: none;
 
-      a {
-        color: #000;
-      }
+            .breadcrumb-item.active {
+                color: #C92570;
+            }
 
-      >li+li:before {
+            a {
+                color: #000;
+            }
 
-        content: "> ";
-        padding: 0 5px;
-      }
+            >li+li:before {
 
-    }
-
-  }
-
-// Coursel section
-.bags__carousel{
-  .carousel-inner{
-    position: relative;
-     img{
-       width: auto;
-      height: 325px;
-     }
-  }
-
-
-  .fa-chevron-left,
-  .fa-chevron-right{
-  font-size: 55px;
-    color: #C92570;
-  }
-
-  
-  .fa-chevron-left{
-    
-    // margin-left: -100px;
-    
-  }
-  .fa-chevron-right{
-    //  margin-right: -100px
-  }
-  .carousel-control-next, 
-  .carousel-control-prev{
-        opacity: 1;
-  }
-}
-
-
-  //bag__details
-  .bag__details {
-    position: relative;
-
-    h3 {
-      font-weight: bold;
-      font: normal normal 600 Suisse Intl;
-    }
-
-    .short__description {
-      color: #474545;
-    }
-
-    //Colors Style
-    .colors {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      // flex-wrap: wrap;
-
-      .black-container {
-        width: 122px;
-        // height: 56px;
-        background: #FFFFFF;
-        box-shadow: 0px 5px 9px #00000026;
-        border: 2px solid #f1f1f1;
-        border-radius: 4px;
-        opacity: 1;
-
-        &:hover {
-          background: #FFFFFF;
-          box-shadow: 0px 5px 9px #00000026;
-          cursor: pointer;
-        }
-
-        .black {
-          width: 32px;
-          background-color: #000;
-          border: 1px solid #9D9D9D;
-          margin: 12px 0px 12px 12px;
-          cursor: pointer;
-
-          span {
-            margin-left: 35px;
-          }
+                content: "> ";
+                padding: 0 5px;
+            }
 
         }
 
-        .pink {
-          width: 32px;
-          background-color: #E0D3C7;
-          border: 1px solid #9D9D9D;
-          margin: 12px 0px 12px 12px;
-          cursor: pointer;
+    }
 
-          span {
-            margin-left: 35px;
-          }
+    // Coursel section
+    .bags__carousel {
+        .carousel-inner {
+            position: relative;
+
+            img {
+                width: auto;
+                height: 325px;
+            }
         }
 
-        .white {
-          width: 32px;
-          background-color: #fff;
-          border: 1px solid #9D9D9D;
-          margin: 12px 0px 12px 12px;
-          cursor: pointer;
 
-          span {
-            margin-left: 35px;
-          }
+        .fa-chevron-left,
+        .fa-chevron-right {
+            font-size: 55px;
+            color: #C92570;
         }
 
-      }
-      @media only screen and (max-width: 600px) {
-           .black-container {
-                width: 100%;
-                height: auto;
-           }
-           span{
-               font-size: 12px;
-           }
 
-       .bags-breadcrumb a{
-         font-size: 10px;
-     }
-  
-    
+        .fa-chevron-left {
+            position: relative;
+            // margin-left: -100px;
 
-      } //End of the media query
+        }
+
+        .fa-chevron-right {
+            //  margin-right: -100px
+        }
+
+        .carousel-control-next,
+        .carousel-control-prev {
+            opacity: 1;
+        }
+    }
+
+
+    //bag__details
+    .bag__details {
+        position: relative;
+
+        h3 {
+            font-weight: bold;
+            font: normal normal 600 Suisse Intl;
+        }
+
+        .short__description {
+            color: #474545;
+        }
+
+        //Colors Style
+        .colors {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            // flex-wrap: wrap;
+
+            .black-container {
+                width: 122px;
+                height: 56px;
+                background: #FFFFFF;
+                box-shadow: 0px 5px 9px #00000026;
+                border: 2px solid #f1f1f1;
+                border-radius: 4px;
+                opacity: 1;
+
+                &:hover {
+                    background: #FFFFFF;
+                    box-shadow: 0px 5px 9px #00000026;
+                    border: 1px solid $boxes_hover;
+                    cursor: pointer;
+                }
+
+                .black,
+                .pink,
+                .white {
+                    width: 32px;
+                    background-color: #000;
+                    border: 1px solid #9D9D9D;
+                    margin: 12px 0px 12px 12px;
+                    cursor: pointer;
+
+                    span {
+                        margin-left: 35px;
+                    }
+
+                }
+
+                .pink {
+                    background-color: #E0D3C7;
+                }
+
+                .white {
+                    background-color: #fff;
+                }
+
+
+
+            }
+
+            @media only screen and (max-width: 600px) {
+                .black-container {
+                    width: 100%;
+                    height: auto;
+                }
+
+                span {
+                    font-size: 12px;
+                }
+
+                .bags-breadcrumb a {
+                    font-size: 10px;
+                }
+
+
+            }
+
+            //End of the media query
+        }
 
     }
 
-  }
+    /*Start of sizes style*/
+    .all-sizes {
+        margin-top: 41px;
+
+        p {
+            color: #000000;
+
+        }
+
+        .sizes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+            text-align: center;
+
+            .xs,
+            .s,
+            .m,
+            .l,
+            .xl {
+                width: 50px;
+                height: 50px;
+                background: #FFFFFF;
+                box-shadow: 0px 5px 9px #00000026;
+                border-radius: 4px;
+                opacity: 1;
+                align-items: center;
+                padding: 15px;
+                font-weight: normal;
+                transition: all .4s ease-in-out;
+                -webkit-transition: all .6s ease-in-out;
+                -moz-transition: all .6s ease-in-out;
+                -ms-transition: all .6s ease-in-out;
+                -o-transition: all .6s ease-in-out;
+
+                &:hover {
+                    border: 1px solid $boxes_hover;
+                    box-shadow: 0px 5px 9px #00000026;
+                    border-radius: 4px;
+                    cursor: pointer;
+
+
+                }
+            }
+        }
+
+    }
+
+    /*End of sizes style*/
+    /*Start of quality style*/
+    .quality {
+        position: relative;
+        margin-top: 25px;
+
+        .form-control {
+            width: 89px;
+            height: 56px;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 4px;
+        }
+    }
+
+    /*Start of quality style*/
+
+    /*Start of add to cart button style*/
+    .add_to_cart_btn {
+        position: relative;
+        margin-top: 48px;
+
+
+        .btn-outline-danger {
+            width: 289px;
+            height: 64px;
+            background-color: $add_to_cart_btn;
+            color: #fff;
+            font-weight: bold;
+            border: 0px;
+            font-size: 21px;
+            box-shadow: 0px 5px 9px #00000026;
+            transition: color .5s ease-int-out;
+            -webkit-transition: color .5s ease-int-out;
+            -moz-transition: color .5s ease-int-out;
+            -ms-transition: color .5s ease-int-out;
+            -o-transition: color .5s ease-int-out;
+
+            &:hover {
+                background-color: $add-to-cart-hover;
+            }
+        }
+    }
+
+    /*End of add to cart button style*/
+
+    /*Start of product description style*/
+    .product_details {
+        position: relative;
+        margin: 98px 0px;
+
+        p {
+            color: #000000;
+            font-size: 21px;
+            text-align: left;
+        }
+
+        h3 {
+            color: $h3_color;
+            font-weight: bold;
+        }
+    }
+
+    /*End of product description style*/
+
 
 }

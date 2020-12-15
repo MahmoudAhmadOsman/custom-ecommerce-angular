@@ -3,7 +3,7 @@
     "name": "Sale",
     "itemName": "Name of item",
     "price": 50.00,
-    "imageUrl": "/assets/images/t-shirt.jpg"
+    "shirtImageUrl": "/assets/images/t-shirt.jpg"
    
   },
   {
@@ -18,7 +18,7 @@
     "name": "Sale",
     "itemName": "Name of item",
     "price": 50.00,
-    "imageUrl": "/assets/images/t-shirt.jpg"
+    "shirtImageUrl": "/assets/images/t-shirt.jpg"
   }
   
 
