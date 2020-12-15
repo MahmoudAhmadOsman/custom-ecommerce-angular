@@ -40,6 +40,9 @@
       color: #C92570;
       transition: all .3s ease-in-out;
       -webkit-transition: all .6s ease-in-out;
+      -ms-transition: all .6s ease-in-out;
+      -o-transition: all .6s ease-in-out;
+      -moz-transition: all .6s ease-in-out;
 
       &:hover {
 

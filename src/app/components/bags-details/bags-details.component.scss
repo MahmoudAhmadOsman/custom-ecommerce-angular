@@ -1,7 +1,7 @@
 $boxes_hover: rgb(126, 162, 228);
 $add_to_cart_btn: #C92570;
 $add-to-cart-hover: #d34586;
-$h3_color: #C92570;
+$h_title_color: #C92570;
 
 .bags_details {
     position: relative;
@@ -205,7 +205,7 @@ $h3_color: #C92570;
     /*Start of quality style*/
     .quality {
         position: relative;
-        margin-top: 25px;
+        margin: 98px 0px;
 
         .form-control {
             width: 89px;
@@ -257,8 +257,8 @@ $h3_color: #C92570;
             text-align: left;
         }
 
-        h3 {
-            color: $h3_color;
+        h2 {
+            color: $h_title_color;
             font-weight: bold;
         }
     }
