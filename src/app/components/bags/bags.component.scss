@@ -38,7 +38,8 @@
     // bags__content__container style
     .bags__content__container {
         position: relative;
-      // flex-grow: 3;
+
+        // flex-grow: 3;
         .bags_links_container {
             display: flex;
             position: relative;
@@ -54,39 +55,42 @@
                 }
 
             }
-.sort_by_links{
-  width: 261px;
-height: 228px;
-  float: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  .fa-chevron-up{
-    color: #000;
-    text-align: right;
-    left: 0;
-    // top: 21px;
-    top: 7px;
-    right: 21px;
-    position: absolute;
-    cursor: pointer;
-     
- 
-  }
-  
-  
-  ul{
-    position: relative;
-    li{
-      text-decoration: none;
-      display: block;
-      cursor: pointer;
-    }
-  }
-  
-}
-            
+
+            .sort_by_links {
+                width: 261px;
+                height: 228px;
+                float: right;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top: 0;
+
+                .fa-chevron-up {
+                    color: #000;
+                    text-align: right;
+                    left: 0;
+                    // top: 21px;
+                    top: 7px;
+                    right: 21px;
+                    position: absolute;
+                    cursor: pointer;
+
+
+                }
+
+
+                ul {
+                    position: relative;
+
+                    li {
+                        text-decoration: none;
+                        display: block;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
         }
 
 

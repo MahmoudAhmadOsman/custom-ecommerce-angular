@@ -1,7 +1,7 @@
 $boxes_hover: rgb(126, 162, 228);
-$add_to_cart_btn: #C92570;
+$add_to_cart_btn: #c92570;
 $add-to-cart-hover: #d34586;
-$h_title_color: #C92570;
+$h_title_color: #c92570;
 
 .bags_details {
     position: relative;
@@ -14,7 +14,7 @@ $h_title_color: #C92570;
             background: none;
 
             .breadcrumb-item.active {
-                color: #C92570;
+                color: #c92570;
             }
 
             a {
@@ -22,13 +22,10 @@ $h_title_color: #C92570;
             }
 
             >li+li:before {
-
                 content: "> ";
                 padding: 0 5px;
             }
-
         }
-
     }
 
     // Coursel section
@@ -42,18 +39,15 @@ $h_title_color: #C92570;
             }
         }
 
-
         .fa-chevron-left,
         .fa-chevron-right {
             font-size: 55px;
-            color: #C92570;
+            color: #c92570;
         }
-
 
         .fa-chevron-left {
             position: relative;
             // margin-left: -100px;
-
         }
 
         .fa-chevron-right {
@@ -65,7 +59,6 @@ $h_title_color: #C92570;
             opacity: 1;
         }
     }
-
 
     //bag__details
     .bag__details {
@@ -90,14 +83,14 @@ $h_title_color: #C92570;
             .black-container {
                 width: 122px;
                 height: 56px;
-                background: #FFFFFF;
+                background: #ffffff;
                 box-shadow: 0px 5px 9px #00000026;
                 border: 2px solid #f1f1f1;
                 border-radius: 4px;
                 opacity: 1;
 
                 &:hover {
-                    background: #FFFFFF;
+                    background: #ffffff;
                     box-shadow: 0px 5px 9px #00000026;
                     border: 1px solid $boxes_hover;
                     cursor: pointer;
@@ -108,26 +101,22 @@ $h_title_color: #C92570;
                 .white {
                     width: 32px;
                     background-color: #000;
-                    border: 1px solid #9D9D9D;
+                    border: 1px solid #9d9d9d;
                     margin: 12px 0px 12px 12px;
                     cursor: pointer;
 
                     span {
                         margin-left: 35px;
                     }
-
                 }
 
                 .pink {
-                    background-color: #E0D3C7;
+                    background-color: #e0d3c7;
                 }
 
                 .white {
                     background-color: #fff;
                 }
-
-
-
             }
 
             @media only screen and (max-width: 600px) {
@@ -143,13 +132,10 @@ $h_title_color: #C92570;
                 .bags-breadcrumb a {
                     font-size: 10px;
                 }
-
-
             }
 
             //End of the media query
         }
-
     }
 
     /*Start of sizes style*/
@@ -158,7 +144,6 @@ $h_title_color: #C92570;
 
         p {
             color: #000000;
-
         }
 
         .sizes {
@@ -175,30 +160,27 @@ $h_title_color: #C92570;
             .xl {
                 width: 50px;
                 height: 50px;
-                background: #FFFFFF;
+                background: #ffffff;
                 box-shadow: 0px 5px 9px #00000026;
                 border-radius: 4px;
                 opacity: 1;
                 align-items: center;
                 padding: 15px;
                 font-weight: normal;
-                transition: all .4s ease-in-out;
-                -webkit-transition: all .6s ease-in-out;
-                -moz-transition: all .6s ease-in-out;
-                -ms-transition: all .6s ease-in-out;
-                -o-transition: all .6s ease-in-out;
+                transition: all 0.4s ease-in-out;
+                -webkit-transition: all 0.6s ease-in-out;
+                -moz-transition: all 0.6s ease-in-out;
+                -ms-transition: all 0.6s ease-in-out;
+                -o-transition: all 0.6s ease-in-out;
 
                 &:hover {
                     border: 1px solid $boxes_hover;
                     box-shadow: 0px 5px 9px #00000026;
                     border-radius: 4px;
                     cursor: pointer;
-
-
                 }
             }
         }
-
     }
 
     /*End of sizes style*/
@@ -222,7 +204,6 @@ $h_title_color: #C92570;
         position: relative;
         margin-top: 48px;
 
-
         .btn-outline-danger {
             width: 289px;
             height: 64px;
@@ -232,11 +213,11 @@ $h_title_color: #C92570;
             border: 0px;
             font-size: 21px;
             box-shadow: 0px 5px 9px #00000026;
-            transition: color .5s ease-int-out;
-            -webkit-transition: color .5s ease-int-out;
-            -moz-transition: color .5s ease-int-out;
-            -ms-transition: color .5s ease-int-out;
-            -o-transition: color .5s ease-int-out;
+            transition: color 0.5s ease-int-out;
+            -webkit-transition: color 0.5s ease-int-out;
+            -moz-transition: color 0.5s ease-int-out;
+            -ms-transition: color 0.5s ease-int-out;
+            -o-transition: color 0.5s ease-int-out;
 
             &:hover {
                 background-color: $add-to-cart-hover;
@@ -264,6 +245,4 @@ $h_title_color: #C92570;
     }
 
     /*End of product description style*/
-
-
 }
