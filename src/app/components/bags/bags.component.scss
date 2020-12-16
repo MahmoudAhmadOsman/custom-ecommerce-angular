@@ -1,225 +1,275 @@
-
 .bags {
-  position: relative;
-  display: flex;
-  // justify-content: space-between;
-  // justify-content: space-around;
- 
-  // align-items: flex-start;
-  
-
-  h3 {
-    color: #000000;
-    text-align: left;
-    // fontofamily:Suisse Intl;
-  }
-
-  .left__side__menu {
     position: relative;
-   background: #F7F7F7;
-    text-align: left;
-    font-size: 21px;
-    margin-top: 23px;
-    margin-left: 64px;
-    width: 400px;
-    height: 474px;
+    display: flex;
+    // justify-content: space-between;
+    // justify-content: space-around;
 
-    
-    ul {
-      .nav-link {
-        color: #000;
-        // font-weight: bold;
-    // font-family:  "Suisse Intl";
-        cursor: pointer;
-        
-      }
-    }
-  }
+    // align-items: flex-start;
 
-  // bags__content__container style
-  .bags__content__container {
-    position: relative;
-    // flex-grow: 3;
-    
 
-    .breadcrumb {
-      background: none;
-      order: 1;
-      .breadcrumb-item.active {
-    color: #C92570;
-}
+    h3 {
+        color: #000000;
+        text-align: left;
+        // fontofamily:Suisse Intl;
     }
 
-    .heart__over__image{
-      position: relative;
-      .fa-heart-o{
-          font-size: 30px;
-          color: #e271a4;
-          z-index: 666;
-          float: right;
-          margin: 15px 25px auto 215px;
-          position: absolute;
-          z-index: 9999;
-          transition: color .5s ease-in-out;
-           -webkit-transition: color .5s ease-in-out;
-          -moz-transition: color .5s ease-in-out;
-          -ms-transition: color .5s ease-in-out;
-          -o-transition: color .5s ease-in-out;
-           cursor: pointer;
-        &:hover{
-        //  background: #C92570;
-          color: #C92570;
-        
-        }
-      }
-        
-    }
-
-    h3.bags__title {
-      font-size: 27px;
-      color: #000;
-      margin: 20px 0px;
-    }
-
-
-    .card {
-      position: relative;
-      border: 0px;
-
-      .card-title {
-        color: #C92570;
-      }
-
-      .item-name {
-        color: #000;
-        font-weight: bold;
-      }
-
-      .card-body {
+    .left__side__menu {
         position: relative;
+        background: #F7F7F7;
+        text-align: left;
+        font-size: 21px;
+        margin-top: 23px;
+        margin-left: 64px;
+        width: 400px;
+        height: 474px;
 
-        .price {
-          // font-weight: bold;
-          font-size: 18px;
+
+        ul {
+            .nav-link {
+                color: #000;
+                // font-weight: bold;
+                // font-family:  "Suisse Intl";
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    // bags__content__container style
+    .bags__content__container {
+        position: relative;
+      // flex-grow: 3;
+        .bags_links_container {
+            display: flex;
+            position: relative;
+
+            .menu_item_links {
+
+                .breadcrumb {
+                    background: none;
+
+                    .breadcrumb-item.active {
+                        color: #C92570;
+                    }
+                }
+
+            }
+.sort_by_links{
+  width: 261px;
+height: 228px;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  .fa-chevron-up{
+    color: #000;
+    text-align: right;
+    left: 0;
+    // top: 21px;
+    top: 7px;
+    right: 21px;
+    position: absolute;
+    cursor: pointer;
+     
+ 
+  }
+  
+  
+  ul{
+    position: relative;
+    li{
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
+    }
+  }
+  
+}
+            
         }
 
-        .colors {
-          position: relative;
-          display: flex;
-          justify-content: space-between;
-           flex-wrap: wrap;
 
-          .black {
-            width: 30px;
-            height: 30px;
-            background-color: #000;
-            margin-right: 4px;
-            border: 1px solid #9D9D9D;
-            cursor: pointer;
-          }
 
-          .pink {
-            width: 30px;
-            height: 30px;
-            background-color: #E0D3C7;
-            margin-right: 4px;
-            border: 1px solid #9D9D9D;
-            cursor: pointer;
-          }
+        .heart__over__image {
+            position: relative;
 
-          .white {
-            width: 30px;
-            height: 30px;
-            background-color: #fff;
-            margin-right: 4px;
-            border: 1px solid #9D9D9D;
-            cursor: pointer;
-          }
-            .quick__view{
-              position: relative;
-      
-              .btn-outline-danger{
-                width: 110px;
-                height: auto;
-                font-weight: bold;
-                border: 1px solid #C92570;
-                color: #C92570;
-                font-weight: bold;
-                &:hover{
-                  background-color:#C92570;
-                  color: #fff;
+            .fa-heart-o {
+                font-size: 30px;
+                color: #e271a4;
+                z-index: 666;
+                float: right;
+                margin: 15px 25px auto 215px;
+                position: absolute;
+                z-index: 1;
+                transition: color .5s ease-in-out;
+                -webkit-transition: color .5s ease-in-out;
+                -moz-transition: color .5s ease-in-out;
+                -ms-transition: color .5s ease-in-out;
+                -o-transition: color .5s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    //  background: #C92570;
+                    color: #C92570;
+
                 }
-                 
-              }
             }
 
         }
-      }
+
+        h3.bags__title {
+            font-size: 27px;
+            color: #000;
+            margin: 20px 0px;
+        }
+
+
+        .card {
+            position: relative;
+            border: 0px;
+
+            .card-title {
+                color: #C92570;
+            }
+
+            .item-name {
+                color: #000;
+                font-weight: bold;
+            }
+
+            .card-body {
+                position: relative;
+
+                .price {
+                    // font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .colors {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .black {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #000;
+                        margin-right: 4px;
+                        border: 1px solid #9D9D9D;
+                        cursor: pointer;
+                    }
+
+                    .pink {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #E0D3C7;
+                        margin-right: 4px;
+                        border: 1px solid #9D9D9D;
+                        cursor: pointer;
+                    }
+
+                    .white {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #fff;
+                        margin-right: 4px;
+                        border: 1px solid #9D9D9D;
+                        cursor: pointer;
+                    }
+
+                    .quick__view {
+                        position: relative;
+
+                        .btn-outline-danger {
+                            width: 110px;
+                            height: auto;
+                            font-weight: bold;
+                            border: 1px solid #C92570;
+                            color: #C92570;
+                            font-weight: bold;
+
+                            &:hover {
+                                background-color: #C92570;
+                                color: #fff;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .readmore__links {
+            position: relative;
+            margin-top: 50px;
+
+            a.btn-outline-danger {
+                width: 289px;
+                height: 64px;
+                text-align: center;
+                border: 1px solid #C92570;
+                border-radius: 2px;
+                font-size: 28px;
+                color: #C92570;
+
+                &:hover {
+                    background-color: #C92570;
+                    color: #fff;
+                }
+            }
+        }
     }
 
-.readmore__links{
-  position: relative;
-  margin-top: 50px;
-  a.btn-outline-danger{
-      width: 289px;
-      height: 64px;
-     text-align: center;
-      border: 1px solid #C92570;
-      border-radius: 2px;
-      font-size: 28px;
-      color: #C92570;
-      
-      &:hover{
-        background-color:#C92570;
-        color: #fff;
-      }
-  }
-}
-  }
- // End of bags__content__container style bracket
+    // End of bags__content__container style bracket
 
 
- /* Start of Caps Style */
-.caps_container{
-  margin-top: 40px;
+    /* Start of Caps Style */
+    .caps_container {
+        margin-top: 40px;
+    }
+
+    /* End of Caps Style */
+
+    /*Start of shirts container*/
+    .shirts_container {
+        position: relative;
+        margin-bottom: 140px;
+    }
+
+    /*End of shirts container*/
+
+
+
 }
 
-/* End of Caps Style */
-
-/*Start of shirts container*/
-.shirts_container{
-  position: relative;
-  margin-bottom: 140px;
-}
-/*End of shirts container*/
-
-
-
-} /* End of the .bags bracket*/
+/* End of the .bags bracket*/
 
 
 
 //For mobile
 @media only screen and (max-width: 786px) {
- .bags{
-      display: block;
-    //     .left__side__menu {
-    //       margin: auto;
-    //       font-size: inherit;
-      
-    // }
-    // .left__side__menu{
-    //   order: 2;
-    // }
-    
-    // .bags__content__container 
-      //  .bags__content__container {
-      //     margin: auto;
-      //     order: 3;
-      //     h3.bags__title {
-      //          font-size: 32px;
-             
-      //     }
-      //  }
+    .bags {
+        display: block;
+        //     .left__side__menu {
+        //       margin: auto;
+        //       font-size: inherit;
+
+        // }
+        // .left__side__menu{
+        //   order: 2;
+        // }
+
+        // .bags__content__container 
+        //  .bags__content__container {
+        //     margin: auto;
+        //     order: 3;
+        //     h3.bags__title {
+        //          font-size: 32px;
+
+        //     }
+        //  }
     }
-  }
+}

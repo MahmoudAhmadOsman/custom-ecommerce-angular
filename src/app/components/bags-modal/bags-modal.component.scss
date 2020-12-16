@@ -1,0 +1,39 @@
+ 
+.bags__modal_window{
+    position: relative;
+     .modal-header{
+            position: relative;
+            border:0px;
+            .fa-times{
+                font-size: 40px;
+               color: #FF0707;
+                
+            }
+        }
+    .bags__carousel{
+        position: relative;
+        img{
+           height: 325px; 
+        }
+    }
+
+
+/*Left and righ arrow of the carousel*/
+.fa-chevron-left,
+.fa-chevron-right{
+    color: #c92570;
+    font-size: 55px;
+    width: 40px;
+height: 69px;
+ 
+
+}
+ .carousel-control-next,
+        .carousel-control-prev {
+            opacity: 1;
+        }
+
+
+}
+
+    

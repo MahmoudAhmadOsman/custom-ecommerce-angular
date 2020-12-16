@@ -38,12 +38,33 @@
   <!-- Start of bags content container div -->
   <div class="bags__content__container">
     <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/">Landing Page</a></li>
-          <li class="breadcrumb-item active" aria-current="page">PSP Merch</li>
-        </ol>
-      </nav>
+      <!-- Start of menu links -->
+      <div class="bags_links_container">
+        <div class="menu_item_links">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Landing Page</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                PSP Merch
+              </li>
+            </ol>
+          </nav>
+        </div>
+        <div class="sort_by_links">
+          <nav class="navbar bg-light">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            <ul>
+              <li class="nav-item">Sort By</li>
+              <li class="nav-item">Newest</li>
+              <li class="nav-item">Featured</li>
+              <li class="nav-item">Highest to lowest</li>
+              <li class="nav-item">Lowest to highest</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- End of menu links -->
+
       <h3 class="bags__title">{{title}}</h3>
       <div class="row">
         <!-- Start of the first card -->
@@ -232,36 +253,4 @@
   </div>
   <!-- Start of bags content container div -->
 </section>
-
-<!-- Star of  Modal -->
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="close" data-dismiss="modal">×</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Star of  Modal -->
-<script>
-  $(document).ready(function () {
-    $("#myBtn").click(function () {
-      $("#myModal").modal();
-    });
-  });
-</script>
+<app-bags-modal></app-bags-modal>

@@ -11,6 +11,7 @@ import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { BagsComponent } from './components/bags/bags.component';
 import { HomeComponent } from './components/home/home.component';
 import { BagsDetailsComponent } from './components/bags-details/bags-details.component';
+import { BagsModalComponent } from './components/bags-modal/bags-modal.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BagsDetailsComponent } from './components/bags-details/bags-details.com
     SubscribeComponent,
     BagsComponent,
     HomeComponent,
-    BagsDetailsComponent
+    BagsDetailsComponent,
+    BagsModalComponent
   ],
   imports: [
     BrowserModule,
