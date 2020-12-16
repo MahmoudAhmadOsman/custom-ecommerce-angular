@@ -3,10 +3,9 @@
   position: relative;
   display: flex;
   // justify-content: space-between;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  //  align-items: center;
-    align-items: flex-start;
+  // justify-content: space-around;
+ 
+  // align-items: flex-start;
   
 
   h3 {
@@ -18,17 +17,14 @@
   .left__side__menu {
     position: relative;
    background: #F7F7F7;
-    opacity: 1;
     text-align: left;
     font-size: 21px;
     margin-top: 23px;
+    margin-left: 64px;
     width: 400px;
- 
     height: 474px;
-    // flex-grow: 3;
-    
-     
 
+    
     ul {
       .nav-link {
         color: #000;
@@ -43,8 +39,8 @@
   // bags__content__container style
   .bags__content__container {
     position: relative;
-    flex-grow: 5;
-    // margin-left: -252px;
+    // flex-grow: 3;
+    
 
     .breadcrumb {
       background: none;
@@ -56,8 +52,6 @@
 
     .heart__over__image{
       position: relative;
-      //  width: 48px;
-      //   height: 42px;
       .fa-heart-o{
           font-size: 30px;
           color: #e271a4;
@@ -201,30 +195,31 @@
 
 
 
+} /* End of the .bags bracket*/
+
+
 
 //For mobile
+@media only screen and (max-width: 786px) {
  .bags{
       display: block;
-        .left__side__menu {
-          margin: auto;
-          font-size: inherit;
+    //     .left__side__menu {
+    //       margin: auto;
+    //       font-size: inherit;
       
-      
-    }
-    .left__side__menu{
-      order: 2;
-    }
+    // }
+    // .left__side__menu{
+    //   order: 2;
+    // }
     
     // .bags__content__container 
-       .bags__content__container {
-          margin: auto;
-          order: 3;
-          h3.bags__title {
-               font-size: 32px;
+      //  .bags__content__container {
+      //     margin: auto;
+      //     order: 3;
+      //     h3.bags__title {
+      //          font-size: 32px;
              
-          }
-       }
+      //     }
+      //  }
     }
-
-
-} 
+  }
