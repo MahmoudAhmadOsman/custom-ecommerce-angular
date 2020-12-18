@@ -3,7 +3,6 @@
     display: flex;
     // justify-content: space-between;
     // justify-content: space-around;
-
     // align-items: flex-start;
 
 
@@ -103,7 +102,10 @@
                 color: #e271a4;
                 z-index: 666;
                 float: right;
-                margin: 15px 25px auto 215px;
+                // margin: 15px 25px auto 215px;
+                top: 10px;
+                right: 13px;
+                bottom: 0;
                 position: absolute;
                 z-index: 1;
                 transition: color .5s ease-in-out;
@@ -153,7 +155,7 @@
                 .colors {
                     position: relative;
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     flex-wrap: wrap;
 
                     .black {
