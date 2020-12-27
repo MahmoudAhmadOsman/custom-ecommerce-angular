@@ -6,9 +6,10 @@
     // align-items: flex-start;
 
 
-    h3 {
+    h1 {
         color: #000000;
         text-align: left;
+        margin-bottom: 40px;
         // fontofamily:Suisse Intl;
     }
 
@@ -44,6 +45,7 @@
             position: relative;
 
             .menu_item_links {
+                position: relative;
 
                 .breadcrumb {
                     background: none;
@@ -63,6 +65,7 @@
                 right: 0;
                 bottom: 0;
                 top: 0;
+
 
                 .fa-chevron-up {
                     color: #000;

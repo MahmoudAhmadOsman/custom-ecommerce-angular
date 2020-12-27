@@ -1,3 +1,4 @@
+import { CartItemsComponent } from './components/cart-items/cart-items.component';
 import { BagsDetailsComponent } from './components/bags-details/bags-details.component';
 import { HomeComponent } from './components/home/home.component';
 import { ShopCategoryComponent } from './components/shop-category/shop-category.component';
@@ -12,20 +13,21 @@ const routes: Routes = [
  { path: '', component: HomeComponent, children: [
     { path: 'store-arrivals', component: StoreArrivalsComponent },
      { path: 'shoping', component: ShopCategoryComponent },
+
      
   ] },
 
 
-{path: 'bags', component: BagsComponent},
-  { path: 'bags-details/:id', component: BagsDetailsComponent }
-  //   { path: 'bags', component: BagsComponent,
-  // children:[
-  //   { path: 'bags-details', component: BagsDetailsComponent },
-  // ]
-  // },
+    {path: 'bags', component: BagsComponent},
+    { path: 'bags-details', component: BagsDetailsComponent },
+      { path: 'bags-details/:id', component: BagsDetailsComponent },
+    // { path:"cart-items', component: CartItemsComponent"},
+    {
+      path: "cart-items", component: CartItemsComponent
+    },
      
 ];
-
+ 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

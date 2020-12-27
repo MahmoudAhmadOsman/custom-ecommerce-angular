@@ -12,6 +12,7 @@ import { BagsComponent } from './components/bags/bags.component';
 import { HomeComponent } from './components/home/home.component';
 import { BagsDetailsComponent } from './components/bags-details/bags-details.component';
 import { BagsModalComponent } from './components/bags-modal/bags-modal.component';
+import { CartItemsComponent } from './components/cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BagsModalComponent } from './components/bags-modal/bags-modal.component
     BagsComponent,
     HomeComponent,
     BagsDetailsComponent,
-    BagsModalComponent
+    BagsModalComponent,
+    CartItemsComponent
   ],
   imports: [
     BrowserModule,

@@ -8,10 +8,13 @@ $h_title_color: #c92570;
 
     .bags-breadcrumb {
         position: relative;
+        display: flex;
+        justify-content: space-between;
 
         .breadcrumb {
             position: relative;
             background: none;
+
 
             .breadcrumb-item.active {
                 color: #c92570;
@@ -25,6 +28,29 @@ $h_title_color: #c92570;
                 content: "> ";
                 padding: 0 5px;
             }
+        }
+
+        .shopping-cart-logo {
+            position: relative;
+
+            .fa-shopping-cart {
+                // width: 85px;
+                // height: 85px;
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                float: right;
+                background-color: #000;
+                box-shadow: 0px 5px 9px #0000001A;
+                color: #fff;
+                font-size: 35px;
+                border-radius: 50%;
+
+                text-align: center;
+                cursor: pointer;
+            }
+
+
         }
     }
 
@@ -231,6 +257,7 @@ $h_title_color: #c92570;
         .btn-outline-danger {
             width: 289px;
             height: 64px;
+            line-height: 53px;
             background-color: $add_to_cart_btn;
             color: #fff;
             font-weight: bold;
@@ -242,6 +269,8 @@ $h_title_color: #c92570;
             -moz-transition: color 0.5s ease-int-out;
             -ms-transition: color 0.5s ease-int-out;
             -o-transition: color 0.5s ease-int-out;
+
+
 
             &:hover {
                 background-color: $add-to-cart-hover;
@@ -269,4 +298,19 @@ $h_title_color: #c92570;
     }
 
     /*End of product description style*/
+
+    /*======= MEDIA QUERIES ========*/
+    @media (max-width:768px) {
+        .shopping-cart-logo {
+            position: relative;
+
+            .fa-shopping-cart {
+                width: 30px !important;
+                height: 30px !important;
+                line-height: 30px !important;
+                font-size: 15px !important;
+            }
+        }
+    }
+
 }
