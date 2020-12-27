@@ -288,13 +288,12 @@ $btn_main_bg_hover: #da498b;
 
         /*promotion_code*/
         .promotion_code {
-            position: relative;
+            // position: relative;
             padding: 0px;
 
             p.code_applied {
                 margin-left: 55px;
                 padding: 0px;
-                // margin-bottom: -8px;
                 color: $main_text_color;
             }
 
