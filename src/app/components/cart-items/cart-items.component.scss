@@ -56,11 +56,12 @@ $btn_main_bg_hover: #da498b;
 
     .wish_list {
         width: 70%;
-        height: 225px;
+        // width: auto;
+        // height: 225px;
+        height: 100%;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-
         margin-top: 60px;
         background-color: #fff;
         border-radius: 2px;
@@ -70,20 +71,40 @@ $btn_main_bg_hover: #da498b;
         -moz-box-shadow: 0px 5px 9px #00000026;
         -o-box-shadow: 0px 5px 9px #00000026;
 
-        .row-1,
-        .row-2 {
-            position: relative;
-            margin-top: 40px;
+        .accordion {
 
-        }
+            height: 225px;
 
-        .row-2 {
-            position: relative;
-
-            .fa-chevron-down {
-                cursor: pointer;
+            .card-title {
+                margin: 0px;
             }
+
+            .card {
+                border: 1px solid transparent;
+            }
+
+            .card-header {
+                background: none;
+                border: 0px;
+            }
+
         }
+
+        .accordion .card-header:after {
+            font-family: 'FontAwesome';
+            content: "\f078";
+            float: right;
+            font-size: 20px;
+            margin-top: -20px;
+        }
+
+        .accordion .card-header.collapsed:after {
+            /* symbol for "collapsed" panels */
+            content: "\f067";
+            font-size: 20px;
+            margin-top: -20px;
+        }
+
     }
 }
 
@@ -139,7 +160,7 @@ $btn_main_bg_hover: #da498b;
                         width: 25px;
                         height: 33px;
                         background-color: #393636;
-                        margin: 0px 0px 0px -25px;
+                        margin: 1px 0px 0px -25px;
                         cursor: pointer;
                         position: absolute;
                     }

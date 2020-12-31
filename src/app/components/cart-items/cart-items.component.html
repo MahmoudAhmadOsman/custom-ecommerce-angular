@@ -113,7 +113,7 @@
               Enjoy 20% off!
             </p>
             <div class="proceed_to_checkout">
-              <a href="#" class="btn btn-danger">Proceed to Checkout</a>
+              <a href="/checkout" class="btn btn-danger">Proceed to Checkout</a>
             </div>
           </div>
         </div>
@@ -122,14 +122,32 @@
     <!-- Start of Wishlist -->
 
     <div class="wish_list">
-      <div class="row-1">
-        <h3>Wishlit</h3>
-        <p>Your wishlist is empty!</p>
-      </div>
-      <div class="row-2">
-        <div class="fa fa-chevron-down"></div>
+      <div class="container">
+        <div id="accordion" class="accordion">
+          <div class="card mb-0">
+            <div
+              class="card-header collapsed"
+              data-toggle="collapse"
+              href="#collapseOne"
+            >
+              <h4 class="card-title">
+                Wishlist
+              </h4>
+            </div>
+            <div
+              id="collapseOne"
+              class="card-body collapse"
+              data-parent="#accordion"
+            >
+              <p>
+                Youi wishlit is empty!.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- End of Wishlist -->
   </div>
 </section>

@@ -3,6 +3,7 @@ import { BagsDetailsComponent } from './components/bags-details/bags-details.com
 import { HomeComponent } from './components/home/home.component';
 import { ShopCategoryComponent } from './components/shop-category/shop-category.component';
 import { StoreArrivalsComponent } from './components/store-arrivals/store-arrivals.component';
+  import { CheckoutComponent } from './components/checkout/checkout.component';
 // import { AppComponent } from './app.component';
 import { BagsComponent } from './components/bags/bags.component';
 import { NgModule } from '@angular/core';
@@ -25,11 +26,15 @@ const routes: Routes = [
     {
       path: "cart-items", component: CartItemsComponent
     },
+  {
+     path:"checkout", component: CheckoutComponent
+   },
      
 ];
  
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+
+exports: [RouterModule]
 })
 export class AppRoutingModule { }

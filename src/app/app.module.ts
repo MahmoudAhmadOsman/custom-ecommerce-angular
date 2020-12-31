@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { BagsDetailsComponent } from './components/bags-details/bags-details.component';
 import { BagsModalComponent } from './components/bags-modal/bags-modal.component';
 import { CartItemsComponent } from './components/cart-items/cart-items.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CartItemsComponent } from './components/cart-items/cart-items.component
     HomeComponent,
     BagsDetailsComponent,
     BagsModalComponent,
-    CartItemsComponent
+    CartItemsComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,

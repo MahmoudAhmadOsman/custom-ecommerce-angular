@@ -1,11 +1,7 @@
 $(document).ready(function () {
-  $(".fa-chevron-up").click(function () {
-    $(".sort_by_links ul li").toggle();
-  });
+  $(".step_one ul li a").click(function (e) {
+    $(this).parent().addClass("active").siblings().removeClass("active");
 
-  /*Start of cart items script*/
-  $(".row-2 .fa-chevron-down").click(function () {
-    $(".row-1 p").toggle();
+    e.preventDefault();
   });
-  /*End of cart items script*/
 });

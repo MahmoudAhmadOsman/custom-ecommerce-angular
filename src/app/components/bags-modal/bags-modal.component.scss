@@ -207,7 +207,7 @@
             display: flex;
             justify-content: flex-start;
 
-            a#add-a-1 {
+            a#add-a-1-view-more {
                 color: #C92570;
 
                 &:hover {
@@ -215,7 +215,7 @@
                 }
             }
 
-            a#add-a-2 {
+            a#add-a-2-add-to-cart {
                 color: #fff;
 
                 &:hover {
@@ -225,13 +225,15 @@
 
             .btn-outline-primary {
                 width: 289px;
-                // height: 64px;
+                height: 64px;
+                line-height: 47px;
                 box-shadow: 0px 5px 9px #00000026;
                 border: 1px solid #C92570;
                 border-radius: 2px;
                 opacity: 1;
                 background: none;
                 margin-right: 42px;
+                font-weight: bold;
 
                 &:hover {
                     box-shadow: 0px 5px 9px #00000026;
@@ -245,7 +247,8 @@
 
             .btn-danger {
                 width: 289px;
-                // height: 64px;
+                height: 64px;
+                line-height: 47px;
                 box-shadow: 0px 5px 9px #00000026;
                 border: 1px solid #C92570;
                 border-radius: 2px;
@@ -253,6 +256,7 @@
                 background: #C92570;
                 margin-right: 42px;
                 color: #fff;
+                font-weight: bold;
 
                 &:hover {
                     box-shadow: 0px 5px 9px #00000026;
@@ -264,12 +268,40 @@
                     // color: #C92570;
                 }
             }
+
         }
 
         /*Start of quality style*/
 
+        @media only screen and (max-width: 768px) {
+            .add_to_cart_view_btn {
+                display: flex;
+
+                .btn-outline-primary {
+                    // width: 289px;
+                    // height: 64px;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 100%;
+                    font-size: 12px;
+                    padding: 10px;
+
+                }
+
+                .btn-danger {
+                    // width: 289px;
+                    // height: 64px;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 100%;
+                    font-size: 12px;
+                    padding: 10px;
 
 
+                }
+
+            }
+        }
 
         /*End of Modal Colors Style*/
 

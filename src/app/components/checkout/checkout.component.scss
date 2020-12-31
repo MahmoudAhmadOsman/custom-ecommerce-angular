@@ -1,0 +1,205 @@
+$checkout_main_color: #C92570;
+$shopping_boxes_shadow:#00000045;
+
+.checkout_container {
+    position: relative;
+
+    .container_one {
+        margin-bottom: 51px;
+
+    }
+
+    .container_two {
+        // width: 1920px;
+        height: 156px;
+        background: #F7F7F7;
+        margin-bottom: 75px;
+
+        /*Start of step one style*/
+        .step_one {
+
+            position: relative;
+            padding: 40px 0px;
+
+            ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+
+
+                li {
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 50%;
+                    line-height: 56px;
+                    text-align: center;
+                    font-weight: bold;
+                    border: 1px solid #000;
+
+                    a {
+                        color: #fff;
+                        color: #000;
+                        text-decoration: none;
+                    }
+
+                    h4 {
+                        font-weight: bold;
+                        color: $checkout_main_color;
+                        font-size: 20px;
+                        margin-left: -15px
+                    }
+                }
+
+                .active {
+                    background-color: $checkout_main_color;
+                    border: 1px solid $checkout_main_color;
+                    color: #fff;
+
+
+                }
+
+            }
+
+
+
+
+
+
+        }
+
+        /*End of step one style*/
+
+    }
+
+
+    /*Start of container 3 style*/
+    .shipping__details__container {
+        position: relative;
+
+        .addressess {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row;
+            // grid-gap: 96px;
+            grid-gap: 46px;
+            margin-top: 40px;
+
+            .left-col-details,
+            .right-col-details {
+                padding: 25px 35px;
+            }
+
+
+            .left_col {
+                width: 772px;
+                // height: 306px;
+                min-height: 250px;
+                background: #FFFFFF;
+                box-shadow: 0px 5px 20px $shopping_boxes_shadow;
+                border: 2px solid #1E96ED;
+                border-radius: 37px;
+                flex-grow: 2;
+                // align-items: center;
+                align-content: center;
+
+                .left-col-details {
+                    position: relative;
+
+                    .btn-actions {
+                        display: flex;
+                        float: right;
+
+                        .edit-btn {
+                            // margin-right: 26.47px;
+
+                            a {
+                                text-decoration: underline;
+                            }
+                        }
+
+                        .delete-btn {
+                            position: relative;
+
+                            .fa-trash {
+                                color: #FF0707;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .right_col {
+                width: 772px;
+                // height: 306px;
+                min-height: 250px;
+                background: #FFFFFF;
+                box-shadow: 0px 5px 20px $shopping_boxes_shadow;
+                border: 2px solid #1E96ED;
+                border-radius: 37px;
+                flex-grow: 2;
+            }
+
+            .btn-actions {
+                position: relative;
+                display: flex;
+                float: right;
+
+                .edit-btn,
+                .delete-btn {
+                    // margin-right: 26.47px;
+                    margin: 10px 20px;
+
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+
+                .delete-btn {
+                    position: relative;
+
+                    .fa-trash {
+                        color: #FF0707;
+                    }
+                }
+
+            }
+        }
+
+        @media(max-width: 768px) {
+            .addressess {
+                display: block;
+                flex-flow: row wrap;
+
+                .left_col {
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 0px 5px 20px $shopping_boxes_shadow;
+                    border: .2px solid #1E96ED;
+                    border-radius: 0px;
+                    margin-bottom: 20px;
+                }
+
+                .right_col {
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 0px 5px 20px $shopping_boxes_shadow;
+                    border: .2px solid #1E96ED;
+                    border-radius: 0px;
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+    }
+
+    /*End of container 3 style*/
+
+
+
+
+
+
+
+
+}
