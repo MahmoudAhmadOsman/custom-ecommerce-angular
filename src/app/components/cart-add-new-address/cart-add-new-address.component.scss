@@ -1,0 +1,17 @@
+$formColor: #C92570;
+
+.add_new_address_container {
+    position: relative;
+
+    #addForm {
+        .btn-outline-danger {
+            border: 1px solid $formColor;
+
+            &:hover {
+                background-color: $formColor;
+                border: 1px solid $formColor;
+                color: #fff;
+            }
+        }
+    }
+}

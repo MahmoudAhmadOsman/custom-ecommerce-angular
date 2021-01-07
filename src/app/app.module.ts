@@ -14,7 +14,10 @@ import { BagsDetailsComponent } from './components/bags-details/bags-details.com
 import { BagsModalComponent } from './components/bags-modal/bags-modal.component';
 import { CartItemsComponent } from './components/cart-items/cart-items.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
-
+import { CartAddNewAddressComponent } from './components/cart-add-new-address/cart-add-new-address.component';
+import { CartEditFormComponent } from './components/cart-edit-form/cart-edit-form.component';
+import { CheckoutBillingComponent } from './components/checkout-billing/checkout-billing.component';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +31,11 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
     BagsDetailsComponent,
     BagsModalComponent,
     CartItemsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    CartAddNewAddressComponent,
+    CartEditFormComponent,
+    CheckoutBillingComponent,
+   
   ],
   imports: [
     BrowserModule,

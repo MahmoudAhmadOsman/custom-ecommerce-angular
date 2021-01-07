@@ -1,3 +1,5 @@
+$heart_color: #C92570;
+
 .bags {
     position: relative;
     display: flex;
@@ -51,7 +53,7 @@
                     background: none;
 
                     .breadcrumb-item.active {
-                        color: #C92570;
+                        color: $heart_color;
                     }
                 }
 
@@ -100,9 +102,12 @@
         .heart__over__image {
             position: relative;
 
-            .fa-heart-o {
+            // .fa-heart-o
+            .fa-heart {
                 font-size: 30px;
-                color: #e271a4;
+                // color: #e271a4;
+                color: $heart_color;
+
                 z-index: 666;
                 float: right;
                 // margin: 15px 25px auto 215px;
@@ -118,10 +123,13 @@
                 -o-transition: color .5s ease-in-out;
                 cursor: pointer;
 
+
+
                 &:hover {
                     //  background: #C92570;
-                    color: #C92570;
-
+                    // color: #C92570;
+                    color: #e271a4;
+                    // lightness(#C92570)
                 }
             }
 
@@ -262,23 +270,16 @@
 @media only screen and (max-width: 786px) {
     .bags {
         display: block;
-        //     .left__side__menu {
-        //       margin: auto;
-        //       font-size: inherit;
 
-        // }
-        // .left__side__menu{
-        //   order: 2;
-        // }
-
-        // .bags__content__container 
-        //  .bags__content__container {
-        //     margin: auto;
-        //     order: 3;
-        //     h3.bags__title {
-        //          font-size: 32px;
-
-        //     }
-        //  }
     }
+}
+
+
+.heart-bg {
+    background-color: #c92570;
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+    color: #fff;
+
 }
