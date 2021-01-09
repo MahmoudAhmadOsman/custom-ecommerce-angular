@@ -53,8 +53,10 @@
         <div class="sort_by_links">
           <nav class="navbar bg-light">
             <i class="fa fa-chevron-up" aria-hidden="true"></i>
+
             <ul>
-              <li class="nav-item">Sort By</li>
+              <span>Sort by</span>
+
               <li class="nav-item">Newest</li>
               <li class="nav-item">Featured</li>
               <li class="nav-item">Highest to lowest</li>
@@ -66,7 +68,7 @@
       <!-- End of menu links -->
 
       <h1 class="bags__title">{{title}}</h1>
-      <div class="row">
+      <div class="row" id="bags">
         <!-- Start of the first card -->
         <div
           class="col-md-4 col-sm-12 col-xs-12"
@@ -75,7 +77,6 @@
           <div class="card">
             <span class="heart__over__image">
               <i class="far fa-heart"></i>
-              <!-- <i class="fa fa-heart-o" aria-hidden="true"></i> -->
             </span>
             <a href="/bags-details/{{bag.id}}">
               <img
@@ -119,8 +120,8 @@
       <div class="readmore__links">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 mx-auto">
-              <a href="#" class="btn btn-outline-danger">View more</a>
+            <div class="col-md-3 mx-auto">
+              <a href="/bags" class="btn btn-outline-danger">View more</a>
             </div>
           </div>
         </div>
@@ -185,7 +186,7 @@
         <div class="readmore__links">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 mx-auto">
+              <div class="col-md-3 mx-auto">
                 <a href="#" class="btn btn-outline-danger">View more</a>
               </div>
             </div>
@@ -254,7 +255,7 @@
         <div class="readmore__links">
           <div class="container">
             <div class="row">
-              <div class="col-md-6 mx-auto">
+              <div class="col-md-3 mx-auto">
                 <a href="#" class="btn btn-outline-danger">View more</a>
               </div>
             </div>

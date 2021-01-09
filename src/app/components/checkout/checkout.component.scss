@@ -36,14 +36,9 @@ $shopping_boxes_shadow:#00000045;
           font-weight: bold;
           border: 1px solid #000;
 
-
           a {
-            color: #000;
+            // color: #fff;
             text-decoration: none;
-          }
-
-          a:first-of-type {
-            color: #000;
           }
 
           h4 {
@@ -52,16 +47,19 @@ $shopping_boxes_shadow:#00000045;
             margin-left: -15px;
 
           }
+
         }
 
         .active {
           background-color: $checkout_main_color;
           border: 1px solid $checkout_main_color;
-
           font-size: 20px;
           color: $checkout_main_color;
-
         }
+
+
+
+
 
       }
 
@@ -76,7 +74,6 @@ $shopping_boxes_shadow:#00000045;
   .shipping__details__container {
     position: relative;
     // width: 500px;
-
     display: flex;
 
     .addressess {
@@ -180,6 +177,7 @@ $shopping_boxes_shadow:#00000045;
         display: flex;
         justify-content: space-between;
         min-width: 450px;
+       
         // width: 25%;
         height: 200px;
         // width: 772px;

@@ -10,13 +10,22 @@ $(document).ready(function () {
 
   //Sort product
   $(".fa-chevron-up").click(function () {
-    $(".sort_by_links ul li").toggle();
+    //$(".sort_by_links ul li").toggle();
+    // $(".sort_by_links ul li")
+    //   .addClass("fa-chevron-down")
+    //   .removeClass("fa-chevron-up")
+    //   .toggle();
+    $(".sort_by_links ul li")
+      .addClass("fa-chevron-down")
+      // .removeClass("fa-chevron-up")
+      .toggle();
   });
 
   $(".step_one ul li a").click(function (e) {
+    //alert($(this).text());
     $(this).parent().addClass("active").siblings().removeClass("active");
-    //$(this).css("color", "#fff");
+    //$(this).addClass("active").siblings().find("a").removeClass("active");
 
-    // e.preventDefault();
+    e.preventDefault();
   });
 });

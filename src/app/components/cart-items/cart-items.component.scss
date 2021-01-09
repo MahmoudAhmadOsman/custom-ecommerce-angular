@@ -51,7 +51,7 @@ $btn_main_bg_hover: #da498b;
 .bx-bg {
     width: 100%;
     height: auto;
-    box-shadow: 0px 5px 9px #00000045;
+    // box-shadow: 0px 5px 9px #00000045;
     padding: 10px 10px 60px 10px;
 
     .wish_list {
@@ -112,6 +112,7 @@ $btn_main_bg_hover: #da498b;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-shadow: 6px 9px 9px 0px #00000045;
 
     // .box_one,
     // .box_two,
@@ -128,8 +129,11 @@ $btn_main_bg_hover: #da498b;
 
         img {
             max-width: 100%;
-            min-width: 250px;
-            height: 150px;
+            width: 230px;
+            height: 220px;
+            margin-right: 20px;
+
+
         }
     }
 
@@ -263,7 +267,9 @@ $btn_main_bg_hover: #da498b;
 
 .box_three {
     flex-grow: 1.5;
-    // border: 1px solid blue;
+
+    border-right: 42px solid #f8f8f8cc;
+
 }
 
 
@@ -272,7 +278,7 @@ $btn_main_bg_hover: #da498b;
     flex-grow: 1;
     // border: 1px solid green;
     background: #F7F7F7;
-    box-shadow: 0px 5px 9px #00000026;
+    box-shadow: 0px 0px 0px transparent;
     padding: 20px;
     justify-items: center;
 
@@ -320,7 +326,7 @@ $btn_main_bg_hover: #da498b;
             padding: 0px;
 
             p.code_applied {
-                margin-left: 55px;
+                // margin-left: 55px;
                 padding: 0px;
                 color: $main_text_color;
             }
@@ -372,6 +378,18 @@ $btn_main_bg_hover: #da498b;
         width: 100%;
         flex-grow: 1;
     }
+
+
+    /*Wishlish*/
+    .wish_list {
+        width: 100%;
+        background-color: red;
+        display: none
+    }
+
+
+
+
 }
 
 /*End of the main bracket*/

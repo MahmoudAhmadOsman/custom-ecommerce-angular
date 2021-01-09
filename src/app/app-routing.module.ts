@@ -1,3 +1,4 @@
+import { AddCreditcardComponent } from './components/add-creditcard/add-creditcard.component';
 import { CheckoutBillingComponent } from './components/checkout-billing/checkout-billing.component';
  
 
@@ -42,7 +43,10 @@ const routes: Routes = [
   },
   {
     path:"checkout-billing", component: CheckoutBillingComponent
- },
+  },
+  {
+    path:"add-creditcard", component: AddCreditcardComponent
+  }
      
 ];
  
