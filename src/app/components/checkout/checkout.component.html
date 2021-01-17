@@ -24,7 +24,7 @@
                 <h4>Billing</h4>
               </li>
               <li>
-                <a href="#">3</a>
+                <a href="/checkout-review">3</a>
                 <h4>Review</h4>
               </li>
               <li>
@@ -57,7 +57,11 @@
                 >
               </div>
               <div class="delete-btn">
-                <a href="#">
+                <a
+                  href="/checkout-delete-alert"
+                  data-toggle="modal"
+                  data-target="#chekcoutDeleteModel"
+                >
                   <i class="fa fa-trash"></i>
                 </a>
               </div>
@@ -83,13 +87,17 @@
               >
             </div>
             <div class="delete-btn">
-              <a href="#">
+              <a
+                href="/checkout-delete-alert"
+                data-toggle="modal"
+                data-target="#chekcoutDeleteModel"
+              >
                 <i class="fa fa-trash"></i>
               </a>
             </div>
           </div>
           <!-- End of btn action -->
-          <div class="right-col-details">
+          <div class="right-col-details" style="font-size: 12px;">
             <h4>Saved Address</h4>
             <h5>John Doe</h5>
             <h5>123 Alphabet Road</h5>
@@ -137,3 +145,5 @@
 <app-cart-add-new-address></app-cart-add-new-address>
 
 <app-cart-edit-form></app-cart-edit-form>
+<app-checkout-delete-alert></app-checkout-delete-alert>
+<app-checkout-review></app-checkout-review>

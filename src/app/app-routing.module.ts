@@ -1,3 +1,6 @@
+import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
+ 
+import { CheckoutReviewComponent } from './components/checkout-review/checkout-review.component';
 import { AddCreditcardComponent } from './components/add-creditcard/add-creditcard.component';
 import { CheckoutBillingComponent } from './components/checkout-billing/checkout-billing.component';
  
@@ -46,6 +49,12 @@ const routes: Routes = [
   },
   {
     path:"add-creditcard", component: AddCreditcardComponent
+  },
+  {
+    path: "checkout-review", component: CheckoutReviewComponent
+  },
+  {
+    path: "checkout-delete-alert", component: CheckoutDeleteAlertComponent
   }
      
 ];

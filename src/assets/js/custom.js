@@ -24,8 +24,7 @@ $(document).ready(function () {
   $(".step_one ul li a").click(function (e) {
     //alert($(this).text());
     $(this).parent().addClass("active").siblings().removeClass("active");
-    //$(this).addClass("active").siblings().find("a").removeClass("active");
 
-    e.preventDefault();
+    //e.preventDefault();
   });
 });

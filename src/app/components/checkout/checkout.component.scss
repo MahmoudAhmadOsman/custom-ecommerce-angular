@@ -79,23 +79,25 @@ $shopping_boxes_shadow:#00000045;
     .addressess {
       display: flex;
       justify-content: space-between;
-      float: left;
+      // float: left;
       flex-flow: wrap;
       // grid-gap: 96px;
-      grid-gap: 46px;
+      grid-gap: 16px;
       margin-top: 40px;
 
       .left-col-details,
       .right-col-details {
-        padding: 25px 35px;
+        padding: 15px 20px;
+
+
       }
 
 
       .left_col {
         // width: 772px;
-        min-width: 450px;
+        max-width: 450px;
         flex-grow: 1;
-        max-height: 200px;
+        height: auto;
 
         background: #FFFFFF;
         box-shadow: 0px 5px 20px $shopping_boxes_shadow;
@@ -108,6 +110,7 @@ $shopping_boxes_shadow:#00000045;
 
         .left-col-details {
           position: relative;
+
 
           .btn-actions {
             display: flex;
@@ -136,12 +139,13 @@ $shopping_boxes_shadow:#00000045;
       .right_col {
         // width: 772px;
         min-width: 450px;
+        height: auto;
         flex-grow: 1;
-        max-height: 200px;
+
         background: #FFFFFF;
         box-shadow: 0px 5px 20px $shopping_boxes_shadow;
         border-radius: 37px;
-        flex-grow: 2;
+        flex-grow: 1;
         cursor: pointer;
 
       }
@@ -150,6 +154,7 @@ $shopping_boxes_shadow:#00000045;
         position: relative;
         display: flex;
         float: right;
+
 
         .edit-btn,
         .delete-btn {
@@ -175,13 +180,9 @@ $shopping_boxes_shadow:#00000045;
       .add_new_address {
         position: relative;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         min-width: 450px;
-       
-        // width: 25%;
-        height: 200px;
-        // width: 772px;
-        // height: 306px;
+        max-height: 150px;
         flex-grow: .4;
         background: #FFFFFF;
         box-shadow: 0px 5px 20px $shopping_boxes_shadow;
@@ -190,7 +191,7 @@ $shopping_boxes_shadow:#00000045;
 
         .add_n_ad-col-details {
           justify-items: center;
-          margin: 80px auto;
+          margin: 50px auto;
 
 
           a {
@@ -214,29 +215,72 @@ $shopping_boxes_shadow:#00000045;
     @media(max-width: 768px) {
       .addressess {
         display: block;
-        flex-flow: row wrap;
+        // flex-flow: row wrap;
 
         .left_col {
-          width: 100%;
+          // width: 100%;
           height: auto;
           box-shadow: 0px 5px 20px $shopping_boxes_shadow;
           border: .2px solid #1E96ED;
           border-radius: 0px;
           margin-bottom: 20px;
+
+          .left-col-details {
+            width: 80%;
+            border: 0px !important;
+
+            h4,
+            h5 {
+              font-size: 14px;
+            }
+          }
         }
 
         .right_col {
-          width: 100%;
+          // min-width: 450px;
+          min-width: 150px;
+          display: block;
           height: auto;
-          box-shadow: 0px 5px 20px $shopping_boxes_shadow;
-          border: .2px solid #1E96ED;
           border-radius: 0px;
-          margin-bottom: 20px;
+
+
+          .right-col-details {
+            width: 80%;
+            display: block;
+            border: 0px !important;
+
+            // padding: 10px 40px;
+            h4,
+            h5 {
+              font-size: 14px;
+            }
+
+          }
+        }
+
+
+        .add_new_address {
+          display: block;
+          width: 150px;
+          height: 150px;
+          line-height: 150px;
+          margin: 10px auto;
+          background: #FFFFFF;
+          box-shadow: 0px 5px 20px $shopping_boxes_shadow;
+          border-radius: 0px;
+          cursor: pointer;
+
+          .add_n_ad-col-details {
+            text-align: center;
+          }
         }
       }
 
     }
   }
+
+
+
 
   /*End of container 3 style*/
 

@@ -18,6 +18,9 @@ import { CartAddNewAddressComponent } from './components/cart-add-new-address/ca
 import { CartEditFormComponent } from './components/cart-edit-form/cart-edit-form.component';
 import { CheckoutBillingComponent } from './components/checkout-billing/checkout-billing.component';
 import { AddCreditcardComponent } from './components/add-creditcard/add-creditcard.component';
+import { CheckoutReviewComponent } from './components/checkout-review/checkout-review.component';
+ 
+import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
  
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { AddCreditcardComponent } from './components/add-creditcard/add-creditca
     CartEditFormComponent,
     CheckoutBillingComponent,
     AddCreditcardComponent,
+    CheckoutReviewComponent,
+     
+    CheckoutDeleteAlertComponent,
    
   ],
   imports: [
