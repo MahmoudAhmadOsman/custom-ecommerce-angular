@@ -187,7 +187,8 @@ $shopping_boxes_shadow:#00000045;
                 position: relative;
                 display: flex;
                 justify-content: space-around;
-                width: 154px;
+                // width: 154px;
+                width: auto;
                 max-height: 170px;
                 flex-grow: .4;
                 background: #FFFFFF;
@@ -211,7 +212,13 @@ $shopping_boxes_shadow:#00000045;
             /*End of add new address*/
 
 
+            @media(max-width: 768px) {
+                .add_new_address {
+                    width: 76%;
+                    border-radius: 0px;
 
+                }
+            }
 
 
 
@@ -219,6 +226,8 @@ $shopping_boxes_shadow:#00000045;
         }
 
         @media(max-width: 768px) {
+
+
             .addressess {
                 display: block;
                 flex-flow: row wrap;
