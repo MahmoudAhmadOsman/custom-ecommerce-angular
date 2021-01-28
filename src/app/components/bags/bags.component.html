@@ -51,18 +51,42 @@
           </nav>
         </div>
         <div class="sort_by_links">
-          <nav class="navbar bg-light">
+          <!-- <nav class="navbar bg-light">
             <i class="fa fa-chevron-up" aria-hidden="true"></i>
-
             <ul>
               <span>Sort by</span>
-
               <li class="nav-item">Newest</li>
               <li class="nav-item">Featured</li>
               <li class="nav-item">Highest to lowest</li>
               <li class="nav-item">Lowest to highest</li>
             </ul>
-          </nav>
+          </nav> -->
+
+          <!-- Start of sort by accordian -->
+          <div id="accordion" class="accordion">
+            <div class="card mb-0">
+              <div
+                class="card-header collapsed"
+                data-toggle="collapse"
+                href="#collapseOne"
+              >
+                <a class="card-title"> Sort by </a>
+              </div>
+              <div
+                id="collapseOne"
+                class="card-body collapse"
+                data-parent="#accordion"
+              >
+                <ul>
+                  <li class="nav-item">Newest</li>
+                  <li class="nav-item">Featured</li>
+                  <li class="nav-item">Highest to lowest</li>
+                  <li class="nav-item">Lowest to highest</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End of sort by accordian -->
         </div>
       </div>
       <!-- End of menu links -->

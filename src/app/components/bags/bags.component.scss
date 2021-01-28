@@ -63,37 +63,41 @@ $title_color: #C92570;
             .sort_by_links {
                 width: 261px;
                 height: 228px;
+                height: 200px;
                 float: right;
                 position: absolute;
                 right: 0;
-                bottom: 0;
-                top: 0;
-
-
-                .fa-chevron-up,
-                .fa-chevron-down {
-                    color: #000;
-                    text-align: right;
-                    left: 0;
-                    // top: 21px;
-                    top: 7px;
-                    right: 21px;
-                    position: absolute;
-                    cursor: pointer;
-
-
-                }
-
+                // bottom: 0;
+                // top: 0;
+                cursor: pointer;
 
                 ul {
                     position: relative;
+                    margin-bottom: 40px;
 
                     li {
-                        text-decoration: none;
-                        display: block;
+                        list-style: none;
+                        font-size: 12px;
+                        margin-left: 13px;
                         cursor: pointer;
+
                     }
                 }
+
+                .accordion .card-header:after {
+                    font-family: 'FontAwesome';
+                    content: "\f078";
+                    float: right;
+                }
+
+                .accordion .card-header.collapsed:after {
+                    /* symbol for "collapsed" panels */
+                    content: "\f077";
+                }
+
+
+
+
 
             }
 
