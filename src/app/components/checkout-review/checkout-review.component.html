@@ -1,27 +1,113 @@
-<section class="checkout_review_container">
-  <div class="container">
-    <h2>Cart Items</h2>
-    <div class="row">
-      <!-- Start of left box -->
-      <div class="col">
-        <div class="left_box">
-          <img src="/assets/images/shopping-bag.jpg" alt="" class="img-fluid" />
+<section class="main-container">
+  <!-- Start of left container -->
+  <h1>Cart Items</h1>
+  <div class="left-container">
+    <!-- Start of Cart items -->
+
+    <div class="cart-items-container">
+      <!-- Start of images div -->
+      <div class="img-item">
+        <img src="https://place-hold.it/250/250/" alt="" />
+      </div>
+      <!-- End of images div -->
+      <!-- Start of name of items div -->
+      <div class="items">
+        <h4>Name of Items</h4>
+        <div class="item-names">
+          <span class="black-box"></span>
+          <div class="color">
+            <span>Color</span>
+            <select name="" id="" class="form-control mr-1">
+              <option>Black</option>
+              <option>Seige</option>
+              <option>White</option>
+            </select>
+          </div>
+          <div class="size">
+            <span>Size</span>
+            <select name="" id="" class="form-control ml-1">
+              <option>M</option>
+              <option>S</option>
+              <option>XXL</option>
+            </select>
+          </div>
+          <div class="quantity">
+            <span>Quantity</span>
+            <select name="" id="" class="form-control ml-2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="links">
+          <p>
+            <a href="#">Remove</a> <br />
+            <span><a href="#">Add to Wishlist</a></span>
+          </p>
         </div>
       </div>
-      <div class="col">
-        <h4>Name of Item</h4>
-        <div class="colors">
-          <span>Colors</span>
-        </div>
-      </div>
-      <div class="col">
+      <!-- End of name of items div -->
+      <!-- Start of price div -->
+      <div class="cart-price">
         <h4>$50.00</h4>
       </div>
-      <!-- End of left box -->
+      <!-- End of price div -->
     </div>
+    <!-- End of left container -->
 
-    <div class="col">
-      <h4>Summary</h4>
+    <div class="right-container">
+      <!-- Start of Cart summary div -->
+      <div class="cart-summary">
+        <h3>Summary</h3>
+        <br />
+        <div class="summary-items">
+          <div class="sub-total">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                  <p>Subtotal</p>
+                  <p>Shipping</p>
+                  <p><b>Tax</b></p>
+                  <p><b>Total</b></p>
+                </div>
+
+                <div class="col">
+                  <p class="font-weight-bold">
+                    $200.00 <br />
+                    <span class="text-danger promo-code">
+                      -$20.00 off #PROMO</span
+                    >
+                  </p>
+
+                  <p>$6.00</p>
+                  <p>$18.03</p>
+                  <p><b>$224.03</b></p>
+                </div>
+              </div>
+              <div class="apply-btn">
+                <form action="#" method="POST">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your promo code"
+                    required
+                  />
+                  <input
+                    type="submit"
+                    value="Apply"
+                    class="btn btn-danger btn-sm"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Cart summary div -->
+      </div>
+      <!-- End of Cart items -->
     </div>
   </div>
 </section>
