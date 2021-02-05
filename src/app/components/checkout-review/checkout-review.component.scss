@@ -102,6 +102,11 @@
          height: 248px;
          width: 73%;
 
+         img {
+             width: 320px;
+             height: auto;
+         }
+
          .img-item {
              flex-grow: 1;
          }
