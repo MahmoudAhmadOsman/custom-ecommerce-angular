@@ -3,7 +3,7 @@
 
     /*Start of shipping--address container style*/
     .shipping--address-c {
-        overflow-x: hidden;
+        overflow: hidden;
         width: auto;
         height: auto;
         margin: auto;
@@ -21,8 +21,7 @@
 
     .final-summary {
         width: auto;
-        min-height: 250px;
-        max-height: 300px;
+        height: auto;
         background: #F7F7F7;
         box-shadow: 0px 5px 20px #00000045;
 
