@@ -1,3 +1,4 @@
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
  
 import { CheckoutReviewComponent } from './components/checkout-review/checkout-review.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
   {
      path:"checkout", component: CheckoutComponent
   },
+   
   {
     path:"cart-add-new-address", component: CartAddNewAddressComponent
   },
@@ -45,7 +47,7 @@ const routes: Routes = [
     path:"cart-edit-address", component: CartEditFormComponent
   },
   {
-    path:"checkout-billing", component: CheckoutBillingComponent
+    path:"billing-checkout", component: CheckoutBillingComponent
   },
   {
     path:"add-creditcard", component: AddCreditcardComponent
@@ -55,7 +57,10 @@ const routes: Routes = [
   },
   {
     path: "checkout-delete-alert", component: CheckoutDeleteAlertComponent
-  }
+  },
+  {
+    path: "confirmation", component: ConfirmationComponent
+  },
      
 ];
  

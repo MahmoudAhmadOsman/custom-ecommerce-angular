@@ -21,6 +21,9 @@ import { AddCreditcardComponent } from './components/add-creditcard/add-creditca
 import { CheckoutReviewComponent } from './components/checkout-review/checkout-review.component';
  
 import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { CheckoutMenuComponent } from './components/shared/checkout-menu/checkout-menu.component';
+ 
  
 @NgModule({
   declarations: [
@@ -43,6 +46,11 @@ import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert
     CheckoutReviewComponent,
      
     CheckoutDeleteAlertComponent,
+     
+    ConfirmationComponent,
+     
+    CheckoutMenuComponent,
+ 
    
   ],
   imports: [

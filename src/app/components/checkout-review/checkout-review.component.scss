@@ -1,9 +1,15 @@
  .main-container {
      position: relative;
-     width: auto;
-     height: auto;
-     padding-right: 15px;
-     padding-left: 15px;
+     width: 100%;
+     height: 100%;
+     padding-right: 50px;
+     padding-left: 50px;
+
+     h2 {
+         display: flex;
+         margin-top: -60px;
+         margin-bottom: 30px;
+     }
 
      /*Start of left container*/
      .left-container {
@@ -11,6 +17,8 @@
          width: 90%;
          float: left;
          display: flex;
+         margin-top: -25px;
+
 
 
      }
@@ -18,10 +26,11 @@
      /*End of left container*/
      /* Start of right container div */
      .right-container {
-         // width: 28%;
+         //  width: 30%;
+
          width: 40%;
          height: auto;
-         // display: flex;
+         display: block;
          background-color: #F7F7F7;
          box-shadow: 0px 5px 9px #00000026;
          float: right;
@@ -30,6 +39,8 @@
 
          .cart-summary {
              position: relative;
+             padding: 0px 30px;
+
 
              h3 {
                  font-weight: bold;
@@ -38,9 +49,6 @@
 
              .summary-items {
                  position: relative;
-
-                 // display: inline-block;
-
 
                  .sub-total {
                      position: relative;
@@ -64,8 +72,6 @@
                          }
 
                          li.li-left {
-
-                             // margin-left: 20px;
                              padding: 20px 30px;
                          }
                      }
@@ -78,6 +84,21 @@
                              float: right;
                              background-color: #C92570;
                              margin: -35px 14px;
+                         }
+
+                         /* Aplly promo code*/
+                         .promo-code-applied {
+                             display: block;
+                             text-align: right;
+
+                             p.enjoy-promo {
+                                 color: #C92570;
+                                 margin-top: 10px;
+                             }
+
+                             p.remove-promo {
+                                 margin-top: -13px;
+                             }
                          }
                      }
                  }
@@ -96,16 +117,13 @@
          display: grid;
          grid-template-columns: repeat(3, 1fr);
          grid-template-rows: repeat(3, 1fr);
-         grid-column-gap: 0px;
-         grid-row-gap: 0px;
-         grid-row-gap: 0px;
+         //  grid-column-gap: 0px;
          //  height: 248px;
          height: 327px;
          width: 73%;
 
          img {
              width: 320px;
-             //  height: auto;
              height: 327px;
          }
 

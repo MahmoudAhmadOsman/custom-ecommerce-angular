@@ -1,0 +1,74 @@
+.confirmation-page {
+    position: relative;
+
+    /*Start of shipping--address container style*/
+    .shipping--address-c {
+        width: auto;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 20px #00000045;
+        margin-bottom: 40px;
+
+        .shipping-content {
+            padding: 40px;
+        }
+    }
+
+    /*End of shipping--address container style*/
+
+
+    .final-summary {
+        width: auto;
+        min-height: 250px;
+        max-height: 300px;
+        background: #F7F7F7;
+        box-shadow: 0px 5px 20px #00000045;
+
+
+        h4 {
+            padding: 40px;
+            margin-bottom: -60px;
+        }
+
+        .order-summary {
+            position: relative;
+            display: flex;
+            padding: 40px;
+
+
+
+            ul {
+                display: inline-block;
+                margin-right: 2rem;
+                max-width: 200px;
+                min-width: 300px;
+                list-style: none;
+
+
+                li {
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: 10px;
+                        right: -6%;
+                        border-top: 3px solid #ccc;
+                        width: 80%;
+                        height: 12px;
+                        border-style: dotted;
+                        border-bottom: black;
+                        border-right: 0px;
+                        border-left: 0px;
+                    }
+                }
+
+
+
+            }
+
+        }
+    }
+
+
+}
