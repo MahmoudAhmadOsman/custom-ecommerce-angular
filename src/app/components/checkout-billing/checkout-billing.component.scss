@@ -146,7 +146,8 @@ $shopping_boxes_shadow:#00000045;
 
             @media(max-width: 768px) {
                 .add_new_address {
-                    width: 76%;
+                    // width: 76%;
+                    width: 100%;
                     border-radius: 0px;
 
                 }
