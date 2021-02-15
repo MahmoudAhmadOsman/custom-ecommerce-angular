@@ -1,7 +1,7 @@
  export class Bags {
     id: number;
     bagsTitle: string; 
-    NameOfItem: string;
+    NameOfItem: number;
     price: number;
     bagsImagURL: string;
     
