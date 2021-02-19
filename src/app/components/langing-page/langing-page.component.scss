@@ -4,7 +4,7 @@ $main_text_color: #C92570;
 
 .langing-page {
     height: auto;
-    background-color: #f4f3f3;
+    // background-color: #f4f3f3;
     position: relative;
 
 
@@ -105,9 +105,37 @@ $main_text_color: #C92570;
         position: relative;
 
         .col-md-4 {
-            border: 1px solid #FCFCFC;
+            // border: 1px solid #FCFCFC;
+            border: 1px solid #F7F7F7;
+            box-shadow: 1px 3px 3px #fdfdfd;
+            -webkit-box-shadow: 1px 3px 3px #fdfdfd;
+            -moz-box-shadow: 1px 3px 3px #fdfdfd;
+            -ms-box-shadow: 1px 3px 3px #fdfdfd;
+            -o-box-shadow: 1px 3px 3px #fdfdfd;
             padding: 30px;
-            // background-color: #fff;
+            transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -ms-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+
+
+            &:hover {
+                background: #FDFDFD;
+                border: 1px solid #F7F7F7;
+                box-shadow: 1px 3px 3px #f1efef;
+                cursor: pointer;
+            }
+        }
+
+
+        img.discount,
+        img.money,
+        img.blog,
+        img.jobs,
+        img.events,
+        img.networking {
+            width: 50px;
         }
 
         .fa-long-arrow-right {
