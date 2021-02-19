@@ -1,3 +1,4 @@
+import { LandingSidebarComponent } from './components/landing-sidebar/landing-sidebar.component';
 import { LangingPageComponent } from './components/langing-page/langing-page.component';
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
@@ -64,7 +65,10 @@ const routes: Routes = [
   },
   {
   path: "landing-page", component: LangingPageComponent
-}
+  },
+  {
+    path: "landing-sidebar", component: LandingSidebarComponent
+  }
 
 
 

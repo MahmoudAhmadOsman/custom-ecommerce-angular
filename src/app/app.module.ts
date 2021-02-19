@@ -24,6 +24,7 @@ import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { CheckoutMenuComponent } from './components/shared/checkout-menu/checkout-menu.component';
 import { LangingPageComponent } from './components/langing-page/langing-page.component';
+import { LandingSidebarComponent } from './components/landing-sidebar/landing-sidebar.component';
  
  
 @NgModule({
@@ -53,6 +54,8 @@ import { LangingPageComponent } from './components/langing-page/langing-page.com
     CheckoutMenuComponent,
      
     LangingPageComponent,
+     
+    LandingSidebarComponent,
  
    
   ],
