@@ -23,6 +23,7 @@ import { CheckoutReviewComponent } from './components/checkout-review/checkout-r
 import { CheckoutDeleteAlertComponent } from './components/checkout-delete-alert/checkout-delete-alert.component';
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { CheckoutMenuComponent } from './components/shared/checkout-menu/checkout-menu.component';
+import { LangingPageComponent } from './components/langing-page/langing-page.component';
  
  
 @NgModule({
@@ -50,6 +51,8 @@ import { CheckoutMenuComponent } from './components/shared/checkout-menu/checkou
     ConfirmationComponent,
      
     CheckoutMenuComponent,
+     
+    LangingPageComponent,
  
    
   ],

@@ -1,0 +1,251 @@
+$main_bg_color: #C92570;
+$main_text_color: #C92570;
+
+
+.langing-page {
+    height: auto;
+    background-color: #f4f3f3;
+    position: relative;
+
+
+    .top-navigation {
+        position: relative;
+
+        nav {
+            position: relative;
+
+            .form-inline {
+                .text-danger {
+                    color: $main_bg_color !important;
+                    font-weight: bold;
+                }
+
+                .btn-danger {
+                    // width: 135px;
+                    // height: 48px;
+                    margin: auto;
+                    background-color: $main_bg_color;
+                    text-align: left;
+                    color: #fff;
+                    font-weight: bold;
+
+                }
+            }
+
+
+        }
+    }
+
+    /*Start of main slide style*/
+    .main-slider-container {
+        position: relative;
+
+        .carousel {
+            background-color: #2d2d2d;
+            height: 65vh;
+            color: #fff;
+            margin-bottom: 40px;
+
+
+
+            .carousel-indicators li {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+
+            .carousel-indicators li.active {
+                background-color: $main_bg_color !important;
+            }
+
+            .carousel-inner {
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    // height: 700px;
+                }
+
+                .carousel-caption {
+                    float: left;
+                }
+
+                .btn-danger {
+                    width: 189px;
+                    height: 60px;
+                    background-color: $main_bg_color;
+                    border: 1px solid #C92570;
+                    border-radius: 2px;
+                    padding: 13px;
+                }
+            }
+        }
+    }
+
+    @media(max-width: 768px) {
+        .main-slider-container {
+            margin-bottom: 40px;
+
+            .carousel {
+                height: 99vh;
+                display: block;
+                margin-bottom: 140px;
+            }
+        }
+
+    }
+
+    /*End of main slide style*/
+
+
+
+    /*Start of what we offer style*/
+    .what-we-offer {
+        position: relative;
+
+        .col-md-4 {
+            border: 1px solid #FCFCFC;
+            padding: 30px;
+            // background-color: #fff;
+        }
+
+        .fa-long-arrow-right {
+            position: relative;
+            transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            cursor: pointer;
+
+            // margin-left: 0px;
+            &:hover {
+                margin-left: 12px;
+                animation: mymove 5s infinite;
+                animation-name: animate_arrow;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes animate_arrow {
+
+                0%,
+                100% {
+                    color: $main_text_color;
+                    margin-left: 0px;
+                }
+
+                25% {
+
+                    margin-right: -14px;
+                    color: $main_text_color;
+                    opacity: .2
+                }
+            }
+
+
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    /*End of what we offer style*/
+
+
+
+
+    /*Start of testimonial*/
+    .testimonial {
+        position: relative;
+
+        .left-box,
+        .center-box,
+        .right-box {
+            // width: 424px;
+            width: auto;
+            height: 468px;
+            position: relative;
+            background: #FCFCFC;
+            box-shadow: 0px 4px 20px #0000000A;
+            border-radius: 10px;
+
+            p {
+                padding: 30px;
+            }
+
+            img {
+                width: 136px;
+                height: 136px;
+                border-radius: 50%;
+                margin: 60px auto 0px auto;
+            }
+        }
+    }
+
+    /*End of testimonial*/
+
+    /*Start of compnay hiring*/
+    .company-hiring {
+        position: relative;
+        // margin-top: 232px;
+        margin-top: 100px;
+
+        img {
+            width: 100%;
+        }
+
+        a.btn-danger {
+            width: 189px;
+            height: 60px;
+            text-align: center;
+            background-color: $main_bg_color;
+            border: 1px solid $main_bg_color;
+            border-radius: 2px;
+            font-weight: bold;
+            padding: 13px;
+        }
+    }
+
+    /*End of compnay hiring*/
+
+
+    /* Start of stick tother style*/
+    .stick-together {
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 40px;
+
+        h3 {
+            position: relative;
+
+            span {
+                color: $main_text_color;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .btn-danger {
+            width: 189px;
+            height: 60px;
+            background-color: $main_bg_color;
+            padding: 12px;
+            text-align: center;
+            border-radius: 2px;
+
+        }
+
+
+    }
+
+    /* End of stick tother style*/
+
+
+}
