@@ -14,7 +14,7 @@ $(document).ready(function () {
   });
 
   //Slider
-  $("#myCarousel").carousel({
-    interval: 322000,
-  });
-});
+//   $("#myCarousel").carousel({
+//     interval: 322000,
+//   });
+// });
