@@ -12,4 +12,9 @@ $(document).ready(function () {
 
     //e.preventDefault();
   });
+
+  //Slider
+  $("#myCarousel").carousel({
+    interval: 322000,
+  });
 });

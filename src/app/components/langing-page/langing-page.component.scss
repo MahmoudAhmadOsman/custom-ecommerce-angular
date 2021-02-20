@@ -41,10 +41,81 @@ $main_text_color: #C92570;
         position: relative;
 
         .carousel {
-            background-color: #2d2d2d;
+            // background-color: #2d2d2d : , 101010, 0f0f0f;
+            // background-color: #0f0f0f;
             height: 65vh;
             color: #fff;
-            margin-bottom: 40px;
+            margin-bottom: 100px;
+
+            .carousel-inner {
+                position: relative;
+
+                .carousel-img-1 {
+                    width: 100%;
+                    height: auto;
+                    height: 65vh;
+                    background: url(/assets/images/slider-01.png);
+                    background-size: 100% 100%;
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding: 180px 0px;
+                    object-fit: cover;
+                    // margin-bottom: 20px;
+                    background-size: cover;
+
+                }
+
+                .carousel-img-2 {
+                    width: 100%;
+                    height: auto;
+                    height: 65vh;
+                    background: url(/assets/images/slider-02.png);
+                    background-size: 100% 100%;
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding: 180px 0px;
+                    object-fit: cover;
+                    margin-bottom: 20px;
+                    background-size: cover;
+                    overflow: hidden;
+                }
+
+                .carousel-img-3 {
+                    width: 100%;
+                    height: auto;
+                    height: 65vh;
+                    background: url(/assets/images/slider-03.png);
+                    background-size: 100% 100%;
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding: 180px 0px;
+                    object-fit: cover;
+                    margin-bottom: 20px;
+                    background-size: cover;
+                    overflow: hidden;
+                }
+
+                .carousel-img-4 {
+                    width: 100%;
+                    height: auto;
+                    height: 65vh;
+
+                    background: url(/assets/images/slider-03.png);
+                    background-size: 100% 100%;
+                    display: block;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    padding: 180px 0px;
+                    object-fit: cover;
+                    margin-bottom: 20px;
+                    background-size: cover;
+                    overflow: hidden;
+                }
+
+            }
 
 
 
@@ -60,12 +131,20 @@ $main_text_color: #C92570;
 
             .carousel-inner {
                 position: relative;
+                overflow: hidden;
 
                 img {
-                    width: 100%;
-                    height: auto;
-                    // height: 700px;
+                    // width: 100%;
+                    // height: auto;
+
+                    // height: 65vh;
+                    // width: 100vh;
+                    // min-height: 414px;
+
+
                 }
+
+                //style="width: 100vh; height: 65vh;"
 
                 .carousel-caption {
                     float: left;
@@ -129,7 +208,7 @@ $main_text_color: #C92570;
             }
         }
 
-img.discount,
+        img.discount,
         img.money,
         img.blog,
         img.jobs,
