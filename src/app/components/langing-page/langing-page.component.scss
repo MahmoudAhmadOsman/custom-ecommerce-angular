@@ -43,7 +43,8 @@ $main_text_color: #C92570;
         .carousel {
             // background-color: #2d2d2d : , 101010, 0f0f0f;
             // background-color: #0f0f0f;
-            height: 65vh;
+            // height: 65vh;
+            height: auto;
             color: #fff;
             margin-bottom: 100px;
 
@@ -102,7 +103,6 @@ $main_text_color: #C92570;
                     width: 100%;
                     height: auto;
                     height: 65vh;
-
                     background: url(/assets/images/slider-03.png);
                     background-size: 100% 100%;
                     display: block;
@@ -133,19 +133,6 @@ $main_text_color: #C92570;
                 position: relative;
                 overflow: hidden;
 
-                img {
-                    // width: 100%;
-                    // height: auto;
-
-                    // height: 65vh;
-                    // width: 100vh;
-                    // min-height: 414px;
-
-
-                }
-
-                //style="width: 100vh; height: 65vh;"
-
                 .carousel-caption {
                     float: left;
                 }
@@ -164,12 +151,39 @@ $main_text_color: #C92570;
 
     @media(max-width: 768px) {
         .main-slider-container {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 
             .carousel {
-                height: 99vh;
+                // height: 100vh;
+                height: auto;
                 display: block;
-                margin-bottom: 140px;
+                margin-bottom: 40px;
+
+                .carousel-inner {
+                    position: relative;
+
+                    .carousel-img-1,
+                    .carousel-img-2,
+                    .carousel-img-3,
+                    .carousel-img-4 {
+                        width: 100%;
+                        height: 75vh !important;
+                        background-size: 100% 100%;
+                        display: block;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        padding: 180px 0px;
+                        object-fit: cover;
+                        margin-bottom: 0px !important;
+                        background-size: cover;
+
+                    }
+                }
+
+
+
+
+
             }
         }
 
