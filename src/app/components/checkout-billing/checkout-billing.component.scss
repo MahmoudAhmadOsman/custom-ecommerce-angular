@@ -22,7 +22,6 @@ $shopping_boxes_shadow:#00000045;
         -o-box-shadow: 0px 5px 20px #00000045;
         border-radius: 8px;
         padding: 10px 20px;
-
     }
 
     .bx-2 {
@@ -38,10 +37,7 @@ $shopping_boxes_shadow:#00000045;
         border-radius: 8px;
         padding: 10px 20px;
         margin-left: 2%;
-
-
     }
-
 
     /*Start of adding new address*/
     .new__address {
@@ -98,6 +94,136 @@ $shopping_boxes_shadow:#00000045;
         }
 
     }
+
+
+
+    /*Start of paypal image*/
+    .paypal_container {
+        position: relative;
+        width: auto;
+        // width: 772px;
+        height: auto;
+        margin: auto;
+        // margin: 81px auto;
+
+        h2 {
+            text-align: center;
+            margin: 64px;
+        }
+
+        .btn-outline-secondary {
+            // width: 772px;
+            // height: 112px;
+            width: 100%;
+            height: auto;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 20px #00000045;
+            border-radius: 37px;
+            border: 0px;
+        }
+
+        img {
+            width: 185px;
+            // margin: 20px auto;
+            height: auto;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .paypal_container {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: auto;
+
+        }
+
+        .btn-outline-secondary {
+            width: 150px;
+            height: 112px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 20px #00000045;
+            border-radius: 37px;
+            border: 0px;
+            margin: 20px auto !important;
+
+        }
+
+        img {
+            padding: 0;
+            width: 100%;
+
+
+        }
+    }
+
+    /*End of paypal image*/
+
+    /*Start of go back to cart and next btns*/
+    .go_back_next_btn {
+
+        // display: flex;
+        margin: 133px auto;
+
+        .btn-secondary {
+            width: 289px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            padding: 0px;
+            font-weight: bold;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 2px;
+        }
+
+        .btn-primary {
+            width: 289px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            padding: 0px;
+            font-weight: bold;
+            background-color: #0087EA;
+            border: 1px solid #0087EA;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 2px;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .go_back_next_btn {
+            margin: 25px auto 25px 25px;
+
+        }
+
+        .btn-secondary {
+            width: auto;
+            height: 64px;
+            margin-bottom: 25px;
+            text-align: center;
+            padding: 0px;
+            font-weight: bold;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 2px;
+        }
+
+        .btn-primary {
+            width: auto;
+            height: 64px;
+            text-align: center;
+            padding: 0px;
+            font-weight: bold;
+            background-color: #0087EA;
+            border: 1px solid #0087EA;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 2px;
+            margin-bottom: 25px;
+        }
+    }
+
+    /*End of go back to cart and next btns*/
+
 }
 
 /*End of check out billing container*/
