@@ -6,12 +6,9 @@ $(document).ready(function () {
   });
 
   //Steps script
-  $(".bs-main-menu nav a").click(function (e) {
+  $(".steps_container ul li a").click(function (e) {
     //alert($(this).text());
-    // $(this).parent().addClass("active").siblings().removeClass("active");
-    $(this).parent().addClass("active").siblings().removeClass("not_active");
-
-    //e.preventDefault();
+    // e.preventDefault();
   });
 
   //Slider
