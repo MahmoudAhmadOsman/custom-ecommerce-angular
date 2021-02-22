@@ -6,9 +6,10 @@ $(document).ready(function () {
   });
 
   //Steps script
-  $(".step_one ul li a").click(function (e) {
+  $(".bs-main-menu nav a").click(function (e) {
     //alert($(this).text());
-    $(this).parent().addClass("active").siblings().removeClass("active");
+    // $(this).parent().addClass("active").siblings().removeClass("active");
+    $(this).parent().addClass("active").siblings().removeClass("not_active");
 
     //e.preventDefault();
   });
