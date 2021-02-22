@@ -3,72 +3,100 @@
   <app-checkout-menu></app-checkout-menu>
   <!-- Start of Shared menu -->
 
+  <!-- Start of  main container -->
+
   <!-- Start of container 3 -->
-  <div class="billing__details__container">
-    <div class="container">
-      <h2>Billing Details</h2>
-      <div class="addressess">
-        <div class="left_col">
-          <div class="left-col-details">
-            <!-- Start of btn action -->
-            <div class="btn-actions">
-              <div class="edit-btn">
-                <a
-                  href="/cart-edit-address"
-                  data-toggle="modal"
-                  data-target="#editwModal"
-                  >Edit</a
-                >
-              </div>
-              <div class="delete-btn">
-                <a href="#">
-                  <i class="fa fa-trash"></i>
-                </a>
-              </div>
-            </div>
-            <!-- End of btn action -->
-            <h4>Saved Address</h4>
-            <p>
-              Mastercard ending in 1234 <br />
-              <span
-                ><a href="/checkout">Billing Address:</a> same as shipping</span
-              >
-            </p>
-          </div>
-        </div>
-        <div class="right_col">
-          <!-- Start of btn action -->
-          <div class="btn-actions">
-            <div class="edit-btn">
-              <!-- <a href="/cart-edit-address">Edit</a> -->
+
+  <div class="container">
+    <h2>Billing Details</h2>
+    <div class="row">
+      <div class="bx-1">
+        <div class="col-md-10">
+          <h3>Saved Method</h3>
+          <p class="font-weight-bold">
+            Mastercard ending in 1234<br />
+            <span class="font-weight-normal">
               <a
                 href="/cart-edit-address"
                 data-toggle="modal"
                 data-target="#editwModal"
-                >Edit</a
+                >Billing Address:</a
               >
-            </div>
-            <div class="delete-btn">
-              <a href="#">
-                <i class="fa fa-trash"></i>
-              </a>
-            </div>
-          </div>
-          <!-- End of btn action -->
-          <div class="right-col-details">
-            <h4>Saved Address</h4>
-            <p>
-              Mastercard ending in 1234 <br />
-              <span
-                ><a href="/checkout">Billing Address:</a> same as shipping</span
-              >
-            </p>
-          </div>
+
+              same as shipping<br />
+            </span>
+          </p>
         </div>
-        <!--Start of add new address  -->
-        <div class="add_new_address">
-          <div class="add_n_ad-col-details">
-            <!-- <i class="fal fa-plus-circle"></i> -->
+
+        <!-- <div class="col-md-3 mt-2">  -->
+        <div class="mt-2">
+          <a
+            href="/cart-edit-address"
+            data-toggle="modal"
+            data-target="#editwModal"
+            >Edit</a
+          >
+          &nbsp;
+          <a
+            href="/checkout-delete-alert"
+            data-toggle="modal"
+            data-target="#chekcoutDeleteModel"
+          >
+            <i class="fa fa-trash text-danger"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Start of the two box -->
+      <div class="bx-2">
+        <div class="col-md-10">
+          <h3>Saved Method</h3>
+          <p class="font-weight-bold">
+            Mastercard ending in 1234<br />
+            <span class="font-weight-normal">
+              <a
+                href="/cart-edit-address"
+                data-toggle="modal"
+                data-target="#editwModal"
+                >Billing Address:</a
+              >
+
+              same as shipping<br />
+            </span>
+          </p>
+        </div>
+
+        <!-- <div class="col-md-3 mt-2"> -->
+        <div class="mt-2">
+          <a
+            href="/cart-edit-address"
+            data-toggle="modal"
+            data-target="#editwModal"
+            >Edit</a
+          >
+          &nbsp;
+          <a
+            href="/checkout-delete-alert"
+            data-toggle="modal"
+            data-target="#chekcoutDeleteModel"
+          >
+            <i class="fa fa-trash text-danger"></i>
+          </a>
+        </div>
+        <!-- </div> -->
+      </div>
+
+      <!-- End of the two box -->
+    </div>
+  </div>
+
+  <!-- Start of add new address -->
+
+  <div class="container">
+    <div class="new__address">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="add_address">
             <a
               href="/add-creditcard"
               class="fal fa-plus-circle"
@@ -79,50 +107,17 @@
             >
           </div>
         </div>
-        <!--End of add new address  -->
       </div>
     </div>
-  </div>
-  <!-- End of container 3 -->
 
-  <!-- Start of Paypal btn -->
-  <div class="paypal_container">
-    <div class="container">
-      <h2>OR</h2>
-      <div class="row">
-        <div class="col">
-          <a href="#" class="btn btn-outline-secondary">
-            <!-- <i class="fab fa-paypal" style="font-size: 85px;"></i> -->
-            <img
-              src="/assets/images/paypal-logo.png"
-              alt="paypal logo"
-              class="img-fluid"
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End of Paypal btn -->
+    <!-- End of add new address -->
 
-  <!-- Start btns back to cart a& next -->
-  <div class="go_back_next_btn">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="/checkout" class="btn btn-secondary"> Back to Cart</a>
-        </div>
-        <div class="col-md-6">
-          <a href="/checkout-review" class="btn btn-primary"> Next</a>
-        </div>
-      </div>
-    </div>
+    <!-- End of container 3 -->
   </div>
-
-  <!-- End btns back to cart a& next -->
+  <!-- End of  main container -->
 </section>
 
 <app-cart-add-new-address></app-cart-add-new-address>
-
 <app-cart-edit-form></app-cart-edit-form>
 <app-add-creditcard></app-add-creditcard>
+<app-checkout-delete-alert></app-checkout-delete-alert>
