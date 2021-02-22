@@ -118,15 +118,22 @@ $btn_main_bg_hover: #da498b;
         -ms-box-shadow: 0px 5px 9px #00000045;
         -o-box-shadow: 0px 5px 9px #00000045;
 
+
+        .box_two,
+        .box_three {
+            margin-top: 20px;
+
+        }
+
         .box_one {
             flex-grow: .2;
-            // border: 1px solid #444;
 
             img {
                 max-width: 100%;
                 width: 230px;
-                height: 220px;
+                min-height: 100%;
                 margin-right: 20px;
+
             }
         }
 
@@ -274,9 +281,7 @@ $btn_main_bg_hover: #da498b;
     .box_four {
         position: relative;
         flex-grow: 1;
-        // border: 1px solid green;
         background: #F7F7F7;
-        // box-shadow: 0px 0px 0px transparent;
         padding: 20px;
         justify-items: center;
 
@@ -377,6 +382,7 @@ $btn_main_bg_hover: #da498b;
                 width: 100%;
                 height: 100%;
                 padding: 20px 25px;
+                margin: auto;
 
                 h3,
                 h4 {
