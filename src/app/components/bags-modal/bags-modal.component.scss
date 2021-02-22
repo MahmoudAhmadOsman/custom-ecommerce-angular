@@ -19,7 +19,8 @@
 
         img {
             width: 100%;
-            height: 477px;
+            min-height: 477px;
+            height: auto;
 
 
         }
@@ -112,6 +113,8 @@
             }
 
             @media only screen and (max-width: 600px) {
+
+
                 .black-container {
                     width: 100%;
                     height: auto;
@@ -274,6 +277,9 @@
         /*Start of quality style*/
 
         @media only screen and (max-width: 768px) {
+
+
+
             .add_to_cart_view_btn {
                 display: flex;
 
