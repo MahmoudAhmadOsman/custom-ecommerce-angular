@@ -15,4 +15,21 @@ $(document).ready(function () {
   // $("#myCarousel").carousel({
   //   interval: 322000,
   // });
+
+  //Scroll to
+  let headerHeight = $(".left-menu-links").outerHeight();
+  $(".slide-section").click(function (e) {
+    e.preventDefault();
+    var linkHref = $(this).attr("href");
+    $("html, body")
+      .delay(8)
+      .animate(
+        {
+          scrollTop: $(linkHref).offset().top - headerHeight + 1,
+        },
+        100
+      );
+
+    e.preventDefault();
+  });
 });
