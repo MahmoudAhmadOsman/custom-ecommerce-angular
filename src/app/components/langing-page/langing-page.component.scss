@@ -1,5 +1,6 @@
 $main_bg_color: #C92570;
 $main_text_color: #C92570;
+$btn_danger_hover_bg: #d22e79;
 
 
 .langing-page {
@@ -139,11 +140,17 @@ $main_text_color: #C92570;
 
                 .btn-danger {
                     width: 189px;
-                    height: 60px;
+                    // height: 60px;
+                    height: 50px;
                     background-color: $main_bg_color;
                     border: 1px solid #C92570;
                     border-radius: 2px;
-                    padding: 13px;
+
+                    // padding: 13px;
+                    &:hover {
+                        background-color: $btn_danger_hover_bg;
+                        cursor: pointer;
+                    }
                 }
             }
         }
@@ -323,13 +330,19 @@ $main_text_color: #C92570;
 
         a.btn-danger {
             width: 189px;
-            height: 60px;
+            // height: 60px;
+            height: 50px;
             text-align: center;
             background-color: $main_bg_color;
             border: 1px solid $main_bg_color;
             border-radius: 2px;
-            font-weight: bold;
-            padding: 13px;
+
+            // font-weight: bold;
+            // padding: 13px;
+            &:hover {
+                background-color: $btn_danger_hover_bg;
+                cursor: pointer;
+            }
         }
     }
 
@@ -356,11 +369,17 @@ $main_text_color: #C92570;
 
         .btn-danger {
             width: 189px;
-            height: 60px;
+            // height: 60px;
+            height: 50px;
             background-color: $main_bg_color;
-            padding: 12px;
+            // padding: 12px;
             text-align: center;
             border-radius: 2px;
+
+            &:hover {
+                background-color: $btn_danger_hover_bg;
+                cursor: pointer;
+            }
 
         }
 
