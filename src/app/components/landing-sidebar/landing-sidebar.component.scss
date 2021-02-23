@@ -73,7 +73,7 @@ $main_text_color: #C92570;
     /*Start of main-c-container*/
     .money_container {
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
 
         h2 {
             color: $main_text_color;
@@ -82,7 +82,7 @@ $main_text_color: #C92570;
 
         .first-row {
             position: relative;
-            // margin-bottom: 20px;
+            margin-bottom: 20px;
 
             img {
                 width: 100%;
@@ -110,7 +110,7 @@ $main_text_color: #C92570;
         /*Start of second row style*/
         .second-row {
             position: relative;
-            // margin-bottom: 20px;
+            margin-bottom: 20px;
 
             img {
                 width: 100%;
@@ -148,7 +148,7 @@ $main_text_color: #C92570;
 
     .events_container {
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
 
         h2 {
             color: $main_text_color;
@@ -163,7 +163,7 @@ $main_text_color: #C92570;
 
         .event-row-one {
             position: relative;
-            // margin-bottom: 20px;
+            margin-bottom: 20px;
 
             .event__details {
                 position: relative;
@@ -200,6 +200,31 @@ $main_text_color: #C92570;
             }
 
         }
+
+
+
+        /*Start of what Event we offer style*/
+        .events_offer_container {
+            margin-top: 48px;
+
+            h3 {
+                margin-bottom: 32px;
+            }
+
+            img {
+                width: 100%;
+                // width: 385px;
+                height: 289px;
+            }
+
+            p {
+                margin-top: 24px;
+                color: #000;
+            }
+        }
+
+        /*End of what Event we offer style*/
+
 
 
 
