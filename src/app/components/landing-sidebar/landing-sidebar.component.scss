@@ -1,10 +1,9 @@
 /*Start of left menu */
 $main_bg_color: #C92570;
 $main_text_color: #C92570;
+$btn_danger_hover_bg: #d22e79;
 
-// img {
-//     height: 150px !important;
-// }
+
 
 
 .left-sidebar {
@@ -297,12 +296,8 @@ $main_text_color: #C92570;
                 p {
                     width: 80%;
                 }
-
             }
-
         }
-
-
 
         /*Start of what Jobs we offer style*/
         .jobss_offer_container {
@@ -328,21 +323,6 @@ $main_text_color: #C92570;
     }
 
     /*End of Jobs style*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /*Start of networking style*/
     .networking_container {
@@ -463,20 +443,35 @@ $main_text_color: #C92570;
                 width: 80%;
             }
         }
-
-
-
-
     }
 
     /* End of Discounts style*/
 
+    /*Start of sign up bottom btn*/
 
+    .bottom-sign-up {
+        position: relative;
+        margin-bottom: 60px;
 
+        a.btn-danger {
+            width: 217px;
+            // height: 64px;
+            height: auto;
+            // line-height: 43px;
+            background-color: $main_bg_color;
+            border: 1px solid $main_bg_color;
+            border-radius: 2px;
+            box-shadow: 0px 5px 9px #0000001A;
+            font-size: 24px;
 
+            &:hover {
+                background-color: $btn_danger_hover_bg;
+                border: 1px solid $main_bg_color;
+                cursor: pointer;
+            }
 
-
-
+        }
+    }
 
 
 }
@@ -638,20 +633,11 @@ $main_text_color: #C92570;
         }
 
         // p {
- //     padding: 10px 20px;
- // }
+        //     padding: 10px 20px;
+        // }
     }
 
     /*End What Events Offers style*/
-
-
-
-
-
-
-
-
-
 
     /*Start of Jobs container style*/
     .jobs_container {
@@ -706,8 +692,8 @@ $main_text_color: #C92570;
         }
 
         // p {
- //     padding: 10px 20px;
- // }
+        //     padding: 10px 20px;
+        // }
     }
 
     /*End What Jobs Offers style*/
