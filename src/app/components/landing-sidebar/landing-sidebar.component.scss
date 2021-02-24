@@ -228,16 +228,64 @@ $main_text_color: #C92570;
         }
 
         /*End of what Event we offer style*/
+    }
+
+    /*End of events style*/
 
 
+    /*Start of networking style*/
+    .networking_container {
+        position: relative;
+        display: block;
+        margin-bottom: 20px;
+
+        h2 {
+            color: $main_text_color;
+            font-weight: bold;
+        }
+
+        .networking-row-one {
+            position: relative;
+            margin-bottom: 20px;
+
+            img {
+                height: auto;
+            }
+
+            .networking__details {
+                margin: 25% auto;
+
+                p {
+                    width: 80%;
+                }
+
+            }
+        }
+
+        .networking-row-two {
+            position: relative;
+            margin-bottom: 20px;
+
+            img {
+                height: auto;
+            }
+
+
+            .networking__details {
+                margin: 25% auto;
+
+                p {
+                    width: 80%;
+                }
+
+            }
+        }
 
 
 
     }
 
-
-    /*End of events style*/
-
+    /*End of networking style*/
 
 
 
@@ -345,18 +393,8 @@ $main_text_color: #C92570;
                     width: 100%;
                 }
             }
-
         }
-
-
     }
-
-
-
-
-
-
-
 
     /*End of money container*/
 
@@ -398,11 +436,74 @@ $main_text_color: #C92570;
                 }
             }
         }
+    }
 
+    /*End of What Events Offer style*/
+
+
+    /*Start What Events Offersstyle*/
+    .events_offer_container {
+        position: relative;
+        display: block;
+
+        img {
+            height: auto;
+        }
+
+        p {
+            padding: 10px 20px;
+        }
+    }
+
+    /*End What Events Offers style*/
+
+
+
+    /*Start of networking style*/
+    .networking_container {
+        position: relative;
+        margin-bottom: 20px;
+
+        .networking-row-one {
+            position: relative;
+
+            img {
+                height: auto;
+            }
+
+            .networking__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .networking-row-two {
+            position: relative;
+
+            img {
+                height: auto;
+            }
+
+            .networking__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
 
     }
 
-    /*End of Events container style*/
+    /*End of networking style*/
+
+
+
+
+
 
 
 
@@ -411,6 +512,4 @@ $main_text_color: #C92570;
 
 }
 
-
-
-/*End of left menu */
+/*End of left menu  bracket*/
