@@ -17,14 +17,14 @@ $(document).ready(function () {
   // });
 
   //Scroll to
-  var headerHeight = $(".left-menu-links").outerHeight();
+  var headerHeight = $(".left-menu-links .list-group").outerHeight();
   $(".slide-section").click(function (e) {
     var linkHref = $(this).attr("href");
     $("html, body")
       .delay(8)
       .animate(
         {
-          scrollTop: $(linkHref).offset().top - headerHeight - 1,
+          scrollTop: $(linkHref).offset().top - headerHeight + 1,
         },
         100
       );

@@ -2,6 +2,11 @@
 $main_bg_color: #C92570;
 $main_text_color: #C92570;
 
+// img {
+//     height: 150px !important;
+// }
+
+
 .left-sidebar {
     position: relative;
     display: block;
@@ -233,6 +238,112 @@ $main_text_color: #C92570;
     /*End of events style*/
 
 
+
+
+
+
+
+    /*Start of Jobs style*/
+
+    .jobs_container {
+        position: relative;
+        margin-bottom: 40px;
+
+        h2 {
+            color: $main_text_color;
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+            height: 356px;
+            height: auto;
+        }
+
+        .jobs-row-one {
+            position: relative;
+            margin-bottom: 20px;
+
+            .jobs__details {
+                position: relative;
+                // margin: 140px auto;
+                margin: 25% auto;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                p {
+                    width: 80%;
+                }
+
+            }
+
+        }
+
+        .jobs-row-two {
+            position: relative;
+            // margin-bottom: 20px;
+
+            .jobs__details {
+                position: relative;
+                // margin: 140px auto;
+                margin: 25% auto;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                p {
+                    width: 80%;
+                }
+
+            }
+
+        }
+
+
+
+        /*Start of what Jobs we offer style*/
+        .jobss_offer_container {
+            margin-top: 48px;
+
+            h3 {
+                margin-bottom: 32px;
+            }
+
+            img {
+                width: 100%;
+                // width: 385px;
+                height: 289px;
+            }
+
+            p {
+                margin-top: 24px;
+                color: #000;
+            }
+        }
+
+        /*End of what Jobs we offer style*/
+    }
+
+    /*End of Jobs style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*Start of networking style*/
     .networking_container {
         position: relative;
@@ -255,6 +366,10 @@ $main_text_color: #C92570;
             .networking__details {
                 margin: 25% auto;
 
+                h3 {
+                    font-weight: bold;
+                }
+
                 p {
                     width: 80%;
                 }
@@ -270,9 +385,12 @@ $main_text_color: #C92570;
                 height: auto;
             }
 
-
             .networking__details {
                 margin: 25% auto;
+
+                h3 {
+                    font-weight: bold;
+                }
 
                 p {
                     width: 80%;
@@ -280,12 +398,81 @@ $main_text_color: #C92570;
 
             }
         }
+    }
+
+    /*End of networking style*/
+
+
+    /*Start of Lifestyle style*/
+
+    .lifestyle_container {
+        position: relative;
+        margin-bottom: 20px;
+
+        h2 {
+            color: $main_text_color;
+            font-weight: bold;
+        }
+
+        .lifestyle-row-one {
+            position: relative;
+
+            img {
+                height: auto;
+            }
+
+            .lifestyle__details {
+                margin: 25% auto;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                p {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    /*End of Lifestyle style*/
+
+
+    /* Start of Discounts style*/
+    .discounts_container {
+        position: relative;
+        margin-bottom: 20px;
+
+        h2 {
+            color: $main_text_color;
+            font-weight: bold;
+        }
+
+        img {
+            height: auto;
+        }
+
+        .discounts__details {
+            margin: 25% auto;
+
+            h3 {
+                font-weight: bold;
+            }
+
+            p {
+                width: 80%;
+            }
+        }
+
 
 
 
     }
 
-    /*End of networking style*/
+    /* End of Discounts style*/
+
+
+
 
 
 
@@ -450,12 +637,97 @@ $main_text_color: #C92570;
             height: auto;
         }
 
-        p {
-            padding: 10px 20px;
-        }
+        // p {
+ //     padding: 10px 20px;
+ // }
     }
 
     /*End What Events Offers style*/
+
+
+
+
+
+
+
+
+
+
+    /*Start of Jobs container style*/
+    .jobs_container {
+        position: relative;
+        display: block;
+
+        .jobs-row-one {
+            position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .jobs__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        .jobs-row-two {
+            position: relative;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .jobs__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    /*End of What Jobs Offer style*/
+
+
+    /*Start What Jobs Offersstyle*/
+    .jobs_offer_container {
+        position: relative;
+        display: block;
+
+        img {
+            height: auto;
+        }
+
+        // p {
+ //     padding: 10px 20px;
+ // }
+    }
+
+    /*End What Jobs Offers style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -500,9 +772,53 @@ $main_text_color: #C92570;
 
     /*End of networking style*/
 
+    /*Start of lifestyle style*/
+    .lifestyle_container {
+        position: relative;
+        margin-bottom: 20px;
 
+        .lifestyle-row-one {
+            position: relative;
 
+            img {
+                height: auto;
+            }
 
+            .lifestyle__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    /*End of lifestyle style*/
+
+    /*Start of Discounts Style*/
+    .discounts_container {
+        position: relative;
+        margin-bottom: 20px;
+
+        .discounts-row-one {
+            position: relative;
+
+            img {
+                height: auto;
+            }
+
+            .discounts__details {
+                margin: 25px auto !important;
+
+                p {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    /*End of Discounts Style*/
 
 
 
