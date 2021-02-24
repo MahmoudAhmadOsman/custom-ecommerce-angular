@@ -1,20 +1,20 @@
 $checkout_main_color: #C92570;
 $shopping_boxes_shadow:#00000045;
+$container_two_bg: #F7F7F7;
 
 .container_one {
     margin-bottom: 0px;
 
 }
 
-
 .container_two {
     height: 156px;
-    background: #F7F7F7;
+    background: $container_two_bg;
     margin-bottom: 75px;
+
 
     /*Start of step one style*/
     .steps_container {
-
         position: relative;
         padding: 40px 0px;
 
@@ -30,17 +30,20 @@ $shopping_boxes_shadow:#00000045;
                 line-height: 56px;
                 text-align: center;
                 font-weight: bold;
-                border: 1px solid #000;
+                border: 1px solid #333;
 
                 a {
-                    // color: #000 !important;
+                    color: #000;
                     text-decoration: none;
+
                 }
 
                 h4 {
                     font-weight: bold;
-                    font-size: 20px;
-                    margin-left: -15px;
+                    // margin-left: -10px;
+                    font-size: 18px;
+                    text-align: center;
+                    // color: $checkout_main_color;
                 }
             }
 
@@ -53,13 +56,77 @@ $shopping_boxes_shadow:#00000045;
                 border: 1px solid $checkout_main_color;
                 font-size: 20px;
                 color: $checkout_main_color;
-                color: #fff;
+                color: #fff !important;
+                display: block;
+                margin: -1px -1px;
+                overflow: hidden;
 
             }
 
+            .active-text {
+                color: $checkout_main_color;
+            }
         }
 
     }
 
     /*End of step one style*/
+}
+
+@media(max-width:768px) {
+    .container_two {
+        position: relative;
+
+        .steps_container {
+            position: relative;
+            padding: 50px 40px;
+            margin: auto;
+
+
+            ul {
+                position: relative;
+
+                li.li-style {
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    line-height: 28px;
+                    text-align: center;
+                    font-weight: bold;
+                    border: 1px solid #000;
+
+                    a {
+
+                        text-decoration: none;
+                        // font-size: 18px;
+                        display: block;
+                    }
+
+                    h4 {
+                        font-weight: bold;
+                        font-size: 10px;
+                        text-align: center;
+                        margin: 0px auto;
+                    }
+                }
+
+                .active-link {
+                    width: 27px;
+                    height: 27px;
+                    border-radius: 50%;
+                    line-height: 27px;
+                    background-color: $checkout_main_color;
+                    border: 1px solid $checkout_main_color;
+                    margin: 0px auto;
+                    color: $checkout_main_color;
+                    color: #fff;
+                    display: block;
+
+                }
+
+            }
+
+
+        }
+    }
 }

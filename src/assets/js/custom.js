@@ -8,7 +8,12 @@ $(document).ready(function () {
   //Steps script
   $(".steps_container ul li a").click(function (e) {
     //alert($(this).text());
-    // e.preventDefault();
+
+    // $(this).addClass("active-text").siblings().removeClass("active-text");
+
+    // $(".steps_container ul li a").removeClass("active-text");
+    // $(this).next().addClass("active-text");
+    e.preventDefault();
   });
 
   //Slider
