@@ -54,7 +54,7 @@ $title_color: #C92570;
                 .breadcrumb {
                     width: 100%;
                     background: none;
-                     
+
 
 
                     .breadcrumb-item.active {
@@ -300,35 +300,51 @@ $title_color: #C92570;
                 font-size: 20px;
             }
         }
-    }
 
-    .sort_by_links {
-        display: block;
-        width: 10%;
+        .bags__content__container {
+            position: relative;
+            .sort_by_links {
+                display: block;
+                width: 10%;
 
-        .accordion {
-            .card-header {
-                width: 70%;
-                display: inline-block;
-                margin-left: 38px;
-                background: none;
-            }
+                .accordion {
+                    .card-header {
+                        width: 70%;
+                        display: inline-block;
+                        margin-left: 38px;
+                        background: none;
+                    }
 
-            ul {
-                position: relative;
+                    ul {
+                        position: relative;
 
 
-                li {
-                    margin-left: 48px !important;
-                    list-style: none;
+                        li {
+                            margin-left: 48px !important;
+                            list-style: none;
+                        }
+                    }
+
+
                 }
+
+
             }
 
+            .readmore__links {
+                position: relative;
+                width: auto;
+                height: 64px;
+                display: block;
+                margin: 5px -15px;
 
+            }
         }
 
 
     }
+
+
 }
 
 

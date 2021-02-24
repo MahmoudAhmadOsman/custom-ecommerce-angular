@@ -7,13 +7,19 @@ $(document).ready(function () {
 
   //Steps script
   $(".steps_container ul li a").click(function (e) {
-    //alert($(this).text());
+    //   //alert($(this).text());
+    //  $(this).addClass("active-text").siblings().removeClass("active-text");
+    //   // $(".steps_container ul li a").removeClass("active-text");
+    //   // $(this).next().addClass("active-text");
+    //   // e.preventDefault();
+  });
 
-    // $(this).addClass("active-text").siblings().removeClass("active-text");
-
-    // $(".steps_container ul li a").removeClass("active-text");
-    // $(this).next().addClass("active-text");
-    e.preventDefault();
+  let button = document.querySelectorAll("h4");
+  button.forEach((button) => {
+    button.addEventListener("click", function () {
+      button.forEach((btn) => btn.classList.remove("active-text"));
+      this.classList.add("active-text");
+    });
   });
 
   //Slider

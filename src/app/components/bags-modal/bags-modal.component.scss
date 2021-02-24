@@ -26,6 +26,22 @@
         }
     }
 
+    @media(max-width:768px) {
+        .bags__carousel {
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                // min-height: 100%;
+                min-height: 250px;
+                overflow: hidden;
+
+
+            }
+        }
+    }
+
     /*Left and righ arrow of the carousel*/
     .fa-chevron-left,
     .fa-chevron-right {
@@ -112,12 +128,10 @@
                 }
             }
 
-            @media only screen and (max-width: 600px) {
-
-
+            @media (max-width: 768px) {
                 .black-container {
                     width: 100%;
-                    height: auto;
+                    height: 40px;
                 }
 
                 span {
@@ -276,10 +290,7 @@
 
         /*Start of quality style*/
 
-        @media only screen and (max-width: 768px) {
-
-
-
+        @media (max-width: 768px) {
             .add_to_cart_view_btn {
                 display: flex;
 
