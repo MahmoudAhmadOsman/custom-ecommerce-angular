@@ -27,19 +27,24 @@ $(document).ready(function () {
   //   interval: 322000,
   // });
 
-  //Scroll to
-  var headerHeight = $(".left-menu-links .list-group").outerHeight();
-  $(".slide-section").click(function (e) {
-    var linkHref = $(this).attr("href");
+  //Scroll to element
+  $("ul.sidebar-ul-links a").click(function (e) {
+    var targetHref = $(this).attr("href");
+
     $("html, body")
-      .delay(8)
+      .delay(20)
       .animate(
         {
-          scrollTop: $(linkHref).offset().top - headerHeight + 1,
+          scrollTop: $(targetHref).offset().top,
         },
         100
       );
 
     e.preventDefault();
+  });
+
+  //Side bar ul links
+  $("ul.sidebar-ul-links a").click(function () {
+    $(this).addClass("sidebar-active").siblings().removeClass("sidebar-active");
   });
 });

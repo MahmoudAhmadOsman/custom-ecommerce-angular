@@ -3,6 +3,10 @@ $main_bg_color: #C92570;
 $main_text_color: #C92570;
 $btn_danger_hover_bg: #d22e79;
 
+.sidebar-active {
+    color: $main_text_color !important;
+
+}
 
 
 
@@ -10,14 +14,25 @@ $btn_danger_hover_bg: #d22e79;
     position: relative;
     display: block;
 
+    .fixed-top {
+        // background-color: #F7F7F7;
+
+        margin-top: 75px;
+    }
+
     .left-menu-links {
         width: 100%;
         background-color: #F7F7F7;
         height: 100vh;
-        margin-top: 60px;
+        // margin-top: 60px;
+        // margin-top: 43px;
+        margin-top: 0px;
 
         h3 {
             text-align: center;
+            font-size: 30px;
+            margin-top: 95px;
+            margin-bottom: 36px;
         }
 
         .list-group-item {
@@ -27,9 +42,9 @@ $btn_danger_hover_bg: #d22e79;
         }
 
         a {
-            font-size: 18px;
-            color: #000;
-            font-weight: bold;
+            font-size: 21px;
+            color: #000000;
+
         }
     }
 
@@ -421,7 +436,8 @@ $btn_danger_hover_bg: #d22e79;
     /* Start of Discounts style*/
     .discounts_container {
         position: relative;
-        margin-bottom: 20px;
+        height: auto;
+        margin-bottom: 40px;
 
         h2 {
             color: $main_text_color;
@@ -455,14 +471,12 @@ $btn_danger_hover_bg: #d22e79;
 
         a.btn-danger {
             width: 217px;
-            // height: 64px;
-            height: auto;
-            // line-height: 43px;
+            height: 64px;
             background-color: $main_bg_color;
             border: 1px solid $main_bg_color;
             border-radius: 2px;
             box-shadow: 0px 5px 9px #0000001A;
-            font-size: 24px;
+            font-size: 31px;
 
             &:hover {
                 background-color: $btn_danger_hover_bg;
