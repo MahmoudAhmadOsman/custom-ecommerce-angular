@@ -48,3 +48,24 @@
 
 
 }
+
+
+@media(max-width:768px) {
+    .subscribe__to__newsletter {
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+        .subscribe__form {
+            position: relative;
+
+            input[type=email] {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+}
