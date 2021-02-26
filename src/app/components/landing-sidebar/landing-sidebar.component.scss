@@ -507,13 +507,15 @@ $btn_danger_hover_bg: #d22e79;
             .left-menu-links {
                 height: auto;
                 position: relative;
-                margin-top: 0px;
+                margin-top: -140px;
                 margin-bottom: 30px;
+
 
                 .list-group-item {
                     margin: auto;
                     background-color: #F7F7F7;
                     display: block;
+                    text-align: center;
                 }
 
             }

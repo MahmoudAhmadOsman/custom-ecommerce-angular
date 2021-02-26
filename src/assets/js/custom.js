@@ -14,14 +14,6 @@ $(document).ready(function () {
     //   // e.preventDefault();
   });
 
-  let button = document.querySelectorAll("h4");
-  button.forEach((button) => {
-    button.addEventListener("click", function () {
-      button.forEach((btn) => btn.classList.remove("active-text"));
-      this.classList.add("active-text");
-    });
-  });
-
   //Slider
   // $("#myCarousel").carousel({
   //   interval: 322000,
