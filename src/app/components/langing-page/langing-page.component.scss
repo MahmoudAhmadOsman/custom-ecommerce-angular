@@ -459,40 +459,43 @@ $what_we_offer_p_color: #525252;
 
         p.learn-m-btn {
             position: relative;
+            position: absolute;
+            text-align: center;
+            margin: auto 100px;
+
+
+
+
+            .fa-arrow-right {
+                margin-left: 10px;
+            }
 
             &:hover {
-                margin-left: 12px;
-                animation: mymove 5s infinite;
-                animation-name: animate_arrow;
-                animation-duration: 1s;
-                animation-iteration-count: infinite;
-
                 .fa-arrow-right {
-                    position: relative;
-                    transition: all .4s ease-in-out;
-                    -webkit-transition: all .4s ease-in-out;
-                    cursor: pointer;
-
-
-
-                    @keyframes animate_arrow {
-
-                        0%,
-                        100% {
-                            color: $main_text_color;
-                            margin-left: 0px;
-                        }
-
-                        25% {
-
-                            margin-right: -14px;
-                            color: $main_text_color;
-                            opacity: .8
-                        }
-                    }
-
-
+                    margin-left: 8px;
+                    animation: mymove 5s infinite;
+                    animation-name: animate_arrow;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
                 }
+            }
+
+            @keyframes animate_arrow {
+
+                0%,
+                25% {
+                    color: $main_text_color;
+                    margin-left: 12px;
+                }
+
+                50% {
+
+                    margin-right: 12px;
+                    color: $main_text_color;
+                    opacity: .5
+                }
+
+
             }
 
 
