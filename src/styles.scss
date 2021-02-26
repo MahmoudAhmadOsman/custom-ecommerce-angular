@@ -13,17 +13,16 @@ html {
 }
 
 body {
-
-  font: "Suisse Intl";
   overflow-x: hidden;
-  // height: 10000px;
   height: auto;
+  font-family: SuisseIntl-Regular;
 
 }
 
-// @font-face {
-//   font-family: 'SuisseIntl-Regular';
+@font-face {
+  font-family: SuisseIntl-Regular;
+  src: url('assets/fonts/SuisseIntl-Regular.otf');
+  src: url('assets/fonts/SuisseIntl-SemiBold.otf');
+  src: url('assets/fonts/SuisseIntl-Thin.otf');
 
-//   src: url('SuisseIntl-Regular.otf');
-
-// }
+}
