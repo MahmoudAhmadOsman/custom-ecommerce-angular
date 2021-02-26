@@ -467,13 +467,13 @@ $what_we_offer_p_color: #525252;
 
 
             .fa-arrow-right {
-                margin-left: 10px;
+                margin-left: 20px;
             }
 
             &:hover {
                 .fa-arrow-right {
-                    margin-left: 8px;
-                    animation: mymove 5s infinite;
+                    margin-left: 0px;
+                    animation: animate_arrow 4s infinite;
                     animation-name: animate_arrow;
                     animation-duration: 1s;
                     animation-iteration-count: infinite;
@@ -485,16 +485,27 @@ $what_we_offer_p_color: #525252;
                 0%,
                 25% {
                     color: $main_text_color;
-                    margin-left: 12px;
+                    margin-left: 10px;
                 }
 
                 50% {
 
-                    margin-right: 12px;
+                    margin-right: 20px;
                     color: $main_text_color;
-                    opacity: .5
+                    opacity: .8;
+
                 }
 
+                75% {
+                    color: $main_text_color;
+                    margin-left: 10px;
+                }
+
+                100% {
+                    color: $main_text_color;
+                    margin-right: 20px;
+                    opacity: .8;
+                }
 
             }
 
