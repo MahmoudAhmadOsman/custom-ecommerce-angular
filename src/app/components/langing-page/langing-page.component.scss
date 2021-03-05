@@ -396,19 +396,21 @@ $what_we_offer_p_color: #525252;
         }
 
         .col-md-4 {
-            width: 440px;
-            height: auto;
+
+            // width: 440px;
+            // max-width: 33.333333%;
+            // margin-right: 10px;
             height: 467px;
-            background-color: #FDFDFD;
-            border: 1px solid #F7F7F7;
-            // padding: 5px 65px;
-            margin-bottom: 15px;
+            // background-color: #FDFDFD;
+            border: 5px solid #F7F7F7;
+            background-color: #c3c3c34a;
+            // margin-bottom: 15px;
             box-shadow: 1px 3px 3px #fdfdfd;
             -webkit-box-shadow: 1px 3px 3px #0000000A;
             -moz-box-shadow: 1px 3px 3px #0000000A;
             -ms-box-shadow: 1px 3px 3px #0000000A;
             -o-box-shadow: 1px 3px 3px #0000000A;
-            padding: 30px;
+            padding: 5px 30px;
             transition: all .4s ease-in-out;
             -webkit-transition: all .4s ease-in-out;
             -moz-transition: all .4s ease-in-out;
@@ -416,15 +418,24 @@ $what_we_offer_p_color: #525252;
             -o-transition: all .4s ease-in-out;
 
 
+
             &:hover {
                 background-color: #fff;
-                border: 1px solid #F7F7F7;
-                box-shadow: 1px 3px 3px #0000000A;
-                -webkit-box-shadow: 1px 3px 3px #0000000A;
-                -moz-box-shadow: 1px 3px 3px #0000000A;
-                -ms-box-shadow: 1px 3px 3px #0000000A;
-                -o-box-shadow: 1px 3px 3px #0000000A;
-                cursor: pointer;
+           border: 5px solid #F7F7F7;
+           box-shadow: 1px 3px 3px #0000000A;
+           -webkit-box-shadow: 1px 3px 3px #0000000A;
+           -moz-box-shadow: 1px 3px 3px #0000000A;
+           -ms-box-shadow: 1px 3px 3px #0000000A;
+           -o-box-shadow: 1px 3px 3px #0000000A;
+           cursor: pointer;
+                // border: 5px solid #F7F7F7;
+                // transform: translateY(-3px);
+                // box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+                // -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+                // -ms-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+                // -moz-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+                // -o-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+                // cursor: pointer;
             }
 
             h3 {
@@ -525,6 +536,48 @@ $what_we_offer_p_color: #525252;
         }
 
     }
+
+
+    @media(max-width:768px) {
+        .what-we-offer {
+            display: block;
+
+
+            .col-md-4 {
+
+                // width: 440px;
+                // max-width: 33.333333%;
+                max-width: 100%;
+                margin-right: 0px;
+                height: 467px;
+                background-color: #f4f4f4;
+                border: 1px solid #F7F7F7;
+                // background-color: #413d3d;
+                margin-bottom: 10px;
+                margin-top: auto;
+
+
+            }
+
+
+
+
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
 
     /*End of what we offer style*/
 
