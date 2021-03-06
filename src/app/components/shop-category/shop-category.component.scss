@@ -19,7 +19,7 @@
 
     h3 {
       font-weight: bold;
-     font:Suisse Intl;
+      font: Suisse Intl;
       color: #000000;
     }
   }
@@ -27,7 +27,7 @@
   .shop-category-btn {
     position: relative;
     margin-top: -30px;
-    
+
 
     .btn-outline-danger {
       width: 289px;
@@ -57,12 +57,12 @@
 }
 
 
-@media (max-width: 800px)  {
+@media (max-width: 800px) {
   .shop_category {
- width: 100%; 
- margin: auto;
-  padding: 180px 0px;
-  overflow-x: hidden;
-  display: block;
+    width: 100%;
+    margin: auto;
+    padding: 180px 0px;
+    overflow-x: hidden;
+    display: block;
   }
 }

@@ -1,143 +1,143 @@
 .confirmation-page {
-    position: relative;
+  position: relative;
 
-    /*Start of shipping--address container style*/
-    .shipping--address-c {
-        overflow: hidden;
-        width: auto;
-        height: auto;
-        margin: auto;
-        background: #FFFFFF;
-        box-shadow: 0px 5px 20px #00000045;
-        margin-bottom: 40px;
+  /*Start of shipping--address container style*/
+  .shipping--address-c {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px #00000045;
+    margin-bottom: 40px;
 
-        .shipping-content {
-            padding: 40px;
-        }
+    .shipping-content {
+      padding: 40px;
+    }
+  }
+
+  /*End of shipping--address container style*/
+
+
+  .final-summary {
+    width: auto;
+    height: auto;
+    background: #F7F7F7;
+    box-shadow: 0px 5px 20px #00000045;
+
+
+    h4 {
+      padding: 40px;
+      margin-bottom: -60px;
     }
 
-    /*End of shipping--address container style*/
+    .order-summary {
+      position: relative;
+      display: flex;
+      padding: 40px;
+
+      ul {
+        display: inline-block;
+        margin-right: 2rem;
+        max-width: 200px;
+        min-width: 300px;
+        list-style: none;
 
 
+        li {
+          position: relative;
+
+          &:after {
+            content: "";
+            position: absolute;
+            top: 10px;
+            right: -6%;
+            border-top: 3px solid #ccc;
+            width: 80%;
+            height: 12px;
+            border-style: dotted;
+            border-bottom: 0px;
+            border-right: 0px;
+            border-left: 0px;
+          }
+        }
+
+
+
+      }
+
+    }
+  }
+
+  @media(max-width:768px) {
     .final-summary {
-        width: auto;
-        height: auto;
-        background: #F7F7F7;
-        box-shadow: 0px 5px 20px #00000045;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
 
 
-        h4 {
-            padding: 40px;
-            margin-bottom: -60px;
-        }
+      .order-summary {
+        width: 100%;
+        position: relative;
+        padding: 10px;
+        margin-top: 25px;
 
-        .order-summary {
+        ul {
+          position: relative;
+          display: inline-block;
+          margin-right: 0px;
+          width: 100%;
+          list-style: none;
+
+          li {
             position: relative;
-            display: flex;
-            padding: 40px;
 
-            ul {
-                display: inline-block;
-                margin-right: 2rem;
-                max-width: 200px;
-                min-width: 300px;
-                list-style: none;
-
-
-                li {
-                    position: relative;
-
-                    &:after {
-                        content: "";
-                        position: absolute;
-                        top: 10px;
-                        right: -6%;
-                        border-top: 3px solid #ccc;
-                        width: 80%;
-                        height: 12px;
-                        border-style: dotted;
-                        border-bottom: 0px;
-                        border-right: 0px;
-                        border-left: 0px;
-                    }
-                }
-
-
-
+            &:after {
+              // content: "";
+              // position: absolute;
+              // top: 10px;
+              // right: 50%;
+              // border-top: 3px solid #ccc;
+              // width: 20%;
+              // height: 12px;
+              // border-style: dotted;
+              // border-bottom: black;
+              // border-right: 0px;
+              // border-left: 0px;
+              content: "";
+              position: absolute;
+              top: 10px;
+              right: 85px;
+              border-top: 3px solid #ccc;
+              // width: 138px;
+              width: 130px;
+              height: 12px;
+              border-style: dotted;
+              border-bottom: black;
+              border-right: 0px;
+              border-left: 0px;
+              left: 67px;
+              right: 0px;
             }
-
+          }
         }
-    }
+      }
 
-    @media(max-width:768px) {
-        .final-summary {
-            width: 100%;
-            height: auto;
-            overflow-x: hidden;
+      .order-summary {
+        position: relative;
+        display: flex;
+        // padding: 40px;
+        // margin-left: -114px;
+        padding: 20px;
 
-
-            .order-summary {
-                width: 100%;
-                position: relative;
-                padding: 10px;
-                margin-top: 25px;
-
-                ul {
-                    position: relative;
-                    display: inline-block;
-                    margin-right: 0px;
-                    width: 100%;
-                    list-style: none;
-
-                    li {
-                        position: relative;
-
-                        &:after {
-                            // content: "";
-                            // position: absolute;
-                            // top: 10px;
-                            // right: 50%;
-                            // border-top: 3px solid #ccc;
-                            // width: 20%;
-                            // height: 12px;
-                            // border-style: dotted;
-                            // border-bottom: black;
-                            // border-right: 0px;
-                            // border-left: 0px;
-                            content: "";
-                            position: absolute;
-                            top: 10px;
-                            right: 85px;
-                            border-top: 3px solid #ccc;
-                            // width: 138px;
-                            width: 130px;
-                            height: 12px;
-                            border-style: dotted;
-                            border-bottom: black;
-                            border-right: 0px;
-                            border-left: 0px;
-                            left: 67px;
-                            right: 0px;
-                        }
-                    }
-                }
-            }
-
-            .order-summary {
-                position: relative;
-                display: flex;
-                // padding: 40px;
-                // margin-left: -114px;
-                padding: 20px;
-
-                .order-prices {
-                    // margin-left: -116px;
-                    margin-left: -87px;
-                }
-            }
-
+        .order-prices {
+          // margin-left: -116px;
+          margin-left: -87px;
         }
+      }
+
     }
+  }
 
 
 }

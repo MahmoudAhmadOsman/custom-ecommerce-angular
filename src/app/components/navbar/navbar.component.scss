@@ -1,15 +1,17 @@
-.main__nabbar{
+.main__nabbar {
+  position: relative;
+
+  // display: none;
+  nav {
     position: relative;
-    // display: none;
-    nav{
-        position: relative;
-        
-        a{
-            text-transform: uppercase;
-            
-        }
+
+    a {
+      text-transform: uppercase;
+
     }
-    .bg-light {
-      background:none !important;
-    }
+  }
+
+  .bg-light {
+    background: none !important;
+  }
 }

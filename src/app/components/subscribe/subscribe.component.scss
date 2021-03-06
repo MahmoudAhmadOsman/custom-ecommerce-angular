@@ -1,71 +1,71 @@
 .subscribe__to__newsletter {
-    width: 100%;
-    height: 416px;
-    margin: auto;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
-    position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 416px;
+  margin: auto;
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    h3 {
-        font-size: 35px;
-        ;
-        margin-bottom: 35px;
-        color: #000000;
+  h3 {
+    font-size: 35px;
+    ;
+    margin-bottom: 35px;
+    color: #000000;
+
+  }
+
+  .subscribe__form {
+    margin: 44px 0px 20px 0px;
+
+    input[type=email] {
+      width: 432px;
+      height: 56px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #C6C6C6;
+      border-radius: 4px;
 
     }
 
-    .subscribe__form {
-        margin: 44px 0px 20px 0px;
+    button {
+      width: 432px;
+      height: 56px;
+      background: #C92570 0% 0% no-repeat padding-box;
+      box-shadow: 0px 5px 9px #00000026;
+      border-radius: 4px;
+      opacity: 1;
+      font-weight: bold;
+      transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
+      -ms-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
 
-        input[type=email] {
-            width: 432px;
-            height: 56px;
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            border: 1px solid #C6C6C6;
-            border-radius: 4px;
-
-        }
-
-        button {
-            width: 432px;
-            height: 56px;
-            background: #C92570 0% 0% no-repeat padding-box;
-            box-shadow: 0px 5px 9px #00000026;
-            border-radius: 4px;
-            opacity: 1;
-            font-weight: bold;
-            transition: all .4s ease-in-out;
-            -webkit-transition: all .4s ease-in-out;
-            -moz-transition: all .4s ease-in-out;
-            -ms-transition: all .4s ease-in-out;
-            -o-transition: all .4s ease-in-out;
-
-            &:hover {
-                background-color: #d23b80;
-            }
-        }
+      &:hover {
+        background-color: #d23b80;
+      }
     }
+  }
 
 
 }
 
 
 @media(max-width:768px) {
-    .subscribe__to__newsletter {
-        position: relative;
-        display: block;
-        overflow: hidden;
+  .subscribe__to__newsletter {
+    position: relative;
+    display: block;
+    overflow: hidden;
 
-        .subscribe__form {
-            position: relative;
+    .subscribe__form {
+      position: relative;
 
-            input[type=email] {
-                width: 100%;
-            }
+      input[type=email] {
+        width: 100%;
+      }
 
-            button {
-                width: 100%;
-            }
-        }
+      button {
+        width: 100%;
+      }
     }
+  }
 }

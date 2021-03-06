@@ -2,277 +2,277 @@ $heart_color: #C92570;
 $title_color: #C92570;
 
 .bags {
+  position: relative;
+  display: flex;
+
+  h1 {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 40px;
+    // fontofamily:Suisse Intl;
+  }
+
+  .left__side__menu {
     position: relative;
-    display: flex;
+    background: #F7F7F7;
+    text-align: left;
+    font-size: 21px;
+    margin-top: 23px;
+    margin-left: 64px;
+    width: 400px;
+    // width: auto;
+    // height: 474px;
+    height: auto;
 
-    h1 {
-        color: #000000;
-        text-align: left;
-        margin-bottom: 40px;
-        // fontofamily:Suisse Intl;
+    h3 {
+      font-size: 16px;
     }
 
-    .left__side__menu {
-        position: relative;
-        background: #F7F7F7;
-        text-align: left;
-        font-size: 21px;
-        margin-top: 23px;
-        margin-left: 64px;
-        width: 400px;
-        // width: auto;
-        // height: 474px;
-        height: auto;
 
-        h3 {
-            font-size: 16px;
-        }
+    ul {
+      .nav-link {
+        color: #000;
+        font-size: 18px;
+        cursor: pointer;
 
-
-        ul {
-            .nav-link {
-                color: #000;
-                font-size: 18px;
-                cursor: pointer;
-
-            }
-        }
+      }
     }
+  }
 
-    // bags__content__container style
-    .bags__content__container {
+  // bags__content__container style
+  .bags__content__container {
+    position: relative;
+
+    // flex-grow: 3;
+    .bags_links_container {
+      display: flex;
+      position: relative;
+
+      .menu_item_links {
         position: relative;
 
-        // flex-grow: 3;
-        .bags_links_container {
-            display: flex;
-            position: relative;
-
-            .menu_item_links {
-                position: relative;
-
-                .breadcrumb {
-                    width: 100%;
-                    background: none;
+        .breadcrumb {
+          width: 100%;
+          background: none;
 
 
 
-                    .breadcrumb-item.active {
-                        color: $heart_color;
-                    }
-                }
+          .breadcrumb-item.active {
+            color: $heart_color;
+          }
+        }
 
+      }
+
+      .sort_by_links {
+        width: 261px;
+        height: 228px;
+        height: 200px;
+        float: right;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+
+
+        .accordion {
+          ul {
+            li.nav-item {
+              margin: -5px 0px;
             }
+          }
+        }
 
-            .sort_by_links {
-                width: 261px;
-                height: 228px;
-                height: 200px;
-                float: right;
-                position: absolute;
-                right: 0;
-                cursor: pointer;
+        .accordion .card-header:after {
+          font-family: 'FontAwesome';
+          content: "\f078";
+          float: right;
+        }
 
-
-                .accordion {
-                    ul {
-                        li.nav-item {
-                            margin: -5px 0px;
-                        }
-                    }
-                }
-
-                .accordion .card-header:after {
-                    font-family: 'FontAwesome';
-                    content: "\f078";
-                    float: right;
-                }
-
-                .accordion .card-header.collapsed:after {
-                    /* symbol for "collapsed" panels */
-                    content: "\f077";
-                }
-
-
-
-
-
-            }
-
+        .accordion .card-header.collapsed:after {
+          /* symbol for "collapsed" panels */
+          content: "\f077";
         }
 
 
 
-        .heart__over__image {
-            position: relative;
-
-            // .fa-heart-o
-            .fa-heart {
-                font-size: 30px;
-                // color: #e271a4;
-                color: $heart_color;
-
-                z-index: 666;
-                float: right;
-                // margin: 15px 25px auto 215px;
-                top: 10px;
-                right: 13px;
-                bottom: 0;
-                position: absolute;
-                z-index: 1;
-                transition: color .5s ease-in-out;
-                -webkit-transition: color .5s ease-in-out;
-                -moz-transition: color .5s ease-in-out;
-                -ms-transition: color .5s ease-in-out;
-                -o-transition: color .5s ease-in-out;
-                cursor: pointer;
 
 
+      }
 
-                &:hover {
-                    //  background: #C92570;
-                    // color: #C92570;
-                    color: #e271a4;
-                    // lightness(#C92570)
-                }
-            }
-
-        }
-
-        h3.bags__title {
-            font-size: 27px;
-            color: #000;
-            margin: 20px 0px;
-        }
-
-
-        .card {
-            position: relative;
-            border: 0px;
-
-            m .card-title {
-                color: #C92570;
-            }
-
-            .item-name {
-                color: #000;
-                font-weight: bold;
-            }
-
-            .card-body {
-                position: relative;
-                margin-left: -15px;
-
-                h5 {
-                    color: $title_color;
-                }
-
-                h5,
-                p {
-                    margin: 0px;
-                    padding: 0px;
-                }
-
-                .price {
-                    // font-weight: bold;
-                    font-size: 18px;
-                }
-
-                .colors {
-                    position: relative;
-                    display: flex;
-                    // justify-content: space-around;
-                    // justify-content: space-between;
-                    flex-wrap: wrap;
-
-                    .black {
-                        width: 30px;
-                        height: 30px;
-                        background-color: #000;
-                        margin-right: 4px;
-                        border: 1px solid #9D9D9D;
-                        cursor: pointer;
-                    }
-
-                    .pink {
-                        width: 30px;
-                        height: 30px;
-                        background-color: #E0D3C7;
-                        margin-right: 4px;
-                        border: 1px solid #9D9D9D;
-                        cursor: pointer;
-                    }
-
-                    .white {
-                        width: 30px;
-                        height: 30px;
-                        background-color: #fff;
-                        margin-right: 4px;
-                        border: 1px solid #9D9D9D;
-                        cursor: pointer;
-                    }
-
-                    .quick__view {
-                        position: relative;
-
-                        .btn-outline-danger {
-                            width: 110px;
-                            height: auto;
-                            font-weight: bold;
-                            border: 1px solid #C92570;
-                            color: #C92570;
-                            font-weight: bold;
-
-                            &:hover {
-                                background-color: #C92570;
-                                color: #fff;
-                            }
-
-                        }
-                    }
-
-                }
-            }
-        }
-
-        .readmore__links {
-            position: relative;
-            margin-top: 50px;
-
-            a.btn-outline-danger {
-                width: 289px;
-                height: 64px;
-                text-align: center;
-                border: 1px solid #C92570;
-                border-radius: 2px;
-                font-size: 28px;
-                color: #C92570;
-
-                &:hover {
-                    background-color: #C92570;
-                    color: #fff;
-                }
-            }
-        }
     }
 
-    // End of bags__content__container style bracket
 
 
-    /* Start of Caps Style */
-    .caps_container {
-        margin-top: 40px;
+    .heart__over__image {
+      position: relative;
+
+      // .fa-heart-o
+      .fa-heart {
+        font-size: 30px;
+        // color: #e271a4;
+        color: $heart_color;
+
+        z-index: 666;
+        float: right;
+        // margin: 15px 25px auto 215px;
+        top: 10px;
+        right: 13px;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+        transition: color .5s ease-in-out;
+        -webkit-transition: color .5s ease-in-out;
+        -moz-transition: color .5s ease-in-out;
+        -ms-transition: color .5s ease-in-out;
+        -o-transition: color .5s ease-in-out;
+        cursor: pointer;
+
+
+
+        &:hover {
+          //  background: #C92570;
+          // color: #C92570;
+          color: #e271a4;
+          // lightness(#C92570)
+        }
+      }
+
     }
 
-    /* End of Caps Style */
+    h3.bags__title {
+      font-size: 27px;
+      color: #000;
+      margin: 20px 0px;
+    }
 
-    /*Start of shirts container*/
-    .shirts_container {
+
+    .card {
+      position: relative;
+      border: 0px;
+
+      m .card-title {
+        color: #C92570;
+      }
+
+      .item-name {
+        color: #000;
+        font-weight: bold;
+      }
+
+      .card-body {
         position: relative;
-        margin-bottom: 140px;
+        margin-left: -15px;
+
+        h5 {
+          color: $title_color;
+        }
+
+        h5,
+        p {
+          margin: 0px;
+          padding: 0px;
+        }
+
+        .price {
+          // font-weight: bold;
+          font-size: 18px;
+        }
+
+        .colors {
+          position: relative;
+          display: flex;
+          // justify-content: space-around;
+          // justify-content: space-between;
+          flex-wrap: wrap;
+
+          .black {
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+
+          .pink {
+            width: 30px;
+            height: 30px;
+            background-color: #E0D3C7;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+
+          .white {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            margin-right: 4px;
+            border: 1px solid #9D9D9D;
+            cursor: pointer;
+          }
+
+          .quick__view {
+            position: relative;
+
+            .btn-outline-danger {
+              width: 110px;
+              height: auto;
+              font-weight: bold;
+              border: 1px solid #C92570;
+              color: #C92570;
+              font-weight: bold;
+
+              &:hover {
+                background-color: #C92570;
+                color: #fff;
+              }
+
+            }
+          }
+
+        }
+      }
     }
 
-    /*End of shirts container*/
+    .readmore__links {
+      position: relative;
+      margin-top: 50px;
+
+      a.btn-outline-danger {
+        width: 289px;
+        height: 64px;
+        text-align: center;
+        border: 1px solid #C92570;
+        border-radius: 2px;
+        font-size: 28px;
+        color: #C92570;
+
+        &:hover {
+          background-color: #C92570;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // End of bags__content__container style bracket
+
+
+  /* Start of Caps Style */
+  .caps_container {
+    margin-top: 40px;
+  }
+
+  /* End of Caps Style */
+
+  /*Start of shirts container*/
+  .shirts_container {
+    position: relative;
+    margin-bottom: 140px;
+  }
+
+  /*End of shirts container*/
 
 
 
@@ -284,75 +284,76 @@ $title_color: #C92570;
 
 //For mobile
 @media (max-width: 786px) {
-    .bags {
-        display: block;
+  .bags {
+    display: block;
 
-        .left__side__menu {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin: 0px;
-            text-align: center;
+    .left__side__menu {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0px;
+      text-align: center;
 
-            h3 {
-                margin-top: 10px;
-                font-weight: bold;
-                font-size: 20px;
-            }
-        }
-
-        .bags__content__container {
-            position: relative;
-            .sort_by_links {
-                display: block;
-                width: 10%;
-
-                .accordion {
-                    .card-header {
-                        width: 70%;
-                        display: inline-block;
-                        margin-left: 38px;
-                        background: none;
-                    }
-
-                    ul {
-                        position: relative;
-
-
-                        li {
-                            margin-left: 48px !important;
-                            list-style: none;
-                        }
-                    }
-
-
-                }
-
-
-            }
-
-            .readmore__links {
-                position: relative;
-                width: auto;
-                height: 64px;
-                display: block;
-                margin: 5px -15px;
-
-            }
-        }
-
-
+      h3 {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+      }
     }
+
+    .bags__content__container {
+      position: relative;
+
+      .sort_by_links {
+        display: block;
+        width: 10%;
+
+        .accordion {
+          .card-header {
+            width: 70%;
+            display: inline-block;
+            margin-left: 38px;
+            background: none;
+          }
+
+          ul {
+            position: relative;
+
+
+            li {
+              margin-left: 48px !important;
+              list-style: none;
+            }
+          }
+
+
+        }
+
+
+      }
+
+      .readmore__links {
+        position: relative;
+        width: auto;
+        height: 64px;
+        display: block;
+        margin: 5px -15px;
+
+      }
+    }
+
+
+  }
 
 
 }
 
 
 .heart-bg {
-    background-color: #c92570;
-    height: 28px;
-    width: 28px;
-    border-radius: 50px;
-    color: #fff;
+  background-color: #c92570;
+  height: 28px;
+  width: 28px;
+  border-radius: 50px;
+  color: #fff;
 
 }

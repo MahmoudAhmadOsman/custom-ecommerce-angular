@@ -34,7 +34,6 @@
     </div>
   </div>
   <!-- End of leftside menu -->
-
   <!-- Start of bags content container div -->
   <div class="bags__content__container">
     <div class="container">
@@ -54,18 +53,10 @@
           <!-- Start of sort by accordian -->
           <div id="accordion" class="accordion">
             <div class="card mb-0">
-              <div
-                class="card-header collapsed"
-                data-toggle="collapse"
-                href="#collapseOne"
-              >
+              <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
                 <a class="card-title"> Sort by </a>
               </div>
-              <div
-                id="collapseOne"
-                class="card-body collapse"
-                data-parent="#accordion"
-              >
+              <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
                 <ul>
                   <li class="nav-item">Newest</li>
                   <li class="nav-item">Featured</li>
@@ -79,25 +70,16 @@
         </div>
       </div>
       <!-- End of menu links -->
-
       <h1 class="bags__title">{{title}}</h1>
       <div class="row" id="bags">
         <!-- Start of the first card -->
-        <div
-          class="col-md-4 col-sm-12 col-xs-12"
-          *ngFor="let bag of bags; let i =index"
-        >
+        <div class="col-md-4 col-sm-12 col-xs-12" *ngFor="let bag of bags; let i =index">
           <div class="card">
             <span class="heart__over__image">
               <i class="far fa-heart"></i>
             </span>
             <a href="/bags-details/{{bag.id}}">
-              <img
-                class="card-img-top"
-                src="{{bag.bagImageUrl}}"
-                alt="{{bag.name}}"
-                class="img-fluid"
-            /></a>
+              <img class="card-img-top" src="{{bag.bagImageUrl}}" alt="{{bag.name}}" class="img-fluid" /></a>
             <div class="card-body">
               <h5 class="card-title sale text-uppercase">
                 {{bag.name}}
@@ -116,12 +98,7 @@
                     class="btn btn-outline-danger btn-sm"
                     >Quick View</a
                   > -->
-                  <button
-                    type="button"
-                    class="btn btn-outline-danger btn-sm"
-                    data-toggle="modal"
-                    data-target="#myModal"
-                  >
+                  <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#myModal">
                     Quick View
                   </button>
                 </div>
@@ -142,28 +119,20 @@
       </div>
     </div>
     <!-- End of the first container -->
-
     <!-- =========== Start of the second Container ============= -->
     <!-- Start of the second card -->
     <div class="caps_container">
       <div class="container">
         <h1>{{capsTitle}}</h1>
         <div class="row">
-          <div
-            class="col-md-4 col-sm-12 col-xs-12"
-            *ngFor="let cap of caps; let i =index"
-          >
+          <div class="col-md-4 col-sm-12 col-xs-12" *ngFor="let cap of caps; let i =index">
             <div class="card">
               <span class="heart__over__image">
                 <i class="fa fa-heart-o" aria-hidden="true"></i>
               </span>
               <!-- <a [routerLink]="['/bags-details']"> -->
               <a href="/bags-details/{{cap.id}}">
-                <img
-                  class="card-img-top"
-                  src="{{cap.capImageUrl}}"
-                  alt="{{cap.name}}"
-              /></a>
+                <img class="card-img-top" src="{{cap.capImageUrl}}" alt="{{cap.name}}" /></a>
               <div class="card-body">
                 <h5 class="card-title sale text-uppercase">
                   {{cap.name}}
@@ -181,12 +150,7 @@
                       href="/bags-details/{{cap.id}}"
                       class="btn btn-outline-danger btn-sm"
                       >Quick View</a> -->
-                    <button
-                      type="button"
-                      class="btn btn-outline-danger btn-sm"
-                      data-toggle="modal"
-                      data-target="#myModal"
-                    >
+                    <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#myModal">
                       Quick View
                     </button>
                   </div>
@@ -195,7 +159,6 @@
             </div>
           </div>
         </div>
-
         <!-- Start of bags read more -->
         <div class="readmore__links">
           <div class="container">
@@ -211,28 +174,20 @@
     </div>
     <!-- End of the second card -->
     <!-- =========== End of the second Container ============= -->
-
     <!-- =========== Start of the third Container ============= -->
     <!-- Start of the third card -->
     <div class="shirts_container">
       <div class="container">
         <h1>{{shirtTitle}}</h1>
         <div class="row">
-          <div
-            class="col-md-4 col-sm-12 col-xs-12"
-            *ngFor="let shirt of shirts; let i =index"
-          >
+          <div class="col-md-4 col-sm-12 col-xs-12" *ngFor="let shirt of shirts; let i =index">
             <div class="card">
               <span class="heart__over__image">
                 <i class="fa fa-heart-o" aria-hidden="true"></i>
               </span>
               <!-- <a [routerLink]="['/bags-details']"> -->
               <a href="/bags-details/{{shirt.id}}">
-                <img
-                  class="card-img-top"
-                  src="{{shirt.shirtImageUrl}}"
-                  alt="{{shirt.name}}"
-              /></a>
+                <img class="card-img-top" src="{{shirt.shirtImageUrl}}" alt="{{shirt.name}}" /></a>
               <div class="card-body">
                 <h5 class="card-title sale text-uppercase">
                   {{shirt.name}}
@@ -250,12 +205,7 @@
                       href="/bags-details/{{shirt.id}}"
                       class="btn btn-outline-danger btn-sm"
                       >Quick View</a> -->
-                    <button
-                      type="button"
-                      class="btn btn-outline-danger btn-sm"
-                      data-toggle="modal"
-                      data-target="#myModal"
-                    >
+                    <button type="button" class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#myModal">
                       Quick View
                     </button>
                   </div>
@@ -264,7 +214,6 @@
             </div>
           </div>
         </div>
-
         <!-- Start of bags read more -->
         <div class="readmore__links">
           <div class="container">

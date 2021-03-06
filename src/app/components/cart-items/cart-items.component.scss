@@ -5,38 +5,38 @@ $btn_main_bg: #C92570;
 $btn_main_bg_hover: #da498b;
 
 .cart_items_one {
-    position: relative;
+  position: relative;
 
-    .top_items {
-        display: flex;
-        justify-content: space-between;
+  .top_items {
+    display: flex;
+    justify-content: space-between;
 
-        .item_cart_basket {
-            position: relative;
+    .item_cart_basket {
+      position: relative;
 
-            .fa-shopping-cart {
-                position: relative;
-                width: 50px;
-                height: 50px;
-                line-height: 50px;
-                // float: right;
-                background-color: #000;
-                box-shadow: 0px 5px 9px #0000001A;
-                color: #fff;
-                font-size: 25px;
-                border-radius: 50%;
-                text-align: center;
-                cursor: pointer;
-            }
+      .fa-shopping-cart {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        // float: right;
+        background-color: #000;
+        box-shadow: 0px 5px 9px #0000001A;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+      }
 
-            .badge-danger {
-                // float: right;
-                position: absolute;
-                right: 0;
-                border-radius: 50%;
-            }
-        }
+      .badge-danger {
+        // float: right;
+        position: absolute;
+        right: 0;
+        border-radius: 50%;
+      }
     }
+  }
 }
 
 /*End of the first section style*/
@@ -45,312 +45,312 @@ $btn_main_bg_hover: #da498b;
 
 
 .bx-bg {
-    width: 100%;
-    height: auto;
-    position: relative;
+  width: 100%;
+  height: auto;
+  position: relative;
 
-    .wish_list {
-        width: 75%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-top: 60px;
-        background-color: #fff;
-        border-radius: 2px;
-        box-shadow: 0px 5px 9px #00000026;
-        -webkit-box-shadow: 0px 5px 9px #00000026;
-        -ms-box-shadow: 0px 5px 9px #00000026;
-        -moz-box-shadow: 0px 5px 9px #00000026;
-        -o-box-shadow: 0px 5px 9px #00000026;
-
-        .accordion {
-
-            height: 225px;
-
-            .card-title {
-                margin: 0px;
-            }
-
-            .card {
-                border: 1px solid transparent;
-            }
-
-            .card-header {
-                background: none;
-                border: 0px;
-            }
-
-        }
-
-        .accordion .card-header:after {
-            font-family: 'FontAwesome';
-            content: "\f078";
-            float: right;
-            font-size: 20px;
-            margin-top: -20px;
-            cursor: pointer;
-        }
-
-        .accordion .card-header.collapsed:after {
-            /* symbol for "collapsed" panels */
-            content: "\f067";
-            font-size: 20px;
-            margin-top: -20px;
-        }
-
-    }
-}
-
-.all_cart_items {
+  .wish_list {
+    width: 75%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    /*Start of Left Container*/
-
-    .left__container {
-        width: 68%;
-        float: left;
-        display: flex;
-        height: 100%;
-        box-shadow: 0px 5px 9px #00000045;
-        -webkit-box-shadow: 0px 5px 9px #00000045;
-        -moz-box-shadow: 0px 5px 9px #00000045;
-        -ms-box-shadow: 0px 5px 9px #00000045;
-        -o-box-shadow: 0px 5px 9px #00000045;
-
-
-        .box_two,
-        .box_three {
-            margin-top: 20px;
-
-        }
-
-        .box_one {
-            flex-grow: .2;
-
-            img {
-                max-width: 100%;
-                width: 230px;
-                min-height: 100%;
-                margin-right: 20px;
-
-            }
-        }
-
-        .box_two {
-            flex-grow: 2;
-
-            .cart_item_list {
-                position: relative;
-
-                .list {
-                    position: relative;
-                    display: flex;
-                    justify-content: space-around;
-                }
-
-                .color_boxes_container {
-                    display: flex;
-                    justify-content: space-around;
-
-                    .colors {
-                        position: relative;
-
-                        .black_box {
-                            // width: 16px;
-                            // height: 16px;
-                            width: 20px;
-                            height: 30px;
-                            background-color: #393636;
-                            margin: 1px 0px 0px -25px;
-                            cursor: pointer;
-                            position: absolute;
-                        }
-                    }
-
-                    select {
-                        width: auto;
-                        height: 30px;
-                        border: 0px;
-                        background: #FFFFFF;
-                        box-shadow: 0px 5px 9px #00000026;
-                        border-radius: 0px;
-                        border: 1px solid $select_border_color;
-
-                        &:hover {
-                            width: auto;
-                            height: 30px;
-                            background: $select_border_color;
-                            box-shadow: 0px 5px 9px #00000026;
-                            border: 1px solid $boxes_hover_color;
-                            cursor: pointer;
-                        }
-                    }
-                }
-
-                .size {
-                    position: relative;
-
-                    select {
-                        width: auto;
-                        height: 30px;
-                        border: 0px;
-                        background: #FFFFFF;
-                        box-shadow: 0px 5px 9px #00000026;
-                        border-radius: 0px;
-                        border: 1px solid $select_border_color;
-                        padding: 1px 0px;
-
-                        &:hover {
-                            width: auto;
-                            height: 30px;
-                            background: $select_border_color;
-                            box-shadow: 0px 5px 9px #00000026;
-                            border: 1px solid $boxes_hover_color;
-                            cursor: pointer;
-                        }
-
-                    }
-                }
-
-                .quality {
-                    position: relative;
-
-                    select {
-                        width: auto;
-                        height: 30px;
-                        border: 0px;
-                        background: #FFFFFF;
-                        box-shadow: 0px 5px 9px #00000026;
-                        border-radius: 0px;
-                        border: 1px solid $select_border_color;
-                        padding: 1px 0px;
-
-                        &:hover {
-                            width: auto;
-                            height: 30px;
-                            background: $select_border_color;
-                            box-shadow: 0px 5px 9px #00000026;
-                            border: 1px solid $boxes_hover_color;
-                            cursor: pointer;
-                        }
-                    }
-                }
-
-            }
-        }
-
-        .links {
-            position: relative;
-            background-color: #fff;
-            margin-top: 30px;
-            margin-bottom: 40px;
-
-            ul {
-                margin: 0px;
-                padding: 0px;
-
-                li {
-                    list-style: none;
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-
-    .box_three {
-        flex-grow: 1.5;
-    }
-}
-
-/*End of Left Container*/
-
-/*Start of Right Container*/
-.right__container {
-    width: 28%;
-    float: right;
-    display: flex;
-    height: 100%;
-    position: relative;
+    flex-direction: row;
+    margin-top: 60px;
+    background-color: #fff;
+    border-radius: 2px;
     box-shadow: 0px 5px 9px #00000026;
     -webkit-box-shadow: 0px 5px 9px #00000026;
     -ms-box-shadow: 0px 5px 9px #00000026;
     -moz-box-shadow: 0px 5px 9px #00000026;
     -o-box-shadow: 0px 5px 9px #00000026;
 
-    .box_four {
-        position: relative;
-        flex-grow: 1;
-        background: #F7F7F7;
-        padding: 20px;
-        justify-items: center;
-        min-height: 229px;
+    .accordion {
 
-        .subs {
-            display: flex;
-            justify-content: space-between;
+      height: 225px;
+
+      .card-title {
+        margin: 0px;
+      }
+
+      .card {
+        border: 1px solid transparent;
+      }
+
+      .card-header {
+        background: none;
+        border: 0px;
+      }
+
+    }
+
+    .accordion .card-header:after {
+      font-family: 'FontAwesome';
+      content: "\f078";
+      float: right;
+      font-size: 20px;
+      margin-top: -20px;
+      cursor: pointer;
+    }
+
+    .accordion .card-header.collapsed:after {
+      /* symbol for "collapsed" panels */
+      content: "\f067";
+      font-size: 20px;
+      margin-top: -20px;
+    }
+
+  }
+}
+
+.all_cart_items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*Start of Left Container*/
+
+  .left__container {
+    width: 68%;
+    float: left;
+    display: flex;
+    height: 100%;
+    box-shadow: 0px 5px 9px #00000045;
+    -webkit-box-shadow: 0px 5px 9px #00000045;
+    -moz-box-shadow: 0px 5px 9px #00000045;
+    -ms-box-shadow: 0px 5px 9px #00000045;
+    -o-box-shadow: 0px 5px 9px #00000045;
+
+
+    .box_two,
+    .box_three {
+      margin-top: 20px;
+
+    }
+
+    .box_one {
+      flex-grow: .2;
+
+      img {
+        max-width: 100%;
+        width: 230px;
+        min-height: 100%;
+        margin-right: 20px;
+
+      }
+    }
+
+    .box_two {
+      flex-grow: 2;
+
+      .cart_item_list {
+        position: relative;
+
+        .list {
+          position: relative;
+          display: flex;
+          justify-content: space-around;
         }
 
-        .total_form {
+        .color_boxes_container {
+          display: flex;
+          justify-content: space-around;
+
+          .colors {
             position: relative;
 
-            .form-group {
-                position: relative;
-
-                input[type=text] {
-                    width: 100%;
-                    height: 40%;
-                    float: left;
-                    color: #C6C6C6;
-                }
-
-                input[type=submit] {
-                    float: left;
-                }
-
-                input::placeholder {
-                    font-size: 15px;
-                    color: #ccc;
-                }
-
-                .btn-danger {
-                    width: 96px;
-                    height: 34px;
-                    line-height: 18px;
-                    background-color: #C92570;
-                    // position: absolute;
-                    margin: 5px 0px 0px -110px;
-                }
+            .black_box {
+              // width: 16px;
+              // height: 16px;
+              width: 20px;
+              height: 30px;
+              background-color: #393636;
+              margin: 1px 0px 0px -25px;
+              cursor: pointer;
+              position: absolute;
             }
+          }
 
-            /*promotion_code*/
-            .promotion_code {
-                // position: relative;
-                padding: 0px;
+          select {
+            width: auto;
+            height: 30px;
+            border: 0px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 0px;
+            border: 1px solid $select_border_color;
 
-                p.code_applied {
-                    // margin-left: 55px;
-                    padding: 0px;
-                    color: $main_text_color;
-                    font-size: 12px;
-                }
-
-                a.btn-danger {
-                    background-color: $btn_main_bg;
-                    border: 1px solid $btn_main_bg;
-                    color: #fff;
-
-                    &:hover {
-                        background-color: $btn_main_bg_hover;
-                        border: 1px solid $btn_main_bg_hover;
-                    }
-                }
-
-
+            &:hover {
+              width: auto;
+              height: 30px;
+              background: $select_border_color;
+              box-shadow: 0px 5px 9px #00000026;
+              border: 1px solid $boxes_hover_color;
+              cursor: pointer;
             }
+          }
         }
+
+        .size {
+          position: relative;
+
+          select {
+            width: auto;
+            height: 30px;
+            border: 0px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 0px;
+            border: 1px solid $select_border_color;
+            padding: 1px 0px;
+
+            &:hover {
+              width: auto;
+              height: 30px;
+              background: $select_border_color;
+              box-shadow: 0px 5px 9px #00000026;
+              border: 1px solid $boxes_hover_color;
+              cursor: pointer;
+            }
+
+          }
+        }
+
+        .quality {
+          position: relative;
+
+          select {
+            width: auto;
+            height: 30px;
+            border: 0px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 9px #00000026;
+            border-radius: 0px;
+            border: 1px solid $select_border_color;
+            padding: 1px 0px;
+
+            &:hover {
+              width: auto;
+              height: 30px;
+              background: $select_border_color;
+              box-shadow: 0px 5px 9px #00000026;
+              border: 1px solid $boxes_hover_color;
+              cursor: pointer;
+            }
+          }
+        }
+
+      }
     }
+
+    .links {
+      position: relative;
+      background-color: #fff;
+      margin-top: 30px;
+      margin-bottom: 40px;
+
+      ul {
+        margin: 0px;
+        padding: 0px;
+
+        li {
+          list-style: none;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .box_three {
+    flex-grow: 1.5;
+  }
+}
+
+/*End of Left Container*/
+
+/*Start of Right Container*/
+.right__container {
+  width: 28%;
+  float: right;
+  display: flex;
+  height: 100%;
+  position: relative;
+  box-shadow: 0px 5px 9px #00000026;
+  -webkit-box-shadow: 0px 5px 9px #00000026;
+  -ms-box-shadow: 0px 5px 9px #00000026;
+  -moz-box-shadow: 0px 5px 9px #00000026;
+  -o-box-shadow: 0px 5px 9px #00000026;
+
+  .box_four {
+    position: relative;
+    flex-grow: 1;
+    background: #F7F7F7;
+    padding: 20px;
+    justify-items: center;
+    min-height: 229px;
+
+    .subs {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .total_form {
+      position: relative;
+
+      .form-group {
+        position: relative;
+
+        input[type=text] {
+          width: 100%;
+          height: 40%;
+          float: left;
+          color: #C6C6C6;
+        }
+
+        input[type=submit] {
+          float: left;
+        }
+
+        input::placeholder {
+          font-size: 15px;
+          color: #ccc;
+        }
+
+        .btn-danger {
+          width: 96px;
+          height: 34px;
+          line-height: 18px;
+          background-color: #C92570;
+          // position: absolute;
+          margin: 5px 0px 0px -110px;
+        }
+      }
+
+      /*promotion_code*/
+      .promotion_code {
+        // position: relative;
+        padding: 0px;
+
+        p.code_applied {
+          // margin-left: 55px;
+          padding: 0px;
+          color: $main_text_color;
+          font-size: 12px;
+        }
+
+        a.btn-danger {
+          background-color: $btn_main_bg;
+          border: 1px solid $btn_main_bg;
+          color: #fff;
+
+          &:hover {
+            background-color: $btn_main_bg_hover;
+            border: 1px solid $btn_main_bg_hover;
+          }
+        }
+
+
+      }
+    }
+  }
 }
 
 /*End of Right Container*/
@@ -358,74 +358,74 @@ $btn_main_bg_hover: #da498b;
 /*MEdia query*/
 
 @media (max-width: 768px) {
-    .all_cart_items {
-        position: relative;
-        display: block;
+  .all_cart_items {
+    position: relative;
+    display: block;
 
-        .left__container {
-            width: 100%;
-            height: auto;
-            display: block;
-            position: relative;
-            background-color: rgb(255, 255, 255);
-            margin-bottom: 25px;
+    .left__container {
+      width: 100%;
+      height: auto;
+      display: block;
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      margin-bottom: 25px;
 
-            .box_one {
-                img {
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
-            }
-
-            .box_one,
-            .box_two,
-            .box_three {
-                width: 100%;
-                height: 100%;
-                padding: 20px 25px;
-                margin: auto;
-
-                h3,
-                h4 {
-                    font-size: 16px;
-                }
-            }
+      .box_one {
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
         }
+      }
 
-        /*Start of right Container*/
-        .right__container {
-            width: 100%;
-            height: auto;
-            margin-bottom: 30px;
-            display: block;
-            padding: 10px 25px;
-
-            .box_four {
-                position: relative;
-
-                h3 {
-                    font-size: 16px;
-                }
-            }
-        }
-
-        /*End of right Container*/
-
-    }
-
-    /*Wishlish*/
-
-    .bx-bg {
+      .box_one,
+      .box_two,
+      .box_three {
         width: 100%;
-        height: auto;
+        height: 100%;
+        padding: 20px 25px;
+        margin: auto;
+
+        h3,
+        h4 {
+          font-size: 16px;
+        }
+      }
+    }
+
+    /*Start of right Container*/
+    .right__container {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+      display: block;
+      padding: 10px 25px;
+
+      .box_four {
         position: relative;
 
-        .wish_list {
-            width: 100%;
-
+        h3 {
+          font-size: 16px;
         }
+      }
     }
+
+    /*End of right Container*/
+
+  }
+
+  /*Wishlish*/
+
+  .bx-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    .wish_list {
+      width: 100%;
+
+    }
+  }
 }
 
 /*End of the main bracket*/

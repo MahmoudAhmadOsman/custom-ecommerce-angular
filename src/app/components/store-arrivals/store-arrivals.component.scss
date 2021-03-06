@@ -20,15 +20,15 @@ $main_color_hover: #d23b80;
 
   h3 {
     font-weight: bold;
-    font:Suisse Intl;
+    font: Suisse Intl;
     font-size: 42px;
-   
+
 
   }
 
   p {
     font-weight: bold;
-   font:Suisse Intl;
+    font: Suisse Intl;
   }
 
   .shop-btn {
@@ -42,8 +42,9 @@ $main_color_hover: #d23b80;
       opacity: 1;
       font-weight: bold;
       border: 0px;
-      a{
-        color:#fff;
+
+      a {
+        color: #fff;
         text-decoration: none;
       }
 
@@ -57,13 +58,13 @@ $main_color_hover: #d23b80;
 
 }
 
-@media (max-width: 800px)  {
+@media (max-width: 800px) {
   .store__arrivals {
-    width: 100%; 
+    width: 100%;
     margin: auto;
     padding: 180px 0px;
     overflow-x: hidden;
     margin-bottom: 20px;
   }
-  
+
 }
