@@ -142,7 +142,6 @@ $what_we_offer_p_color: #525252;
                     h4 {
                         position: relative;
 
-
                         .finance {
                             font-size: 56px;
                             font-weight: bold;
@@ -344,12 +343,6 @@ $what_we_offer_p_color: #525252;
                         }
                     }
 
-
-
-
-
-
-
                     .btn-danger {
                         width: 189px;
                         height: 60px;
@@ -364,17 +357,7 @@ $what_we_offer_p_color: #525252;
 
                     }
 
-
-
-
-
-
-
-
                 }
-
-
-
 
 
             }
@@ -401,10 +384,11 @@ $what_we_offer_p_color: #525252;
             // max-width: 33.333333%;
             // margin-right: 10px;
             height: 467px;
-            // background-color: #FDFDFD;
+            // background-color: #FDFDFD; 
+            // margin-bottom: 15px;
             border: 5px solid #F7F7F7;
             background-color: #c3c3c34a;
-            // margin-bottom: 15px;
+
             box-shadow: 1px 3px 3px #fdfdfd;
             -webkit-box-shadow: 1px 3px 3px #0000000A;
             -moz-box-shadow: 1px 3px 3px #0000000A;
@@ -421,13 +405,13 @@ $what_we_offer_p_color: #525252;
 
             &:hover {
                 background-color: #fff;
-           border: 5px solid #F7F7F7;
-           box-shadow: 1px 3px 3px #0000000A;
-           -webkit-box-shadow: 1px 3px 3px #0000000A;
-           -moz-box-shadow: 1px 3px 3px #0000000A;
-           -ms-box-shadow: 1px 3px 3px #0000000A;
-           -o-box-shadow: 1px 3px 3px #0000000A;
-           cursor: pointer;
+                border: 5px solid #F7F7F7;
+                box-shadow: 1px 3px 3px #0000000A;
+                -webkit-box-shadow: 1px 3px 3px #0000000A;
+                -moz-box-shadow: 1px 3px 3px #0000000A;
+                -ms-box-shadow: 1px 3px 3px #0000000A;
+                -o-box-shadow: 1px 3px 3px #0000000A;
+                cursor: pointer;
                 // border: 5px solid #F7F7F7;
                 // transform: translateY(-3px);
                 // box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
