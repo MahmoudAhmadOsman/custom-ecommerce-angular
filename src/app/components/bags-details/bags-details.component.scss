@@ -156,10 +156,13 @@ $h_title_color: #c92570;
         }
       }
 
-      @media only screen and (max-width: 600px) {
+      @media (max-width: 768px) {
         .black-container {
           width: 100%;
           height: auto;
+          padding: 5px 0px;
+          position: relative;
+
         }
 
         span {
@@ -283,17 +286,43 @@ $h_title_color: #c92570;
   /*Start of product description style*/
   .product_details {
     position: relative;
-    margin: 98px 0px;
+    margin: 40px auto;
+    display: block;
+
 
     p {
       color: #000000;
       font-size: 21px;
       text-align: left;
+
     }
 
     h2 {
       color: $h_title_color;
       font-weight: bold;
+
+    }
+  }
+
+  @media(max-width:768px) {
+    .product_details {
+      margin: 40px auto;
+      display: block;
+      padding: 0px 25px;
+
+      p {
+        color: #000000;
+        font-size: 18px;
+        text-align: left;
+
+      }
+
+      h2 {
+        color: $h_title_color;
+        font-weight: bold;
+        font-size: 23px;
+      }
+
     }
   }
 
