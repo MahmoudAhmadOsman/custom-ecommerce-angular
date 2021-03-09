@@ -56,7 +56,7 @@ $btn_danger_hover_bg: #d22e79;
     width: 100%;
     margin: auto;
     position: relative;
-    background: url(https://source.unsplash.com/1600x900/?sun);
+    background: url(/assets/images/slide-background.png);
     background-size: 100% 100%;
     display: block;
     background-repeat: no-repeat;
@@ -113,17 +113,18 @@ $btn_danger_hover_bg: #d22e79;
       margin-bottom: 20px;
 
       img {
+        display: block;
         width: 100%;
         // height: 350px;
         // width: 469px;
-        height: 356px;
         height: auto;
       }
 
       .money__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -144,17 +145,20 @@ $btn_danger_hover_bg: #d22e79;
       margin-bottom: 20px;
 
       img {
-        width: 100%;
-        // height: 350px;
+        // width: 100%;
         // width: 469px;
-        height: 356px;
+
+        width: 100%;
         height: auto;
+
       }
 
       .money__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 25% auto;
+        // margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -196,7 +200,8 @@ $btn_danger_hover_bg: #d22e79;
 
     img {
       width: 100%;
-      height: 356px;
+
+      // height: 356px;
       height: auto;
     }
 
@@ -207,7 +212,8 @@ $btn_danger_hover_bg: #d22e79;
       .event__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 15% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -230,7 +236,8 @@ $btn_danger_hover_bg: #d22e79;
       .event__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -260,7 +267,10 @@ $btn_danger_hover_bg: #d22e79;
       img {
         width: 100%;
         // width: 385px;
-        height: 289px;
+        // height: 289px;
+        height: auto;
+        object-fit: cover;
+
       }
 
       p {
