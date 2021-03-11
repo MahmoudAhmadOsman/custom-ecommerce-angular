@@ -374,165 +374,9 @@ $what_we_offer_p_color: #525252;
   .what-we-offer {
     position: relative;
 
-    h2 {
-      color: #222222;
-      font-size: 40px;
-    }
-
-    .col-md-4 {
-
-      // width: 440px;
-      // max-width: 33.333333%;
-      // margin-right: 10px;
-      height: 467px;
-      // background-color: #FDFDFD; 
-      // margin-bottom: 15px;
-      border: 5px solid #F7F7F7;
-      background-color: #c3c3c34a;
-      box-shadow: 1px 3px 3px #fdfdfd;
-      -webkit-box-shadow: 1px 3px 3px #0000000A;
-      -moz-box-shadow: 1px 3px 3px #0000000A;
-      -ms-box-shadow: 1px 3px 3px #0000000A;
-      -o-box-shadow: 1px 3px 3px #0000000A;
-      padding: 5px 30px;
-      transition: all .4s ease-in-out;
-      -webkit-transition: all .4s ease-in-out;
-      -moz-transition: all .4s ease-in-out;
-      -ms-transition: all .4s ease-in-out;
-      -o-transition: all .4s ease-in-out;
-
-      &:hover {
-        background-color: #fff;
-        border: 5px solid #F7F7F7;
-        box-shadow: 1px 3px 3px #0000000A;
-        -webkit-box-shadow: 1px 3px 3px #0000000A;
-        -moz-box-shadow: 1px 3px 3px #0000000A;
-        -ms-box-shadow: 1px 3px 3px #0000000A;
-        -o-box-shadow: 1px 3px 3px #0000000A;
-        cursor: pointer;
-
-      }
-
-      h3 {
-        color: #222222;
-        font-size: 40px;
-      }
-
-      p {
-        color: $what_we_offer_p_color;
-      }
-    }
-
-    img.discount,
-    img.money,
-    img.blog,
-    img.jobs,
-    img.events,
-    img.networking {
-      width: 93px;
-      height: 93px;
-      transition: .4s ease-in-out;
-      -webkit-transition: .4s ease-in-out;
-      -moz-transition: .4s ease-in-out;
-      -ms-transition: .4s ease-in-out;
-      -o-transition: .4s ease-in-out;
-
-      &:hover {
-        opacity: .7;
-      }
-    }
-
-
-    p.learn-m-btn {
-      position: relative;
-      position: absolute;
-      text-align: center;
-      margin: auto 100px;
-
-      .fa-arrow-right {
-        margin-left: 3px;
-      }
-
-      &:hover {
-        .fa-arrow-right {
-          margin-left: 0px;
-          animation: animate_arrow 4s infinite;
-          animation-name: animate_arrow;
-          animation-duration: 1s;
-          animation-iteration-count: infinite;
-        }
-      }
-
-      @keyframes animate_arrow {
-
-        0%,
-        25% {
-          color: $main_text_color;
-          margin-left: 10px;
-        }
-
-        50% {
-
-          margin-right: 20px;
-          color: $main_text_color;
-          opacity: .8;
-
-        }
-
-        75% {
-          color: $main_text_color;
-          margin-left: 10px;
-        }
-
-        100% {
-          color: $main_text_color;
-          margin-right: 20px;
-          opacity: .8;
-        }
-      }
-    }
-
-    a {
-      text-decoration: none;
-      color: $main_text_color !important;
-      font-weight: bold;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-
-  }
-
-  @media(max-width:768px) {
-    .what-we-offer {
-      display: block;
-
-      .col-md-4 {
-
-        // width: 440px;
-        // max-width: 33.333333%;
-        max-width: 100%;
-        margin-right: 0px;
-        height: 467px;
-        background-color: #f4f4f4;
-        border: 1px solid #F7F7F7;
-        // background-color: #413d3d;
-        margin-bottom: 10px;
-        margin-top: auto;
-
-      }
-    }
-  }
-
-  /*End of what we offer style*/
-
-  /*========== Start of second  testimonial ===========*/
-  .jobs-testimonial {
-    position: relative;
-
     .col-md-4 {
       cursor: pointer;
+      margin-bottom: 32px;
 
       &:hover {
         .fa-arrow-right {
@@ -559,7 +403,6 @@ $what_we_offer_p_color: #525252;
 
       width: 93px;
       height: 93px;
-      // border-radius: 50%;
       margin: 60px auto 0px auto;
     }
 
@@ -575,8 +418,8 @@ $what_we_offer_p_color: #525252;
     .center-box,
     .right-box {
       // width: 440px;
-      // width: auto;
-      height: 468px;
+      width: 100%;
+      height: 100%;
       position: relative;
       background-color: #FDFDFD;
       box-shadow: 0px 4px 20px #0000000A;
@@ -584,21 +427,20 @@ $what_we_offer_p_color: #525252;
       -moz-box-shadow: 0px 4px 20px #0000000A;
       -ms-box-shadow: 0px 4px 20px #0000000A;
       -o-box-shadow: 0px 4px 20px #0000000A;
-      border-radius: 10px;
+      border-radius: 0px !important;
       margin-bottom: 25px;
 
       p {
-        padding: 21px;
+        // padding: 0px 21px;
         color: #525252;
+        margin: 24px;
       }
     }
 
 
     span.learn-m-btn {
-
-      // position: absolute;
-      // text-align: center;
-      // margin: auto 5%;
+      position: relative;
+      text-align: center;
 
       .fa-arrow-right {
         margin-left: 2px;
@@ -606,18 +448,26 @@ $what_we_offer_p_color: #525252;
         -webkit-transition: all .3s ease-in-out;
       }
 
-      // &:hover {
-      //   .fa-arrow-right {
-      //     margin-left: 6px;
-
-      //   }
-      // }
-
-
     }
   }
 
-  /*========== End of second  testimonial ===========*/
+  @media(max-width:768px) {
+    .what-we-offer {
+      display: block;
+
+      .col-md-4 {
+        width: 100%;
+        margin-right: 0px;
+        height: 467px;
+
+        background-color: #FDFDFD;
+        border: 1px solid #F7F7F7;
+        margin-bottom: 32px;
+      }
+    }
+  }
+
+  /*========== End of what we offer style ===========*/
 
 
   /*Start of testimonial*/
