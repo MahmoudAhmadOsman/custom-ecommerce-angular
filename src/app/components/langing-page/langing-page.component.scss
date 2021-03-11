@@ -193,8 +193,8 @@ $what_we_offer_p_color: #525252;
 
 
       .carousel-indicators li {
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
       }
 
@@ -220,7 +220,7 @@ $what_we_offer_p_color: #525252;
           border-radius: 2px;
           font-size: 21px;
           text-align: center;
-          margin: 24px auto;
+          // margin: 24px auto;
 
           &:hover {
             background-color: $btn_danger_hover_bg;
