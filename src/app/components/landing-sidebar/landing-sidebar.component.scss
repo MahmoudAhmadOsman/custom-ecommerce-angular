@@ -96,7 +96,7 @@ $btn_danger_hover_bg: #d22e79;
   /*Start of main-c-container*/
   .money_container {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -186,7 +186,7 @@ $btn_danger_hover_bg: #d22e79;
 
   .events_container {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -295,7 +295,7 @@ $btn_danger_hover_bg: #d22e79;
 
   .jobs_container {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -307,20 +307,23 @@ $btn_danger_hover_bg: #d22e79;
       font-size: 25px;
     }
 
-    img {
-      width: 100%;
-      height: 356px;
-      height: auto;
-    }
 
     .jobs-row-one {
       position: relative;
       margin-bottom: 20px;
 
+      img {
+        width: 100%;
+        // height: 356px;
+        height: auto;
+        object-fit: cover;
+      }
+
       .jobs__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -340,10 +343,19 @@ $btn_danger_hover_bg: #d22e79;
       position: relative;
       // margin-bottom: 20px;
 
+      img {
+        width: 100%;
+        // height: 356px;
+        height: auto;
+        object-fit: cover;
+      }
+
       .jobs__details {
         position: relative;
         // margin: 140px auto;
-        margin: 25% auto;
+        // margin: 25% auto;
+
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -369,7 +381,8 @@ $btn_danger_hover_bg: #d22e79;
       img {
         width: 100%;
         // width: 385px;
-        height: 289px;
+        // height: 289px;
+        height: auto;
       }
 
       p {
@@ -388,7 +401,7 @@ $btn_danger_hover_bg: #d22e79;
   .networking_container {
     position: relative;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -405,11 +418,14 @@ $btn_danger_hover_bg: #d22e79;
       margin-bottom: 20px;
 
       img {
+        width: 100%;
         height: auto;
       }
 
       .networking__details {
-        margin: 25% auto;
+        display: block;
+        // margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -417,8 +433,9 @@ $btn_danger_hover_bg: #d22e79;
         }
 
         p {
-          width: 80%;
+          width: 50%;
           font-size: 21px;
+
         }
 
       }
@@ -429,11 +446,13 @@ $btn_danger_hover_bg: #d22e79;
       margin-bottom: 20px;
 
       img {
+        width: 100%;
         height: auto;
       }
 
       .networking__details {
         margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -441,7 +460,7 @@ $btn_danger_hover_bg: #d22e79;
         }
 
         p {
-          width: 80%;
+          width: 50%;
           font-size: 21px;
         }
 
@@ -456,7 +475,7 @@ $btn_danger_hover_bg: #d22e79;
 
   .lifestyle_container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -472,11 +491,13 @@ $btn_danger_hover_bg: #d22e79;
       position: relative;
 
       img {
+        width: 100%;
         height: auto;
       }
 
       .lifestyle__details {
         margin: 25% auto;
+        margin: 15% auto;
 
         h3 {
           font-weight: bold;
@@ -484,7 +505,7 @@ $btn_danger_hover_bg: #d22e79;
         }
 
         p {
-          width: 80%;
+          width: 50%;
           font-size: 21px;
         }
       }
@@ -497,8 +518,9 @@ $btn_danger_hover_bg: #d22e79;
   /* Start of Discounts style*/
   .discounts_container {
     position: relative;
+    width: auto;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 96px;
 
     h2 {
       color: $main_text_color;
@@ -507,15 +529,18 @@ $btn_danger_hover_bg: #d22e79;
     }
 
     p {
+
       font-size: 25px;
     }
 
     img {
+      width: 100%;
       height: auto;
     }
 
     .discounts__details {
-      margin: 25% auto;
+      // margin: 25% auto;
+      margin: 15% auto;
 
       h3 {
         font-weight: bold;
@@ -523,7 +548,7 @@ $btn_danger_hover_bg: #d22e79;
       }
 
       p {
-        width: 80%;
+        width: 50%;
         font-size: 21px;
       }
     }
@@ -535,7 +560,7 @@ $btn_danger_hover_bg: #d22e79;
 
   .bottom-sign-up {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 96px;
 
     a.btn-danger {
       width: 217px;
@@ -626,6 +651,7 @@ $btn_danger_hover_bg: #d22e79;
   /*Start of money container*/
   .money_container {
     position: relative;
+    margin-bottom: 20px !important;
 
     h3 {
       font-size: 21x;
@@ -685,6 +711,7 @@ $btn_danger_hover_bg: #d22e79;
   .events_container {
     position: relative;
     display: block;
+    margin-bottom: 20px !important;
 
     .event-row-one {
       position: relative;
@@ -729,6 +756,7 @@ $btn_danger_hover_bg: #d22e79;
     position: relative;
     display: block;
 
+
     img {
       height: auto;
     }
@@ -744,6 +772,7 @@ $btn_danger_hover_bg: #d22e79;
   .jobs_container {
     position: relative;
     display: block;
+    margin-bottom: 20px !important;
 
     .jobs-row-one {
       position: relative;
@@ -788,7 +817,9 @@ $btn_danger_hover_bg: #d22e79;
     position: relative;
     display: block;
 
+
     img {
+      width: 100%;
       height: auto;
     }
 
@@ -799,29 +830,14 @@ $btn_danger_hover_bg: #d22e79;
 
   /*End What Jobs Offers style*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*Start of networking style*/
   .networking_container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
+
+    p {
+      width: 100% !important;
+    }
 
     .networking-row-one {
       position: relative;
@@ -834,7 +850,7 @@ $btn_danger_hover_bg: #d22e79;
         margin: 25px auto !important;
 
         p {
-          width: 100%;
+          width: 100% !important;
         }
       }
     }
@@ -843,6 +859,7 @@ $btn_danger_hover_bg: #d22e79;
       position: relative;
 
       img {
+        width: 100%;
         height: auto;
       }
 
@@ -850,7 +867,7 @@ $btn_danger_hover_bg: #d22e79;
         margin: 25px auto !important;
 
         p {
-          width: 100%;
+          width: 100% !important;
         }
       }
     }
@@ -862,12 +879,13 @@ $btn_danger_hover_bg: #d22e79;
   /*Start of lifestyle style*/
   .lifestyle_container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 
     .lifestyle-row-one {
       position: relative;
 
       img {
+        width: 100%;
         height: auto;
       }
 
@@ -886,12 +904,13 @@ $btn_danger_hover_bg: #d22e79;
   /*Start of Discounts Style*/
   .discounts_container {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 
     .discounts-row-one {
       position: relative;
 
       img {
+        width: 100%;
         height: auto;
       }
 
