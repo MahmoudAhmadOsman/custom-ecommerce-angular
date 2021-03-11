@@ -80,6 +80,7 @@ $what_we_offer_p_color: #525252;
           .succeed {
             font-size: 56px;
             font-weight: bold;
+
           }
         }
 
@@ -388,7 +389,6 @@ $what_we_offer_p_color: #525252;
       // margin-bottom: 15px;
       border: 5px solid #F7F7F7;
       background-color: #c3c3c34a;
-
       box-shadow: 1px 3px 3px #fdfdfd;
       -webkit-box-shadow: 1px 3px 3px #0000000A;
       -moz-box-shadow: 1px 3px 3px #0000000A;
@@ -401,8 +401,6 @@ $what_we_offer_p_color: #525252;
       -ms-transition: all .4s ease-in-out;
       -o-transition: all .4s ease-in-out;
 
-
-
       &:hover {
         background-color: #fff;
         border: 5px solid #F7F7F7;
@@ -412,14 +410,7 @@ $what_we_offer_p_color: #525252;
         -ms-box-shadow: 1px 3px 3px #0000000A;
         -o-box-shadow: 1px 3px 3px #0000000A;
         cursor: pointer;
-        // border: 5px solid #F7F7F7;
-        // transform: translateY(-3px);
-        // box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-        // -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-        // -ms-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-        // -moz-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-        // -o-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-        // cursor: pointer;
+
       }
 
       h3 {
@@ -457,9 +448,6 @@ $what_we_offer_p_color: #525252;
       position: absolute;
       text-align: center;
       margin: auto 100px;
-
-
-
 
       .fa-arrow-right {
         margin-left: 3px;
@@ -501,13 +489,8 @@ $what_we_offer_p_color: #525252;
           margin-right: 20px;
           opacity: .8;
         }
-
       }
-
-
     }
-
-
 
     a {
       text-decoration: none;
@@ -521,11 +504,9 @@ $what_we_offer_p_color: #525252;
 
   }
 
-
   @media(max-width:768px) {
     .what-we-offer {
       display: block;
-
 
       .col-md-4 {
 
@@ -540,32 +521,102 @@ $what_we_offer_p_color: #525252;
         margin-bottom: 10px;
         margin-top: auto;
 
+      }
+    }
+  }
+
+  /*End of what we offer style*/
+
+  /*========== Start of second  testimonial ===========*/
+  .jobs-testimonial {
+    position: relative;
+
+    .col-md-4 {
+      cursor: pointer;
+
+      &:hover {
+        .fa-arrow-right {
+          margin-left: 6px;
+
+        }
+
+        .left-box,
+        .center-box,
+        .right-box {
+          background-color: #fff;
+        }
 
       }
 
+      a {
+        color: $main_bg_color !important;
+
+      }
+    }
+
+    img {
+
+      width: 93px;
+      height: 93px;
+      // border-radius: 50%;
+      margin: 60px auto 0px auto;
+    }
 
 
+    h1,
+    h2 {
+      font-size: 40px;
+      color: #222222;
+      font-weight: bold;
+    }
+
+    .left-box,
+    .center-box,
+    .right-box {
+      // width: 440px;
+      // width: auto;
+      height: 468px;
+      position: relative;
+      background-color: #FDFDFD;
+      box-shadow: 0px 4px 20px #0000000A;
+      -webkit-box-shadow: 0px 4px 20px #0000000A;
+      -moz-box-shadow: 0px 4px 20px #0000000A;
+      -ms-box-shadow: 0px 4px 20px #0000000A;
+      -o-box-shadow: 0px 4px 20px #0000000A;
+      border-radius: 10px;
+      margin-bottom: 25px;
+
+      p {
+        padding: 21px;
+        color: #525252;
+      }
+    }
 
 
+    span.learn-m-btn {
 
+      // position: absolute;
+      // text-align: center;
+      // margin: auto 5%;
 
+      .fa-arrow-right {
+        margin-left: 2px;
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+      }
+
+      // &:hover {
+      //   .fa-arrow-right {
+      //     margin-left: 6px;
+
+      //   }
+      // }
 
 
     }
   }
 
-
-
-
-
-
-
-
-
-
-  /*End of what we offer style*/
-
-
+  /*========== End of second  testimonial ===========*/
 
 
   /*Start of testimonial*/
