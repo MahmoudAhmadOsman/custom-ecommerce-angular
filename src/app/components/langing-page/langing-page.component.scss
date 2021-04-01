@@ -380,11 +380,10 @@ $what_we_offer_p_color: #525252;
       // margin-bottom: 32px;
 
       &:hover {
-        .fa-arrow-right {
-          margin-left: 6px;
+        // .fa-arrow-right {
+   //   margin-left: 6px;
 
-        }
-
+   // }
         .left-box,
         .center-box,
         .right-box {
@@ -454,6 +453,14 @@ $what_we_offer_p_color: #525252;
         transition: all .3s ease-in-out;
         -webkit-transition: all .3s ease-in-out;
       }
+
+      &:hover {
+        .fa-arrow-right {
+          margin-left: 6px;
+
+        }
+      }
+
 
     }
   }
