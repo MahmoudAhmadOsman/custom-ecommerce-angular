@@ -376,9 +376,8 @@ $what_we_offer_p_color: #525252;
 
     .col-md-4 {
       height: 467px;
-      height: 90%;
       // cursor: pointer;
-      // margin-bottom: 32px;
+      margin-bottom: 32px;
 
       &:hover {
         .fa-arrow-right {
@@ -485,7 +484,7 @@ $what_we_offer_p_color: #525252;
     .center-box,
     .right-box {
       // width: 424px;
-      width: 100%;
+      width: auto;
       height: 468px;
       position: relative;
       background-color: #FFFFFF;
