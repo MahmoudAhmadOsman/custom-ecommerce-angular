@@ -377,7 +377,7 @@ $what_we_offer_p_color: #525252;
     .col-md-4 {
       height: 467px;
       // cursor: pointer;
-      margin-bottom: 32px;
+      // margin-bottom: 32px;
 
       &:hover {
         .fa-arrow-right {
@@ -469,7 +469,7 @@ $what_we_offer_p_color: #525252;
 
         background-color: #FDFDFD;
         border: 1px solid #F7F7F7;
-        margin-bottom: 32px;
+        // margin-bottom: 32px;
       }
     }
   }
@@ -542,24 +542,30 @@ $what_we_offer_p_color: #525252;
       height: auto;
     }
 
-    a.btn-danger {
-      width: 189px;
-      // height: 60px;
-      // height: 50px;
-      height: auto;
-      font-size: 24px;
-      text-align: center;
-      background-color: $main_bg_color;
-      border: 1px solid $main_bg_color;
-      border-radius: 2px;
+    .hiring-content {
+      position: relative;
+      margin: 20% auto;
 
-      // font-weight: bold;
-      // padding: 13px;
-      &:hover {
-        background-color: $btn_danger_hover_bg;
-        cursor: pointer;
+      a.btn-danger {
+        width: 189px;
+        // height: 60px;
+        // height: 50px;
+        height: auto;
+        font-size: 24px;
+        text-align: center;
+        background-color: $main_bg_color;
+        border: 1px solid $main_bg_color;
+        border-radius: 2px;
+
+        // font-weight: bold;
+        // padding: 13px;
+        &:hover {
+          background-color: $btn_danger_hover_bg;
+          cursor: pointer;
+        }
       }
     }
+
   }
 
   /*End of compnay hiring*/
@@ -587,6 +593,7 @@ $what_we_offer_p_color: #525252;
 
     img {
       width: 100%;
+      margin-top: -71px;
     }
 
     .btn-danger {
@@ -608,6 +615,17 @@ $what_we_offer_p_color: #525252;
     }
 
 
+  }
+
+  @media (max-width:768px) {
+    .stick-together {
+      position: relative;
+
+      img {
+        width: 100%;
+        margin-top: 0px !important;
+      }
+    }
   }
 
   /* End of stick tother style*/
