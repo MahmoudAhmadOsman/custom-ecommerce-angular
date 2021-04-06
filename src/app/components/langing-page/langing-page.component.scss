@@ -86,6 +86,7 @@ $what_we_offer_p_color: #525252;
 
         p {
           color: #fff;
+          font-size: 18px;
         }
 
         .carousel-img-2 {
@@ -119,7 +120,7 @@ $what_we_offer_p_color: #525252;
 
           p {
             color: #222222;
-            font-size: 24px;
+            font-size: 18px;
             width: 80%;
           }
         }
@@ -151,7 +152,7 @@ $what_we_offer_p_color: #525252;
 
           p {
             color: #fff;
-            font-size: 24px;
+            font-size: 18px;
           }
         }
 
@@ -184,7 +185,7 @@ $what_we_offer_p_color: #525252;
 
           p {
             color: #222222;
-            font-size: 24px;
+            font-size: 18px;
 
           }
         }
@@ -212,9 +213,11 @@ $what_we_offer_p_color: #525252;
         }
 
         .btn-danger {
-          width: 189px;
-          height: 60px;
-          line-height: 35px;
+          // width: 189px;
+          // height: 60px;
+          // line-height: 35px;
+          padding: .5em 2.5em;
+          font-weight: bold;
           background-color: $main_bg_color;
           border: 1px solid #C92570;
           box-shadow: 0px 5px 9px #00000019;
@@ -345,14 +348,17 @@ $what_we_offer_p_color: #525252;
           }
 
           .btn-danger {
-            width: 189px;
-            height: 60px;
+            // width: 189px;
+            // height: 60px;
+            // line-height: 35px;
+            padding: .5em 2.5em;
+            font-weight: bold;
             background-color: $main_bg_color;
             border: 1px solid #C92570;
             box-shadow: 0px 5px 9px #00000019;
             border-radius: 2px;
             font-size: 21px;
-            line-height: 35px;
+
             text-align: center;
             margin: 24px auto;
 
@@ -555,10 +561,12 @@ $what_we_offer_p_color: #525252;
       margin: 20% auto;
 
       a.btn-danger {
-        width: 189px;
+        // width: 189px;
+        //  height: auto;
         // height: 60px;
         // height: 50px;
-        height: auto;
+        padding: .5em 2.5em;
+        font-weight: bold;
         font-size: 24px;
         text-align: center;
         background-color: $main_bg_color;
@@ -585,44 +593,47 @@ $what_we_offer_p_color: #525252;
     margin-top: 100px;
     margin-bottom: 40px;
 
-    .stick-together-content{
+    .stick-together-content {
       margin-left: 70px;
+
       // border: 1px solid #333;
       h3 {
-      position: relative;
-      font-size: 40px;
-      color: #222222;
+        position: relative;
+        font-size: 40px;
+        color: #222222;
 
-      span {
-        color: $main_text_color;
+        span {
+          color: $main_text_color;
+        }
       }
-    }
 
       p {
-      width: 100%;
-    }
-  .btn-danger {
-      width: 189px;
-      // height: 60px;
-      // height: 50px;
-      height: auto;
-      font-size: 24px;
-      background-color: $main_bg_color;
-      // padding: 12px;
-      text-align: center;
-      border-radius: 2px;
-
-      &:hover {
-        background-color: $btn_danger_hover_bg;
-        cursor: pointer;
+        width: 100%;
       }
 
-    }
+      .btn-danger {
+        // width: 189px;
+        // height: 60px;
+        // height: 50px;
+        // height: auto;
+         padding: .5em 2.5em;
+          font-weight: bold;
+        font-size: 24px;
+        background-color: $main_bg_color;
+        // padding: 12px;
+        text-align: center;
+        border-radius: 2px;
+
+        &:hover {
+          background-color: $btn_danger_hover_bg;
+          cursor: pointer;
+        }
+
+      }
     }
 
-    
 
-  
+
     img {
       width: 100%;
       height: auto;
@@ -630,7 +641,7 @@ $what_we_offer_p_color: #525252;
       // border: 1px solid #999;
     }
 
-  
+
 
 
   }
@@ -638,6 +649,10 @@ $what_we_offer_p_color: #525252;
   @media (max-width:768px) {
     .stick-together {
       position: relative;
+
+      .stick-together-content {
+        margin-left: 0px !important;
+      }
 
       img {
         width: 100%;
