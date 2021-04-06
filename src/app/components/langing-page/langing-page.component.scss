@@ -585,7 +585,10 @@ $what_we_offer_p_color: #525252;
     margin-top: 100px;
     margin-bottom: 40px;
 
-    h3 {
+    .stick-together-content{
+      margin-left: 70px;
+      // border: 1px solid #333;
+      h3 {
       position: relative;
       font-size: 40px;
       color: #222222;
@@ -595,17 +598,10 @@ $what_we_offer_p_color: #525252;
       }
     }
 
-    p {
-      width: 86%;
-    }
-
-    img {
+      p {
       width: 100%;
-      height: auto;
-      margin-top: -71px;
     }
-
-    .btn-danger {
+  .btn-danger {
       width: 189px;
       // height: 60px;
       // height: 50px;
@@ -622,6 +618,19 @@ $what_we_offer_p_color: #525252;
       }
 
     }
+    }
+
+    
+
+  
+    img {
+      width: 100%;
+      height: auto;
+      margin-top: -71px;
+      // border: 1px solid #999;
+    }
+
+  
 
 
   }
