@@ -57,7 +57,8 @@ $what_we_offer_p_color: #525252;
           height: auto;
           // height: 65vh;
           height: 85vh;
-          background: url(/assets/images/slider-01.png);
+          // background: url(/assets/images/slider-01.png);
+          background: url(/assets/images/woman_4-min.jpg);
           background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
@@ -94,7 +95,8 @@ $what_we_offer_p_color: #525252;
           height: auto;
           // height: 65vh;
           height: 85vh;
-          background: url(/assets/images/slider-02.png);
+          // background: url(/assets/images/slider-02.png);
+          background: url(/assets/images/woman_6-min.jpg);
           background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
@@ -130,7 +132,8 @@ $what_we_offer_p_color: #525252;
           height: auto;
           // height: 65vh;
           height: 85vh;
-          background: url(/assets/images/slider-03.png);
+          // background: url(/assets/images/slider-03.png);
+          background: url(/assets/images/woman_3-min.jpg);
           background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
@@ -161,7 +164,9 @@ $what_we_offer_p_color: #525252;
           height: auto;
           height: 85vh;
 
-          background: url(/assets/images/slider-04.png);
+          // background: url(/assets/images/slider-04.png);
+          background: url(/assets/images/woman_5-min.jpg);
+
           background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
@@ -180,6 +185,7 @@ $what_we_offer_p_color: #525252;
               width: 25%;
               font-size: 56px;
               font-weight: bold;
+
             }
           }
 
@@ -561,7 +567,7 @@ $what_we_offer_p_color: #525252;
       margin: 20% auto;
 
       a.btn-danger {
-    
+
         padding: .5em 2.5em;
         font-weight: bold;
         font-size: 21px;
@@ -609,12 +615,12 @@ $what_we_offer_p_color: #525252;
       }
 
       .btn-danger {
-      
-         padding: .5em 2.5em;
-          font-weight: bold;
+
+        padding: .5em 2.5em;
+        font-weight: bold;
         font-size: 21px;
         background-color: $main_bg_color;
-         
+
         text-align: center;
         border-radius: 2px;
 
