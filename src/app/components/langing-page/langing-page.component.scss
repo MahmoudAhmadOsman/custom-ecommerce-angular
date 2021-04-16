@@ -48,6 +48,7 @@ $what_we_offer_p_color: #525252;
       height: 85vh;
       // color: #fff;
       margin-bottom: 100px;
+      overflow: hidden;
 
       .carousel-inner {
         position: relative;
@@ -57,16 +58,20 @@ $what_we_offer_p_color: #525252;
           height: auto;
           // height: 65vh;
           height: 85vh;
+
           // background: url(/assets/images/slider-01.png);
           background: url(/assets/images/woman_4-min.jpg);
-          background-size: 100% 100%;
+          // background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
           background-position: center center;
           padding: 180px 0px;
           object-fit: cover;
           // margin-bottom: 20px;
+
+          overflow: hidden;
           background-size: cover;
+
 
         }
 
@@ -104,8 +109,9 @@ $what_we_offer_p_color: #525252;
           padding: 180px 0px;
           object-fit: cover;
           margin-bottom: 20px;
-          background-size: cover;
           overflow: hidden;
+          background-size: cover;
+
 
           h4 {
             color: #000;
@@ -141,8 +147,9 @@ $what_we_offer_p_color: #525252;
           padding: 180px 0px;
           object-fit: cover;
           margin-bottom: 20px;
-          background-size: cover;
           overflow: hidden;
+          background-size: cover;
+
 
           h4 {
             position: relative;
@@ -165,8 +172,8 @@ $what_we_offer_p_color: #525252;
           height: 85vh;
 
           // background: url(/assets/images/slider-04.png);
-          background: url(/assets/images/woman_5-min.jpg);
-
+          // background: url(/assets/images/woman_5-min.jpg);
+          background: url(/assets/images/woman_5_new-min.png);
           background-size: 100% 100%;
           display: block;
           background-repeat: no-repeat;
@@ -174,8 +181,9 @@ $what_we_offer_p_color: #525252;
           padding: 180px 0px;
           object-fit: cover;
           margin-bottom: 20px;
-          background-size: cover;
           overflow: hidden;
+          background-size: cover;
+
 
           h4 {
             position: relative;

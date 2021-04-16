@@ -3,594 +3,603 @@ $main_bg_color: #C92570;
 $main_text_color: #C92570;
 $btn_danger_hover_bg: #d22e79;
 
-.sidebar-active {
-  color: $main_text_color !important;
-
-}
+@media (min-width:1823px) {
 
 
+  .sidebar-active {
+    color: $main_text_color !important;
 
-.left-sidebar {
-  position: relative;
-  display: block;
-
-  .fixed-top {
-    // background-color: #F7F7F7;
-
-    margin-top: 75px;
-  }
-
-  .left-menu-links {
-    width: 100%;
-    background-color: #F7F7F7;
-    height: 100vh;
-    // margin-top: 60px;
-    // margin-top: 43px;
-    margin-top: 0px;
-
-    h3 {
-       margin-left: 21px;
-      font-size: 21px;
-      margin-top: 72px;
-      margin-bottom: 21px;
-      font-weight: 800;
-    }
-
-    .list-group-item {
-      background-color: #F7F7F7;
-      border: 0px;
-
-    }
-
-    a {
-      font-size: 21px;
-      color: #000000;
-
-    }
   }
 
 
-  /*Start of learn-more-header*/
 
-  .learn-more-header {
-    // width: 970px;
-    width: 100%;
-    margin: auto;
+  .left-sidebar {
     position: relative;
-    background: url(/assets/images/slide-background.png);
-    background-size: 100% 100%;
     display: block;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 180px 0px;
-    object-fit: cover;
-    margin-bottom: 40px;
-    background-size: cover;
-    overflow-x: hidden;
 
+    .fixed-top {
+      // background-color: #F7F7F7;
 
-    .learn-more-text {
-      // width: 100%;
-      height: auto;
-      float: right;
-      margin-right: 106px;
+      margin-top: 75px;
+    }
 
+    .left-menu-links {
+      width: 100%;
+      background-color: #F7F7F7;
+      height: 100vh;
+      // margin-top: 60px;
+      // margin-top: 43px;
+      margin-top: 0px;
 
-      h1 {
-        font-weight: bold;
-        color: $main_text_color;
-        font-size: 72px;
-        // letter-spacing: 1.5px;
+      h3 {
+        margin-left: 21px;
+        font-size: 21px;
+        margin-top: 72px;
+        margin-bottom: 21px;
+        font-weight: 800;
+      }
+
+      .list-group-item {
+        background-color: #F7F7F7;
+        border: 0px;
 
       }
 
-      p {
+      a {
+        font-size: 21px;
+        color: #000000;
+
+      }
+    }
+
+
+    /*Start of learn-more-header*/
+
+    .learn-more-header {
+      // width: 970px;
+      width: 100%;
+      margin: auto;
+      position: relative;
+      background: url(/assets/images/slide-background.png);
+      background-size: 100% 100%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 180px 0px;
+      object-fit: cover;
+      margin-bottom: 40px;
+      background-size: cover;
+      overflow-x: hidden;
+
+
+      .learn-more-text {
+        // width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 106px;
+
+
+        h1 {
+          font-weight: bold;
+          color: $main_text_color;
+          font-size: 72px;
+          // letter-spacing: 1.5px;
+
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 42px;
+          color: #000;
+        }
+
+      }
+    }
+
+    /*End of learn-more-header*/
+    /*Start of main-c-container*/
+    .money_container {
+      position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
         font-weight: bold;
         font-size: 42px;
-        color: #000;
-      }
-
-    }
-  }
-
-  /*End of learn-more-header*/
-  /*Start of main-c-container*/
-  .money_container {
-    position: relative;
-    margin-bottom: 96px;
-
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
-
-    p {
-      font-size: 25px;
-
-    }
-
-    .first-row {
-      position: relative;
-      margin-bottom: 20px;
-
-      img {
-        display: block;
-        width: 100%;
-        // height: 350px;
-        // width: 469px;
-        height: auto;
-      }
-
-      .money__details {
-        position: relative;
-        // margin: 140px auto;
-        // margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-        }
-
-        p {
-          width: 55%;
-          font-size: 21px;
-        }
-      }
-    }
-
-
-    /*Start of second row style*/
-    .second-row {
-      position: relative;
-      margin-bottom: 20px;
-
-      img {
-        // width: 100%;
-        // width: 469px;
-
-        width: 100%;
-        height: auto;
-
-      }
-
-      .money__details {
-        position: relative;
-        // margin: 140px auto;
-        // margin: 25% auto;
-        // margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-
-        }
-
-        p {
-          width: 55%;
-          font-size: 21px;
-        }
-      }
-
-    }
-
-    /*End of second row style*/
-
-  }
-
-  /*End of main-c-container*/
-
-
-
-
-  /*Start of events style*/
-
-  .events_container {
-    position: relative;
-    margin-bottom: 96px;
-
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
-
-    p {
-      font-size: 25px;
-    }
-
-    img {
-      width: 100%;
-
-      // height: 356px;
-      height: auto;
-    }
-
-    .event-row-one {
-      position: relative;
-      margin-bottom: 20px;
-
-      .event__details {
-        position: relative;
-        // margin: 140px auto;
-        // margin: 15% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-
-        }
-
-        p {
-          width: 55%;
-          font-size: 21px;
-        }
-
-      }
-
-    }
-
-    .event-row-two {
-      position: relative;
-      // margin-bottom: 20px;
-
-      .event__details {
-        position: relative;
-        // margin: 140px auto;
-        // margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-          width: 45%;
-        }
-
-        p {
-          width: 55%;
-          font-size: 21px;
-        }
-
-      }
-
-    }
-
-
-
-    /*Start of what Event we offer style*/
-    .events_offer_container {
-      margin-top: 48px;
-
-      h3 {
-        margin-bottom: 32px;
-        font-size: 30px;
-      }
-
-      img {
-        width: 100%;
-        // width: 385px;
-        // height: 289px;
-        height: auto;
-        object-fit: cover;
-
       }
 
       p {
-        margin-top: 24px;
-        color: #000;
+        font-size: 25px;
+
+      }
+
+      .first-row {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          display: block;
+          width: 100%;
+          // height: 350px;
+          // width: 469px;
+          height: auto;
+        }
+
+        .money__details {
+          position: relative;
+          height: auto;
+          // margin: 140px auto;
+          // margin: 25% auto;
+          margin: 15% auto;
+
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 55%;
+            font-size: 21px;
+          }
+        }
+      }
+
+
+      /*Start of second row style*/
+      .second-row {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          // width: 100%;
+          // width: 469px;
+
+          width: 100%;
+          height: auto;
+
+        }
+
+        .money__details {
+          position: relative;
+          // margin: 140px auto;
+          // margin: 25% auto;
+          // margin: 25% auto;
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+
+          }
+
+          p {
+            width: 55%;
+            font-size: 21px;
+          }
+        }
+
+      }
+
+      /*End of second row style*/
+
+    }
+
+    /*End of main-c-container*/
+
+
+
+
+    /*Start of events style*/
+
+    .events_container {
+      position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
         font-size: 25px;
       }
-    }
-
-    /*End of what Event we offer style*/
-  }
-
-  /*End of events style*/
-
-
-
-
-
-
-
-  /*Start of Jobs style*/
-
-  .jobs_container {
-    position: relative;
-    margin-bottom: 96px;
-
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
-
-    p {
-      font-size: 25px;
-    }
-
-
-    .jobs-row-one {
-      position: relative;
-      margin-bottom: 20px;
 
       img {
         width: 100%;
+
         // height: 356px;
         height: auto;
-        object-fit: cover;
       }
 
-      .jobs__details {
+      .event-row-one {
         position: relative;
-        // margin: 140px auto;
-        // margin: 25% auto;
-        margin: 15% auto;
+        margin-bottom: 20px;
 
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-        }
+        .event__details {
+          position: relative;
+          // margin: 15% auto;
+          margin: 10% auto;
 
-        p {
-          width: 50%;
-          font-size: 21px;
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+
+          }
+
+          p {
+            width: 55%;
+            font-size: 21px;
+          }
+
         }
 
       }
 
-    }
-
-    .jobs-row-two {
-      position: relative;
-      // margin-bottom: 20px;
-
-      img {
-        width: 100%;
-        // height: 356px;
-        height: auto;
-        object-fit: cover;
-      }
-
-      .jobs__details {
+      .event-row-two {
         position: relative;
-        // margin: 140px auto;
-        // margin: 25% auto;
+        // margin-bottom: 20px;
 
-        margin: 15% auto;
+        .event__details {
+          position: relative;
+          // margin: 140px auto;
+          // margin: 25% auto;
+          margin: 10% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+            width: 45%;
+          }
+
+          p {
+            width: 55%;
+            font-size: 21px;
+          }
+
+        }
+
+      }
+
+
+
+      /*Start of what Event we offer style*/
+      .events_offer_container {
+        margin-top: 48px;
 
         h3 {
-          font-weight: bold;
+          margin-bottom: 32px;
           font-size: 30px;
         }
 
+        img {
+          width: 100%;
+          // width: 385px;
+          // height: 289px;
+          height: auto;
+          object-fit: cover;
+
+        }
+
         p {
-          width: 50%;
-          font-size: 21px;
+          margin-top: 24px;
+          color: #000;
+          font-size: 25px;
         }
       }
+
+      /*End of what Event we offer style*/
     }
 
-    /*Start of what Jobs we offer style*/
-    .jobss_offer_container {
-      margin-top: 48px;
+    /*End of events style*/
 
-      h3 {
-        margin-bottom: 32px;
-        font-size: 30px;
-      }
 
-      img {
-        width: 100%;
-        // width: 385px;
-        // height: 289px;
-        height: auto;
-      }
 
-      p {
-        margin-top: 24px;
-        color: #000;
-        font-size: 21px;
-      }
-    }
 
-    /*End of what Jobs we offer style*/
-  }
 
-  /*End of Jobs style*/
 
-  /*Start of networking style*/
-  .networking_container {
-    position: relative;
-    display: block;
-    margin-bottom: 96px;
 
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
+    /*Start of Jobs style*/
 
-    p {
-      font-size: 25px;
-    }
-
-    .networking-row-one {
+    .jobs_container {
       position: relative;
-      margin-bottom: 20px;
+      margin-bottom: 96px;
 
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .networking__details {
-        display: block;
-        // margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-        }
-
-        p {
-          width: 50%;
-          font-size: 21px;
-
-        }
-
-      }
-    }
-
-    .networking-row-two {
-      position: relative;
-      margin-bottom: 20px;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .networking__details {
-        margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-        }
-
-        p {
-          width: 50%;
-          font-size: 21px;
-        }
-
-      }
-    }
-  }
-
-  /*End of networking style*/
-
-
-  /*Start of Lifestyle style*/
-
-  .lifestyle_container {
-    position: relative;
-    margin-bottom: 96px;
-
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
-
-    p {
-      font-size: 25px;
-    }
-
-    .lifestyle-row-one {
-      position: relative;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .lifestyle__details {
-        margin: 25% auto;
-        margin: 15% auto;
-
-        h3 {
-          font-weight: bold;
-          font-size: 30px;
-        }
-
-        p {
-          width: 50%;
-          font-size: 21px;
-        }
-      }
-    }
-  }
-
-  /*End of Lifestyle style*/
-
-
-  /* Start of Discounts style*/
-  .discounts_container {
-    position: relative;
-    width: auto;
-    height: auto;
-    margin-bottom: 96px;
-
-    h2 {
-      color: $main_text_color;
-      font-weight: bold;
-      font-size: 42px;
-    }
-
-    p {
-
-      font-size: 25px;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    .discounts__details {
-      // margin: 25% auto;
-      margin: 15% auto;
-
-      h3 {
+      h2 {
+        color: $main_text_color;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 42px;
       }
 
       p {
-        width: 50%;
-        font-size: 21px;
+        font-size: 25px;
+      }
+
+
+      .jobs-row-one {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          // height: 356px;
+          height: auto;
+          object-fit: cover;
+        }
+
+        .jobs__details {
+          position: relative;
+          // margin: 140px auto;
+          // margin: 25% auto;
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 50%;
+            font-size: 21px;
+          }
+
+        }
+
+      }
+
+      .jobs-row-two {
+        position: relative;
+        // margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          // height: 356px;
+          height: auto;
+          object-fit: cover;
+        }
+
+        .jobs__details {
+          position: relative;
+          // margin: 140px auto;
+          // margin: 25% auto;
+
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 50%;
+            font-size: 21px;
+          }
+        }
+      }
+
+      /*Start of what Jobs we offer style*/
+      .jobss_offer_container {
+        margin-top: 48px;
+
+        h3 {
+          margin-bottom: 32px;
+          font-size: 30px;
+        }
+
+        img {
+          width: 100%;
+          // width: 385px;
+          // height: 289px;
+          height: auto;
+        }
+
+        p {
+          margin-top: 24px;
+          color: #000;
+          font-size: 21px;
+        }
+      }
+
+      /*End of what Jobs we offer style*/
+    }
+
+    /*End of Jobs style*/
+
+    /*Start of networking style*/
+    .networking_container {
+      position: relative;
+      display: block;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+
+      .networking-row-one {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .networking__details {
+          display: block;
+          // margin: 25% auto;
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 50%;
+            font-size: 21px;
+
+          }
+
+        }
+      }
+
+      .networking-row-two {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .networking__details {
+          margin: 25% auto;
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 50%;
+            font-size: 21px;
+          }
+
+        }
       }
     }
-  }
 
-  /* End of Discounts style*/
+    /*End of networking style*/
 
-  /*Start of sign up bottom btn*/
 
-  .bottom-sign-up {
-    position: relative;
-    margin-bottom: 96px;
+    /*Start of Lifestyle style*/
 
-    a.btn-danger {
-      // width: 217px;
-      // height: 64px;
-      padding: .5em 2.5em;
-      font-weight: bold;
-      background-color: $main_bg_color;
-      border: 1px solid $main_bg_color;
-      border-radius: 2px;
-      box-shadow: 0px 5px 9px #0000001A;
-      font-size: 21px;
+    .lifestyle_container {
+      position: relative;
+      margin-bottom: 96px;
 
-      &:hover {
-        background-color: $btn_danger_hover_bg;
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+
+      .lifestyle-row-one {
+        position: relative;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .lifestyle__details {
+          margin: 25% auto;
+          margin: 15% auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: 50%;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+
+    /*End of Lifestyle style*/
+
+
+    /* Start of Discounts style*/
+    .discounts_container {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+
+        font-size: 25px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .discounts__details {
+        // margin: 25% auto;
+        margin: 15% auto;
+
+        h3 {
+          font-weight: bold;
+          font-size: 30px;
+        }
+
+        p {
+          width: 50%;
+          font-size: 21px;
+        }
+      }
+    }
+
+    /* End of Discounts style*/
+
+    /*Start of sign up bottom btn*/
+
+    .bottom-sign-up {
+      position: relative;
+      margin-bottom: 96px;
+
+      a.btn-danger {
+        // width: 217px;
+        // height: 64px;
+        padding: .5em 2.5em;
+        font-weight: bold;
+        background-color: $main_bg_color;
         border: 1px solid $main_bg_color;
-        cursor: pointer;
-      }
+        border-radius: 2px;
+        box-shadow: 0px 5px 9px #0000001A;
+        font-size: 21px;
 
+        &:hover {
+          background-color: $btn_danger_hover_bg;
+          border: 1px solid $main_bg_color;
+          cursor: pointer;
+        }
+
+      }
     }
+
+
   }
+
 
 
 }
 
-@media(max-width:768px) {
+// @media(max-width:768px) 
+@media(max-width: 768px) and (max-width: 991.98px) {
   .left-sidebar {
     width: 100%;
     height: auto;
@@ -641,7 +650,7 @@ $btn_danger_hover_bg: #d22e79;
       h1 {
         width: 100%;
         text-align: center;
-  
+
         font-size: 40px !important;
       }
 
@@ -661,7 +670,7 @@ $btn_danger_hover_bg: #d22e79;
     margin-bottom: 20px !important;
 
     h3 {
-   
+
       font-size: 25px !important;
     }
 
