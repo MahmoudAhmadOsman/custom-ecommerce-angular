@@ -3,6 +3,8 @@ $main_bg_color: #C92570;
 $main_text_color: #C92570;
 $btn_danger_hover_bg: #d22e79;
 $signUpBnt: 0.5em 2.5em;
+$sharedMargins: 15% auto;
+$sharedpwith: 80%;
 
 @media (min-width:1823px) {
 
@@ -599,7 +601,334 @@ $signUpBnt: 0.5em 2.5em;
 
 }
 
-// @media(max-width:768px) 
+
+
+/*For Laptop*/
+@media (min-width:992px) {
+
+  /*Start of money container*/
+  .money_container {
+    position: relative;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    h3 {
+
+      font-size: 25px !important;
+    }
+
+    .first-row {
+      position: relative;
+
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .money__details {
+        margin: $sharedMargins;
+
+        p {
+          width: $sharedpwith;
+
+        }
+      }
+
+    }
+
+    .second-row {
+      position: relative;
+      display: block;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .money__details {
+        position: relative;
+        margin: $sharedMargins;
+
+
+
+        p {
+          width: $sharedpwith;
+        }
+      }
+    }
+  }
+
+  /*End of money container*/
+
+  /*Start of Events container style*/
+  .events_container {
+    position: relative;
+    display: block;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    .event-row-one {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .event__details {
+        margin: $sharedMargins;
+
+        p {
+          width: $sharedpwith;
+        }
+      }
+    }
+
+    .event-row-two {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .event__details {
+        margin: $sharedMargins;
+
+        h3 {
+          width: $sharedpwith;
+        }
+
+        p {
+          width: $sharedpwith;
+        }
+      }
+    }
+  }
+
+  /*End of What Events Offer style*/
+
+
+  /*Start What Events Offersstyle*/
+  .events_offer_container {
+    position: relative;
+    display: block;
+
+
+    img {
+      height: auto;
+    }
+
+    // p {
+    //     padding: 10px 20px;
+    // }
+  }
+
+  /*End What Events Offers style*/
+
+  /*Start of Jobs container style*/
+  .jobs_container {
+    position: relative;
+    display: block;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    .jobs-row-one {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .jobs__details {
+        margin: $sharedMargins;
+
+        p {
+          width: $sharedpwith;
+        }
+      }
+    }
+
+    .jobs-row-two {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .jobs__details {
+        margin: $sharedMargins;
+
+        p {
+          width: $sharedpwith;
+        }
+      }
+    }
+  }
+
+  /*End of What Jobs Offer style*/
+
+
+  /*Start What Jobs Offersstyle*/
+  .jobs_offer_container {
+    position: relative;
+    display: block;
+
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    // p {
+    //     padding: 10px 20px;
+    // }
+  }
+
+  /*End What Jobs Offers style*/
+
+  /*Start of networking style*/
+  .networking_container {
+    position: relative;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    p {
+      width: 100% !important;
+    }
+
+    .networking-row-one {
+      position: relative;
+
+      img {
+        height: auto;
+      }
+
+      .networking__details {
+        margin: $sharedMargins;
+
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+
+    .networking-row-two {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .networking__details {
+        margin: $sharedMargins;
+
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+
+  }
+
+  /*End of networking style*/
+
+  /*Start of lifestyle style*/
+  .lifestyle_container {
+    position: relative;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    .lifestyle-row-one {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .lifestyle__details {
+
+        margin: $sharedMargins;
+
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  /*End of lifestyle style*/
+
+  /*Start of Discounts Style*/
+  .discounts_container {
+    position: relative;
+    margin-bottom: 20px !important;
+
+    h2 {
+      color: $main_text_color;
+    }
+
+    .discounts-row-one {
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .discounts__details {
+        margin: $sharedMargins;
+
+        p {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  /*End of Discounts Style*/
+
+  /*Start of bottom-sign-up button*/
+  .bottom-sign-up {
+    position: relative;
+    margin: 25px auto;
+
+    .btn-danger {
+      font-weight: bold;
+      background-color: $main_bg_color;
+      padding: $signUpBnt;
+    }
+  }
+
+  /*End of bottom-sign-up button*/
+
+}
+
+
+
+
+
+// For mobile 
 @media(max-width: 768px) and (max-width: 991.98px) {
   .left-sidebar {
     width: 100%;
