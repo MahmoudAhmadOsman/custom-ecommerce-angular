@@ -1223,6 +1223,7 @@ $sharedpwith: 60%;
           background-color: #F7F7F7;
           display: block;
           text-align: center;
+          margin: 95px auto -91px auto;
         }
 
       }
@@ -1236,7 +1237,20 @@ $sharedpwith: 60%;
 
 
   .learn-more-header {
+    width: 100%;
+    margin: auto;
     position: relative;
+    background: url(/assets/images/slide-background.png);
+    background-size: 100% 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 180px 0px;
+    object-fit: cover;
+    margin-bottom: 40px;
+    background-size: cover;
+    overflow-x: hidden;
+
 
     .learn-more-text {
       width: 100% !important;
@@ -1247,8 +1261,11 @@ $sharedpwith: 60%;
 
       h1 {
         width: 100%;
+        font-weight: bold;
         text-align: center;
+        color: $main_text_color;
         font-size: 40px !important;
+
       }
 
       p {
@@ -1256,7 +1273,8 @@ $sharedpwith: 60%;
         font-size: 21px !important;
         text-align: center;
         letter-spacing: 0px !important;
-        width: 100% !important;
+        // width: 100% !important;
+        text-shadow: 2px 2px #e8e2e5;
       }
     }
   }
