@@ -604,292 +604,536 @@ $sharedpwith: 80%;
 
 
 /*For Laptop*/
-@media (min-width:992px) {
+@media (min-width:1024px) {
 
-  /*Start of money container*/
-  .money_container {
-    position: relative;
-    margin-bottom: 20px !important;
+  .sidebar-active {
+    color: $main_text_color !important;
 
-    h2 {
-      color: $main_text_color;
-    }
-
-    h3 {
-
-      font-size: 25px !important;
-    }
-
-    .first-row {
-      position: relative;
-
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .money__details {
-        margin: $sharedMargins;
-
-        p {
-          width: $sharedpwith;
-
-        }
-      }
-
-    }
-
-    .second-row {
-      position: relative;
-      display: block;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .money__details {
-        position: relative;
-        margin: $sharedMargins;
-
-
-
-        p {
-          width: $sharedpwith;
-        }
-      }
-    }
   }
 
-  /*End of money container*/
 
-  /*Start of Events container style*/
-  .events_container {
+
+  .left-sidebar {
     position: relative;
     display: block;
-    margin-bottom: 20px !important;
 
-    h2 {
-      color: $main_text_color;
+    .fixed-top {
+      // background-color: #F7F7F7;
+
+      margin-top: 75px;
     }
 
-    .event-row-one {
-      position: relative;
+    .left-menu-links {
+      width: 100%;
+      background-color: #F7F7F7;
+      height: 100vh;
+      // margin-top: 60px;
+      // margin-top: 43px;
+      margin-top: 0px;
 
-      img {
-        width: 100%;
-        height: auto;
+      h3 {
+        margin-left: 21px;
+        font-size: 21px;
+        margin-top: 72px;
+        margin-bottom: 21px;
+        font-weight: 800;
       }
 
-      .event__details {
-        margin: $sharedMargins;
+      .list-group-item {
+        background-color: #F7F7F7;
+        border: 0px;
+
+      }
+
+      a {
+        font-size: 21px;
+        color: #000000;
+
+      }
+    }
+
+
+    /*Start of learn-more-header*/
+
+    .learn-more-header {
+      // width: 970px;
+      width: 100%;
+      margin: auto;
+      position: relative;
+      background: url(/assets/images/slide-background.png);
+      background-size: 100% 100%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 180px 0px;
+      object-fit: cover;
+      margin-bottom: 40px;
+      background-size: cover;
+      overflow-x: hidden;
+
+
+      .learn-more-text {
+        // width: 100%;
+        height: auto;
+        float: right;
+        margin-right: 106px;
+
+
+        h1 {
+          font-weight: bold;
+          color: $main_text_color;
+          font-size: 72px;
+          // letter-spacing: 1.5px;
+
+        }
 
         p {
-          width: $sharedpwith;
+          font-weight: bold;
+          font-size: 42px;
+          color: #000;
         }
+
       }
     }
 
-    .event-row-two {
+    /*End of learn-more-header*/
+    /*Start of main-c-container*/
+    .money_container {
       position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+
+      }
+
+      .first-row {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          display: block;
+          width: 100%;
+          // height: 350px;
+          // width: 469px;
+          height: auto;
+        }
+
+        .money__details {
+          position: relative;
+          height: auto;
+          // margin: 140px auto;
+          // margin: 25% auto;
+          margin: $sharedMargins;
+
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+        }
+      }
+
+
+      /*Start of second row style*/
+      .second-row {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+
+          width: 100%;
+          height: auto;
+
+        }
+
+        .money__details {
+          position: relative;
+          // margin: 15% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+
+          }
+
+          p {
+
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+        }
+
+      }
+
+      /*End of second row style*/
+
+    }
+
+    /*End of main-c-container*/
+
+
+
+
+    /*Start of events style*/
+
+    .events_container {
+      position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
 
       img {
         width: 100%;
+
+        // height: 356px;
         height: auto;
       }
 
-      .event__details {
-        margin: $sharedMargins;
+      .event-row-one {
+        position: relative;
+        margin-bottom: 20px;
+
+        .event__details {
+          position: relative;
+          // margin: 15% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+
+          }
+
+        }
+
+      }
+
+      .event-row-two {
+        position: relative;
+        // margin-bottom: 20px;
+
+        .event__details {
+          position: relative;
+          margin: 45px auto;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+            width: $sharedpwith;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+
+        }
+
+      }
+
+
+
+      /*Start of what Event we offer style*/
+      .events_offer_container {
+        margin-top: 48px;
 
         h3 {
-          width: $sharedpwith;
+          margin-bottom: 32px;
+          font-size: 30px;
+        }
+
+        img {
+          width: 100%;
+
+          height: auto;
+          object-fit: cover;
+
         }
 
         p {
-          width: $sharedpwith;
+          margin-top: 24px;
+          color: #000;
+          font-size: 25px;
+        }
+      }
+
+      /*End of what Event we offer style*/
+    }
+
+    /*End of events style*/
+
+
+
+
+
+
+
+    /*Start of Jobs style*/
+
+    .jobs_container {
+      position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+
+
+      .jobs-row-one {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          // height: 356px;
+          height: auto;
+          object-fit: cover;
+        }
+
+        .jobs__details {
+          position: relative;
+          // margin: 140px auto;
+          // margin: 15% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+
+        }
+
+      }
+
+      .jobs-row-two {
+        position: relative;
+        // margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          // height: 356px;
+          height: auto;
+          object-fit: cover;
+        }
+
+        .jobs__details {
+          position: relative;
+
+          // margin: 15% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+        }
+      }
+
+      /*Start of what Jobs we offer style*/
+      .jobss_offer_container {
+        margin-top: 48px;
+
+        h3 {
+          margin-bottom: 32px;
+          font-size: 30px;
+        }
+
+        img {
+          width: 100%;
+
+          height: auto;
+        }
+
+        p {
+          margin-top: 24px;
+          color: #000;
+          font-size: 21px;
+        }
+      }
+
+      /*End of what Jobs we offer style*/
+    }
+
+    /*End of Jobs style*/
+
+    /*Start of networking style*/
+    .networking_container {
+      position: relative;
+      display: block;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+
+      .networking-row-one {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .networking__details {
+          display: block;
+          // margin: 25% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+
+          }
+
+        }
+      }
+
+      .networking-row-two {
+        position: relative;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .networking__details {
+          margin: 25% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+
         }
       }
     }
-  }
 
-  /*End of What Events Offer style*/
-
-
-  /*Start What Events Offersstyle*/
-  .events_offer_container {
-    position: relative;
-    display: block;
+    /*End of networking style*/
 
 
-    img {
+    /*Start of Lifestyle style*/
+
+    .lifestyle_container {
+      position: relative;
+      margin-bottom: 96px;
+
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+
+      .lifestyle-row-one {
+        position: relative;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .lifestyle__details {
+          margin: 25% auto;
+          margin: $sharedMargins;
+
+          h3 {
+            font-weight: bold;
+            font-size: 30px;
+          }
+
+          p {
+            width: $sharedpwith;
+            font-size: 21px;
+          }
+        }
+      }
+    }
+
+    /*End of Lifestyle style*/
+
+
+    /* Start of Discounts style*/
+    .discounts_container {
+      position: relative;
+      width: auto;
       height: auto;
-    }
+      margin-bottom: 96px;
 
-    // p {
-    //     padding: 10px 20px;
-    // }
-  }
-
-  /*End What Events Offers style*/
-
-  /*Start of Jobs container style*/
-  .jobs_container {
-    position: relative;
-    display: block;
-    margin-bottom: 20px !important;
-
-    h2 {
-      color: $main_text_color;
-    }
-
-    .jobs-row-one {
-      position: relative;
-
-      img {
-        width: 100%;
-        height: auto;
+      h2 {
+        color: $main_text_color;
+        font-weight: bold;
+        font-size: 42px;
       }
 
-      .jobs__details {
-        margin: $sharedMargins;
+      p {
 
-        p {
-          width: $sharedpwith;
-        }
+        font-size: 25px;
       }
-    }
-
-    .jobs-row-two {
-      position: relative;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .jobs__details {
-        margin: $sharedMargins;
-
-        p {
-          width: $sharedpwith;
-        }
-      }
-    }
-  }
-
-  /*End of What Jobs Offer style*/
-
-
-  /*Start What Jobs Offersstyle*/
-  .jobs_offer_container {
-    position: relative;
-    display: block;
-
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    // p {
-    //     padding: 10px 20px;
-    // }
-  }
-
-  /*End What Jobs Offers style*/
-
-  /*Start of networking style*/
-  .networking_container {
-    position: relative;
-    margin-bottom: 20px !important;
-
-    h2 {
-      color: $main_text_color;
-    }
-
-    p {
-      width: 100% !important;
-    }
-
-    .networking-row-one {
-      position: relative;
-
-      img {
-        height: auto;
-      }
-
-      .networking__details {
-        margin: $sharedMargins;
-
-        p {
-          width: 100% !important;
-        }
-      }
-    }
-
-    .networking-row-two {
-      position: relative;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .networking__details {
-        margin: $sharedMargins;
-
-        p {
-          width: 100% !important;
-        }
-      }
-    }
-
-  }
-
-  /*End of networking style*/
-
-  /*Start of lifestyle style*/
-  .lifestyle_container {
-    position: relative;
-    margin-bottom: 20px !important;
-
-    h2 {
-      color: $main_text_color;
-    }
-
-    .lifestyle-row-one {
-      position: relative;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .lifestyle__details {
-
-        margin: $sharedMargins;
-
-        p {
-          width: 100% !important;
-        }
-      }
-    }
-  }
-
-  /*End of lifestyle style*/
-
-  /*Start of Discounts Style*/
-  .discounts_container {
-    position: relative;
-    margin-bottom: 20px !important;
-
-    h2 {
-      color: $main_text_color;
-    }
-
-    .discounts-row-one {
-      position: relative;
 
       img {
         width: 100%;
@@ -897,30 +1141,54 @@ $sharedpwith: 80%;
       }
 
       .discounts__details {
+        // margin: 15% auto;
         margin: $sharedMargins;
 
+        h3 {
+          font-weight: bold;
+          font-size: 30px;
+        }
+
         p {
-          width: 100% !important;
+          width: $sharedpwith;
+          font-size: 21px;
         }
       }
     }
-  }
 
-  /*End of Discounts Style*/
+    /* End of Discounts style*/
 
-  /*Start of bottom-sign-up button*/
-  .bottom-sign-up {
-    position: relative;
-    margin: 25px auto;
+    /*Start of sign up bottom btn*/
 
-    .btn-danger {
-      font-weight: bold;
-      background-color: $main_bg_color;
-      padding: $signUpBnt;
+    .bottom-sign-up {
+      position: relative;
+      margin-bottom: 96px;
+
+      a.btn-danger {
+
+        padding: $signUpBnt;
+        font-weight: bold;
+        background-color: $main_bg_color;
+        border: 1px solid $main_bg_color;
+        border-radius: 2px;
+        box-shadow: 0px 5px 9px #0000001A;
+        font-size: 21px;
+
+        &:hover {
+          background-color: $btn_danger_hover_bg;
+          border: 1px solid $main_bg_color;
+          cursor: pointer;
+        }
+
+      }
     }
+
+    /*End of sign up bottom btn*/
+
+
   }
 
-  /*End of bottom-sign-up button*/
+
 
 }
 
@@ -1000,6 +1268,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     h3 {
@@ -1063,6 +1332,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     .event-row-one {
@@ -1128,6 +1398,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     .jobs-row-one {
@@ -1193,6 +1464,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     p {
@@ -1243,6 +1515,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     .lifestyle-row-one {
@@ -1272,6 +1545,7 @@ $sharedpwith: 80%;
 
     h2 {
       color: $main_text_color;
+      font-size: 42px;
     }
 
     .discounts-row-one {
