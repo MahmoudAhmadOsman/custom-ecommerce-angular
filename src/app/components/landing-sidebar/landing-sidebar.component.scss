@@ -601,8 +601,6 @@ $sharedpwith: 60%;
 
 }
 
-
-
 /*For Laptop*/
 @media (min-width:1024px) {
 
@@ -611,15 +609,11 @@ $sharedpwith: 60%;
 
   }
 
-
-
   .left-sidebar {
     position: relative;
     display: block;
 
     .fixed-top {
-      // background-color: #F7F7F7;
-
       margin-top: 75px;
     }
 
@@ -627,8 +621,6 @@ $sharedpwith: 60%;
       width: 100%;
       background-color: #F7F7F7;
       height: 100vh;
-      // margin-top: 60px;
-      // margin-top: 43px;
       margin-top: 0px;
 
       h3 {
@@ -683,8 +675,6 @@ $sharedpwith: 60%;
           font-weight: bold;
           color: $main_text_color;
           font-size: 72px;
-          // letter-spacing: 1.5px;
-
         }
 
         p {
@@ -805,8 +795,6 @@ $sharedpwith: 60%;
 
       img {
         width: 100%;
-
-        // height: 356px;
         height: auto;
       }
 
@@ -816,7 +804,6 @@ $sharedpwith: 60%;
 
         .event__details {
           position: relative;
-          // margin: 15% auto;
           margin: $sharedMargins;
 
           h3 {
@@ -837,8 +824,6 @@ $sharedpwith: 60%;
 
       .event-row-two {
         position: relative;
-        // margin-bottom: 20px;
-
         .event__details {
           position: relative;
           margin: 45px auto;
@@ -871,7 +856,6 @@ $sharedpwith: 60%;
 
         img {
           width: 100%;
-
           height: auto;
           object-fit: cover;
 
@@ -888,12 +872,6 @@ $sharedpwith: 60%;
     }
 
     /*End of events style*/
-
-
-
-
-
-
 
     /*Start of Jobs style*/
 
@@ -918,15 +896,12 @@ $sharedpwith: 60%;
 
         img {
           width: 100%;
-          // height: 356px;
           height: auto;
           object-fit: cover;
         }
 
         .jobs__details {
           position: relative;
-          // margin: 140px auto;
-          // margin: 15% auto;
           margin: $sharedMargins;
 
           h3 {
@@ -945,19 +920,14 @@ $sharedpwith: 60%;
 
       .jobs-row-two {
         position: relative;
-        // margin-bottom: 20px;
-
         img {
           width: 100%;
-          // height: 356px;
           height: auto;
           object-fit: cover;
         }
 
         .jobs__details {
           position: relative;
-
-          // margin: 15% auto;
           margin: $sharedMargins;
 
           h3 {
@@ -983,7 +953,6 @@ $sharedpwith: 60%;
 
         img {
           width: 100%;
-
           height: auto;
         }
 
@@ -1026,7 +995,6 @@ $sharedpwith: 60%;
 
         .networking__details {
           display: block;
-          // margin: 25% auto;
           margin: $sharedMargins;
 
           h3 {
@@ -1185,15 +1153,9 @@ $sharedpwith: 60%;
 
     /*End of sign up bottom btn*/
 
-
   }
 
-
-
 }
-
-
-
 
 
 // For mobile 
@@ -1208,8 +1170,6 @@ $sharedpwith: 60%;
       width: 100%;
       position: relative;
       display: block;
-      // margin: auto;
-
 
       .left-menu-links {
         height: auto;
@@ -1235,7 +1195,6 @@ $sharedpwith: 60%;
     }
   }
 
-
   .learn-more-header {
     width: 100%;
     margin: auto;
@@ -1250,7 +1209,6 @@ $sharedpwith: 60%;
     margin-bottom: 40px;
     background-size: cover;
     overflow-x: hidden;
-
 
     .learn-more-text {
       width: 100% !important;
