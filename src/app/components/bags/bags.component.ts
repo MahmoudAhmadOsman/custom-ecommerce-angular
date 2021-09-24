@@ -26,7 +26,6 @@ export class BagsComponent implements OnInit {
   shirts: any = (shirts as any).default;
   constructor(private bagsService: BagsService) { }
 
- 
   // private getBags() {
   //    this.bagsService.getAllBags().subscribe((data) => {
   //     this.bags = data;
@@ -36,16 +35,10 @@ export class BagsComponent implements OnInit {
   //       console.log(err);
   //     });
   //  }
-
-
-
-
  ngOnInit(): void {
     console.log(bags);
     console.log(caps);
      console.log(shirts);
   }
-
-
 
 }
